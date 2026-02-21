@@ -2,8 +2,8 @@
 title: "Garden Wall Cladding Ideas: Transform Your Outdoor Space Today"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
-seoTitle: "25 Garden Wall Cladding Ideas (Stone, Brick & Modern Styles)"
-seoDescription: "Beautiful garden wall cladding ideas with photos. Stone, brick, timber and modern panel options to transform dull walls. Includes budget-friendly picks."
+seoTitle: "Garden Wall Cladding Ideas — Stone, Brick & Modern Panels"
+seoDescription: "Transform ugly garden walls with cladding. Natural stone, brick slips, timber panels, composite and modern 3D designs. Budget options with before and after photos."
 date: "2024-05-04 10:48:29"
 draft: false
 ---

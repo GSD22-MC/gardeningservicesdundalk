@@ -2,8 +2,8 @@
 title: "Hot Tub Surround Ideas: Innovative Designs for Ultimate Relaxation"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
-seoTitle: "Hot Tub Surround Ideas — Decking, Stone & DIY Builds (2025)"
-seoDescription: "Creative hot tub surround ideas with photos. Decking platforms, stone bases, privacy screens and lighting. Includes budget DIY options and premium designs."
+seoTitle: "Hot Tub Surround Ideas — Decking, Stone & Budget Builds"
+seoDescription: "Creative hot tub surround ideas with photos. Timber decking, stone bases, privacy screens and mood lighting. Budget DIY builds and professional designs for Irish gardens."
 date: "2024-05-07 16:57:49"
 draft: false
 ---

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-07 17:40:15"
 draft: false
+seoTitle: "Decking Lights Ideas — LED, Solar & Recessed Designs (2026)"
+seoDescription: "Best decking light ideas for gardens. LED spotlights, solar post caps, recessed step lights and rope lighting. Easy DIY installation guide with photos and prices."
 ---
 
 Incorporating decking lights can greatly enhance your outdoor space, creating an inviting atmosphere while providing safety and functionality. With a wide range of styles and types available, it's essential to plan your deck lighting carefully to achieve the desired effect. By considering various lighting techniques, power sources, and materials, you can transform your deck into a functional and aesthetically pleasing extension of your living space.

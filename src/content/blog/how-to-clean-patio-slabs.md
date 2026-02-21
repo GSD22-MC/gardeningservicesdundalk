@@ -5,6 +5,8 @@ servicePillar: "patio-paving"
 date: "2024-05-11 10:53:38"
 description: "Learn the best methods and expert tips for cleaning patio slabs. Discover eco-friendly solutions and effective techniques to remove dirt, grime, and stains, ensuring your patio looks its best all year round"
 draft: false
+seoTitle: "How to Clean Patio Slabs — DIY Methods for Every Stain Type"
+seoDescription: "Clean dirty patio slabs with household items. Pressure washing, bleach, white vinegar, baking soda and specialist cleaners. Remove algae, moss, oil stains and black spots."
 ---
 
 Patio slabs are an attractive feature in any outdoor space, but over time they can become dirty and stained from exposure to the elements. Luckily, there are several methods to **keep your patio looking its best** all year round. In this article, we'll look at how to clean [patio slabs](https://gardeningservicesdundalk.com/patio-pros-cons/), including basic cleaning techniques, removing stubborn stains, and eco-friendly solutions.

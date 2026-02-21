@@ -2,8 +2,8 @@
 title: "How to Clean Concrete Paths: Quick and Easy Guide"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "patio-paving"
-seoTitle: "How to Clean Concrete Paths — Quick DIY Guide (2025)"
-seoDescription: "Clean dirty concrete paths with household items. Covers pressure washing, bleach, vinegar and stain removal. Works on footpaths, garden paths and driveways."
+seoTitle: "How to Clean Concrete Paths & Footpaths — Easy DIY Guide"
+seoDescription: "Clean dirty concrete paths and footpaths fast. Pressure washing, bleach, vinegar and baking soda methods. Remove moss, algae, oil stains and black marks step by step."
 date: "2024-05-28 18:19:52"
 draft: false
 ---

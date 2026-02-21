@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250305_084243.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:00:45"
 draft: false
+seoTitle: "Garden Slope Ideas — Terracing, Steps & Retaining Walls"
+seoDescription: "Turn a sloped garden into a stunning outdoor space. Terracing, retaining walls, steps, planting ideas and drainage solutions. Before and after photos included."
 ---
 
 Gardening on a slope presents unique challenges, but it also offers numerous opportunities for creative and functional landscaping. Sloping gardens require careful planning and innovative ideas to transform an uneven terrain into a visually appealing and practical space. Whether you're dealing with a gentle gradient or a steep hillside, there are various [garden design](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/) solutions for maximising the use of this tricky space.

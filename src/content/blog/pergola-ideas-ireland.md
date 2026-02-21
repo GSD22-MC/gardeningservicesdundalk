@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250709_190607.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:16"
 draft: false
+seoTitle: "Pergola Ideas Ireland — Wood, Metal & Modern Designs (2026)"
+seoDescription: "Beautiful pergola ideas for Irish gardens. Wooden, aluminium and modern lean-to designs. Costs, planning permission, best materials for Irish weather and where to buy."
 ---
 
 Pergolas have become increasingly popular in Ireland as homeowners discover their aesthetic and functional benefits. These versatile [outdoor structures](https://gardeningservicesdundalk.com/outdoor-living-spaces-ideas/) can enhance the appearance of any garden, while providing a shaded space to relax and enjoy the outdoors. With a range of design choices and materials available, there are endless possibilities when it comes to creating the perfect pergola for your Irish home.

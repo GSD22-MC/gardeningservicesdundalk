@@ -2,8 +2,8 @@
 title: "Ideas for Garden Screening: Top Solutions for Modern Spaces"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
 servicePillar: "decking-fencing"
-seoTitle: "Garden Screening Ideas — Privacy Panels, Plants & Fencing (2025)"
-seoDescription: "Best garden screening ideas for privacy. Trellis panels, bamboo, tall plants, slatted fencing and modern screens. Budget options to premium designs with photos."
+seoTitle: "Garden Screening Ideas — 20+ Privacy Solutions for 2026"
+seoDescription: "Best garden screening ideas for Irish gardens. Trellis panels, bamboo, slatted fences, free-standing screens and tall hedging. Budget picks and premium designs with photos."
 date: "2024-05-04 09:41:56"
 draft: false
 ---
