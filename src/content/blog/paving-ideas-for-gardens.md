@@ -1,5 +1,6 @@
 ---
 title: "Paving Ideas for Gardens: Simple Tips to Transform Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-05-11 10:42:22"
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Outdoor Living Spaces Ideas: Transform Your Garden into a Haven"
+featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 date: "2024-05-07 17:40:37"
 draft: false
 ---

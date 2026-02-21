@@ -1,5 +1,6 @@
 ---
 title: "Border Ideas for Garden: Enhancing Your Outdoor Space with Style"
+featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 date: "2024-03-22 12:38:40"
 draft: false
 ---

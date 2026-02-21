@@ -1,5 +1,6 @@
 ---
 title: "Ground Covering Plants Ireland: Handy Guide for Lush Greenery"
+featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 date: "2024-05-07 17:40:21"
 draft: false
 ---

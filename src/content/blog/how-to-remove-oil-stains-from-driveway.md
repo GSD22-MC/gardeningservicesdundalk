@@ -1,5 +1,6 @@
 ---
 title: "How to Remove Oil Stains from Driveway: Quick and Effective Methods"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-05-07 17:40:34"
 draft: false
 ---

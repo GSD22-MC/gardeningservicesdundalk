@@ -1,5 +1,6 @@
 ---
 title: "Pergola Ideas Ireland: Top Designs and Styles to Inspire Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250709_190607.jpg"
 date: "2024-05-07 17:40:16"
 draft: false
 ---

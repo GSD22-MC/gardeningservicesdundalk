@@ -1,5 +1,6 @@
 ---
 title: "Retaining Wall Ideas: Innovative Solutions for Your Garden Space"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 seoTitle: "Retaining Wall Ideas for Gardens — Stone, Sleeper & Block Designs"
 seoDescription: "Garden retaining wall ideas with photos. Railway sleepers, stone, concrete blocks and gabion designs. Covers sloped gardens, raised beds and terracing."
 date: "2024-05-04 09:59:19"

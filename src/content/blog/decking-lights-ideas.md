@@ -1,5 +1,6 @@
 ---
 title: "Decking Lights Ideas: Top Trends for Illuminating Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 date: "2024-05-07 17:40:15"
 draft: false
 ---

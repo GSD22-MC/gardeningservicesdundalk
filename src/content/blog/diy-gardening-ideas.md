@@ -1,5 +1,6 @@
 ---
 title: "DIY Gardening Ideas: Innovative Tips for a Thriving Garden"
+featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 date: "2024-05-07 17:40:18"
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Garden Slope Ideas: Innovative Designs for Steep Spaces"
+featuredImage: "/images/gallery/work2025/20250305_084243.jpg"
 date: "2024-05-07 17:00:45"
 draft: false
 ---

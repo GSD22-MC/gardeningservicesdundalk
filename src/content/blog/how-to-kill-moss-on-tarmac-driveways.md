@@ -1,5 +1,6 @@
 ---
 title: "How to Kill Moss on Tarmac Driveways: Simple & Effective Solutions!"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 seoTitle: "How to Kill Moss on Tarmac Driveways (5 Methods That Work)"
 seoDescription: "Kill moss on tarmac driveways fast with baking soda, bleach, pressure washing and more. Step-by-step guide with the cheapest and most effective methods for Irish driveways."
 date: "2024-05-28 19:06:32"

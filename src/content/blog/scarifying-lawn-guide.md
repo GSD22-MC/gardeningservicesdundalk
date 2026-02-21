@@ -1,5 +1,6 @@
 ---
 title: "Scarifying Lawn Guide: Simple Steps to a Healthy, Lush Garden"
+featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 seoTitle: "When & How to Scarify a Lawn — Complete Irish Guide (2025)"
 seoDescription: "Learn when to scarify your lawn, what tools you need, and how to do it right. Covers spring vs autumn scarifying, recovery tips and common mistakes to avoid."
 date: "2024-05-07 17:40:22"

@@ -1,5 +1,6 @@
 ---
 title: "Decking Cover Ideas: Innovative Solutions for Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 date: "2024-05-04 10:29:04"
 draft: false
 ---

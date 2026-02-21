@@ -1,5 +1,6 @@
 ---
 title: "How and When to Trim a Hedge: A Seasonal Guide for Healthy Growth"
+featuredImage: "/images/gallery/work2025/20250716_172844.jpg"
 date: "2024-05-28 19:02:33"
 draft: false
 ---

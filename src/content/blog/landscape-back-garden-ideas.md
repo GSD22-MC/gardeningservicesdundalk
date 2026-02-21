@@ -1,5 +1,6 @@
 ---
 title: "Landscape Back Garden Ideas: Transform Your Outdoor Space Effortlessly"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-04 10:26:45"
 draft: false
 ---

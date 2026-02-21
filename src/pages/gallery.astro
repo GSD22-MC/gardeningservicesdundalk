@@ -1,5 +1,19 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Read all work2025 images at build time
+const work2025Dir = path.join(process.cwd(), 'public/images/gallery/work2025');
+let work2025Images: string[] = [];
+try {
+  work2025Images = fs.readdirSync(work2025Dir)
+    .filter((f: string) => f.endsWith('.jpg'))
+    .sort()
+    .map((f: string) => `/images/gallery/work2025/${f}`);
+} catch (e) {
+  // Directory may not exist
+}
 ---
 
 <PageLayout
@@ -37,23 +51,12 @@ import PageLayout from '../layouts/PageLayout.astro';
 
   <section class="section section-green">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: 2rem;">Recent Projects</h2>
+      <h2 class="text-center" style="margin-bottom: 0.5rem;">Recent Projects</h2>
+      <p class="text-center section-subtitle" style="margin-bottom: 2rem;">{work2025Images.length}+ photos from our 2025 projects across County Louth.</p>
       <div class="gallery-grid">
-        {/* 2025 Work Photos */}
-        {[...Array(19)].map((_, i) => (
+        {work2025Images.map((src, i) => (
           <div class="gallery-item fade-in">
-            <img src={`/images/gallery/gallery-${String(i + 29).padStart(2, '0')}.jpg`} alt={`Gardening project ${i + 1} — Dundalk, Co. Louth 2025`} loading="lazy" width="400" height="300" />
-          </div>
-        ))}
-        {/* Earlier work photos */}
-        {[...Array(12)].map((_, i) => (
-          <div class="gallery-item fade-in">
-            <img src={`/images/gallery/work-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Gardening project — Dundalk, Co. Louth`} loading="lazy" width="400" height="300" />
-          </div>
-        ))}
-        {[...Array(28)].map((_, i) => (
-          <div class="gallery-item fade-in">
-            <img src={`/images/gallery/gallery-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Garden work — Pete & Seamus, County Louth`} loading="lazy" width="400" height="300" />
+            <img src={src} alt={`Gardening project ${i + 1} — Pete & Seamus, County Louth`} loading="lazy" width="400" height="300" />
           </div>
         ))}
       </div>

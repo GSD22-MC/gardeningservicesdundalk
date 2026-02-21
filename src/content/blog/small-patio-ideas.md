@@ -1,5 +1,6 @@
 ---
 title: "Small Patio Ideas: Transforming Cosy Spaces into Stylish Retreats"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-05-28 18:25:34"
 draft: false
 ---

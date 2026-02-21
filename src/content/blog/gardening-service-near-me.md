@@ -1,5 +1,6 @@
 ---
 title: "Sowing a Vegetable Patch: What Should I Ask a Gardening Service Near Me Beforehand"
+featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 date: "2024-05-04 09:23:39"
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Outdoor Living Space Ideas: Transforming Your Garden Experience"
+featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 date: "2024-05-07 17:40:19"
 draft: false
 ---

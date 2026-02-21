@@ -1,5 +1,6 @@
 ---
 title: "Ideas for Garden Paths: Top Trends and Expert Tips"
+featuredImage: "/images/gallery/work2025/20250325_174642.jpg"
 seoTitle: "30+ Garden Path Ideas — Gravel, Stone, Stepping Stones & More"
 seoDescription: "Stunning garden path ideas for every budget. Gravel paths, flagstone, stepping stones, brick edging and modern designs. Includes photos and DIY tips."
 date: "2024-03-22 12:09:43"

@@ -1,5 +1,6 @@
 ---
 title: "What Should I Ask a Landscaper Near Me: Key Questions for Ireland Garden Design"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-04 09:20:56"
 draft: false
 ---

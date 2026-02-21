@@ -1,5 +1,6 @@
 ---
 title: "Gravel Gardens Ideas: Top Trends and Designs for 2024"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-03-22 12:04:04"
 description: " Discover gravel garden ideas to enhance your outdoor space with sustainability and ease. Ideal for those seeking stylish, low-maintenance gardens."
 draft: false

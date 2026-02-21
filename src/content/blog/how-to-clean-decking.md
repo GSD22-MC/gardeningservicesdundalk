@@ -1,5 +1,6 @@
 ---
 title: "How to Clean Decking: Top Tips for a Spotless Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 date: "2024-05-28 18:30:40"
 draft: false
 ---

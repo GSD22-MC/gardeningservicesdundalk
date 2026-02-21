@@ -1,5 +1,6 @@
 ---
 title: "What Should I Ask a Lawn Care Service Near Me: Preparing for Ireland's Unpredictable Weather Conditions"
+featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 date: "2024-05-04 09:38:27"
 draft: false
 ---

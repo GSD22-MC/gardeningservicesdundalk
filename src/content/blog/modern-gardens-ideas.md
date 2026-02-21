@@ -1,5 +1,6 @@
 ---
 title: "Modern Gardens Ideas: Innovative Designs for 2024 Outdoor Spaces"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-04 10:14:34"
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "How to Clean Patio Slabs: Quick and Easy Tips"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-11 10:53:38"
 description: "Learn the best methods and expert tips for cleaning patio slabs. Discover eco-friendly solutions and effective techniques to remove dirt, grime, and stains, ensuring your patio looks its best all year round"
 draft: false

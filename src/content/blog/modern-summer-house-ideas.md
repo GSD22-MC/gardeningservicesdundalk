@@ -1,5 +1,6 @@
 ---
 title: "Modern Summer House Ideas: 10 Inspiring Designs for the Perfect Retreat"
+featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 date: "2024-05-04 10:28:13"
 draft: false
 ---

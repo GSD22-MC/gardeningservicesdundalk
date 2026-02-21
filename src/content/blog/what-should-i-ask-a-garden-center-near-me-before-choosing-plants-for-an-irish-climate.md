@@ -1,5 +1,6 @@
 ---
 title: "What Should I Ask a Garden Centre Near Me: Selecting Plants For Irish Weather Conditions"
+featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 date: "2024-05-04 09:25:27"
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Decking Steps Ideas: Creative and Practical Solutions for Your Garden"
+featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 seoTitle: "Decking Steps Ideas — Wide, Corner & Wrap-Around Designs"
 seoDescription: "Decking step ideas for every garden. Wide steps, corner stairs, wrap-around designs and floating steps. Photos, materials guide and building tips included."
 date: "2024-05-07 17:27:02"

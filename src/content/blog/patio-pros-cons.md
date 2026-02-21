@@ -1,5 +1,6 @@
 ---
 title: "Patio Pros & Cons: A Guide to Optimising Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-02-02 12:51:23"
 description: "Patio perks: chic outdoor living with a catch—cost and upkeep. Worth it?"
 draft: false

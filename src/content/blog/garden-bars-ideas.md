@@ -1,5 +1,6 @@
 ---
 title: "Garden Bars Ideas: Top Trends for Outdoor Entertaining in 2024"
+featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 date: "2024-05-04 09:39:30"
 draft: false
 ---

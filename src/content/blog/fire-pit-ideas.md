@@ -1,5 +1,6 @@
 ---
 title: "Fire Pit Ideas: Transforming Your Outdoor Space with Style"
+featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 seoTitle: "Fire Pit Ideas for Gardens — DIY, Stone & Modern Designs"
 seoDescription: "Garden fire pit ideas with photos. DIY builds, stone fire pits, sunken designs, chimineas and modern styles. Includes safety tips and budget options."
 date: "2024-05-07 17:40:13"

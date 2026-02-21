@@ -1,5 +1,6 @@
 ---
 title: "Garden Step Ideas: Enhance Your Outdoor Space Today"
+featuredImage: "/images/gallery/work2025/20250325_174642.jpg"
 date: "2024-05-07 17:40:36"
 draft: false
 ---

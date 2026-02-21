@@ -1,5 +1,6 @@
 ---
 title: "Garden Lighting Ideas: Illuminating Outdoor Spaces Effectively"
+featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 date: "2024-05-04 09:28:57"
 draft: false
 ---

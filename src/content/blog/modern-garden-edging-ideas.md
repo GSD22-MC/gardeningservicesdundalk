@@ -1,5 +1,6 @@
 ---
 title: "Modern Garden Edging Ideas: Innovative Solutions for Stylish Outdoor Spaces"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-04 10:44:04"
 draft: false
 ---

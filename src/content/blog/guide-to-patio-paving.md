@@ -1,5 +1,6 @@
 ---
 title: "Guide to Patio Paving: Essential Tips for Perfect Outdoor Flooring"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-02-01 20:57:25"
 draft: false
 ---

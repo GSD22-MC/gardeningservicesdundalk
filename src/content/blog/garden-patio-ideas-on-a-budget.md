@@ -1,5 +1,6 @@
 ---
 title: "Garden Patio Ideas on a Budget: Stylish Designs That Save You Money"
+featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 date: "2024-05-28 17:34:16"
 draft: false
 ---

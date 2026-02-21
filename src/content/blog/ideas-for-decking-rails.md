@@ -1,5 +1,6 @@
 ---
 title: "Ideas for Decking Rails: Top Trends and Practical Tips"
+featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 date: "2024-05-07 16:54:56"
 draft: false
 ---

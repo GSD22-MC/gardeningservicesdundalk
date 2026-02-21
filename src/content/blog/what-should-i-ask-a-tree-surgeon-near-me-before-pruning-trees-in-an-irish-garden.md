@@ -1,5 +1,6 @@
 ---
 title: "What Should I Ask a Tree Surgeon Near Me: Key Questions Before Pruning in an Irish Garden"
+featuredImage: "/images/gallery/work2025/20250117_160017.jpg"
 date: "2024-05-04 09:36:52"
 draft: false
 ---

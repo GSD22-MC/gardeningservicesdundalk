@@ -101,6 +101,56 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
     </div>
   </section>
 
+  <!-- FAQ Accordion Script -->
+  <script>
+    function initFaqAccordions() {
+      document.querySelectorAll('.blog-content').forEach((content) => {
+        // Find all h2 elements that contain "FAQ" or "Frequently Asked"
+        const headings = content.querySelectorAll('h2');
+        headings.forEach((h2) => {
+          if (!h2.textContent?.toLowerCase().includes('faq') && !h2.textContent?.toLowerCase().includes('frequently asked')) return;
+
+          // Collect all following h3 + p pairs until next h2
+          const accordion = document.createElement('div');
+          accordion.className = 'faq-accordion';
+          let sibling = h2.nextElementSibling;
+
+          while (sibling && sibling.tagName !== 'H2') {
+            const next = sibling.nextElementSibling;
+            if (sibling.tagName === 'H3') {
+              const details = document.createElement('details');
+              const summary = document.createElement('summary');
+              summary.textContent = sibling.textContent;
+              details.appendChild(summary);
+
+              // Gather answer paragraphs
+              const answer = document.createElement('div');
+              answer.className = 'faq-answer';
+              let answerSibling = next;
+              while (answerSibling && answerSibling.tagName !== 'H3' && answerSibling.tagName !== 'H2') {
+                const nextAnswer = answerSibling.nextElementSibling;
+                answer.appendChild(answerSibling);
+                answerSibling = nextAnswer;
+              }
+              details.appendChild(answer);
+              accordion.appendChild(details);
+              sibling.remove();
+              sibling = answerSibling;
+              continue;
+            }
+            sibling = next;
+          }
+
+          if (accordion.children.length > 0) {
+            h2.after(accordion);
+          }
+        });
+      });
+    }
+    initFaqAccordions();
+    document.addEventListener('astro:after-swap', initFaqAccordions);
+  </script>
+
   <section class="cta-section">
     <div class="container fade-in">
       <h2>{isBlog ? 'Need Help With Your Garden?' : `Get a Free Quote in ${areaName}`}</h2>

@@ -1,5 +1,6 @@
 ---
 title: "Low Maintenance Small Garden Design"
+featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 date: "2024-05-07 17:40:36"
 draft: false
 ---

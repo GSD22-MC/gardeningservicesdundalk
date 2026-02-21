@@ -1,5 +1,6 @@
 ---
 title: "Fencing Ideas for Garden: Innovative Solutions for Your Outdoor Space"
+featuredImage: "/images/gallery/work2025/20250131_130248.jpg"
 date: "2024-05-04 10:45:47"
 draft: false
 ---
