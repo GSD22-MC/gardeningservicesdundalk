@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-28 18:56:22"
 draft: false
+seoTitle: "Decking Ideas for Gardens — Designs, Materials & Layouts"
+seoDescription: "Garden decking ideas with photos. Raised platforms, multi-level decks, composite vs timber and small garden designs. Costs and installation tips included."
 ---
 
 Gardens have always been a place of relaxation and an oasis of greenery, offering a breath of fresh air amidst the bustling city life. One way to elevate the aesthetics of your garden and create additional space for leisure activities is to [incorporate decking](https://gardeningservicesdundalk.com/decking-services-dundalk/). Decking ideas for gardens can vary greatly, from simple platforms to more intricate designs, providing inspiration for homeowners with a passion for outdoor living.

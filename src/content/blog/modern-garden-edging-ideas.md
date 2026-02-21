@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 10:44:04"
 draft: false
+seoTitle: "Modern Garden Edging Ideas — Metal, Stone & Corten Steel"
+seoDescription: "Stylish modern garden edging ideas with photos. Metal strips, corten steel, stone setts, composite edging and flush-cut designs. Clean lines for any garden."
 ---
 
 Garden edging serves both practical and aesthetic functions in any landscape, providing clear borders and visual separation between different areas of your garden. In recent years, modern garden edging ideas have gained popularity as they offer a contemporary and stylish approach that complements a wide range of designs.

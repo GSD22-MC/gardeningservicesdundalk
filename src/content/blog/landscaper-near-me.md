@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 09:20:56"
 draft: false
+seoTitle: "Questions to Ask a Landscaper Before Hiring — Irish Guide"
+seoDescription: "Key questions to ask a landscaper near you before starting a project. Covers costs, timelines, insurance, design process and what to look for in Ireland."
 ---
 
 When embarking upon the journey of garden designing in Ireland, choosing the right landscaper is essential. This professional will guide you through the myriad of choices and considerations specific to the Irish climate and soil conditions.

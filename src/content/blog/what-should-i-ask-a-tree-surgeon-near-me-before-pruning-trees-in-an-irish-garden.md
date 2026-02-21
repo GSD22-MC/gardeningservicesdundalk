@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250117_160017.jpg"
 servicePillar: "hedge-trimming"
 date: "2024-05-04 09:36:52"
 draft: false
+seoTitle: "Questions to Ask a Tree Surgeon Before Hiring (Irish Guide)"
+seoDescription: "Essential questions for a tree surgeon near you. Covers qualifications, insurance, costs, timing and legal requirements for tree pruning in Irish gardens."
 ---
 
 Maintaining the health and aesthetics of your Irish garden requires occasional [pruning of its trees](https://gardeningservicesdundalk.com/hedge-trimming-cutting/). Before engaging a tree surgeon to undertake this vital task, it’s useful to have a set of questions ready to ensure the professional you choose is aptly qualified and capable of fulfilling your specific gardening needs.

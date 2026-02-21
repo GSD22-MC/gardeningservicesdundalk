@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:21"
 draft: false
+seoTitle: "Ground Cover Plants Ireland — 15 Best Varieties That Thrive"
+seoDescription: "Best ground cover plants for Irish gardens. Evergreen, flowering and shade-tolerant varieties that suppress weeds and thrive in Irish soil and rainfall."
 ---
 
 Ground cover plants are an excellent choice for Irish gardens due to their low-maintenance nature and ability to thrive in a variety of conditions. These plants, which often form attractive mounds or carpets, can quickly cover bare soil, offering both aesthetic appeal and practical benefits such as weed suppression and erosion control. In Ireland, there is a wide range of ground cover plants suitable for different garden styles and environments, including both evergreen and deciduous varieties.

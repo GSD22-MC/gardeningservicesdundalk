@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:19"
 draft: false
+seoTitle: "Outdoor Living Space Ideas — Design Your Dream Garden"
+seoDescription: "Transform your garden into an outdoor living space. Seating areas, dining zones, fire pits, pergolas and lighting. Design ideas for Irish gardens with photos."
 ---
 
 Creating an outdoor living space can truly transform your home, providing an inviting and comfortable atmosphere to make the most of the great outdoors. Designing an outdoor area that caters to relaxation, entertainment, and functionality is essential for fully embracing the benefits of alfresco living. By considering various aspects such as ambience, privacy, and adaptability to different weather conditions, you can craft a space that meets your individual needs and preferences.

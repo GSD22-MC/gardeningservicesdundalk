@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 10:14:34"
 draft: false
+seoTitle: "Modern Garden Ideas — Contemporary Designs for 2026"
+seoDescription: "Inspiring modern garden ideas with photos. Minimalist planting, architectural features, outdoor rooms, water features and statement lighting for Irish gardens."
 ---
 
 Modern gardens have become increasingly popular as homeowners seek to create stylish and functional outdoor spaces that resonate with their contemporary lifestyles. These gardens often blend architectural elements with eco-friendly practices, fostering a sense of harmony with nature while offering the latest amenities for outdoor living and entertainment.

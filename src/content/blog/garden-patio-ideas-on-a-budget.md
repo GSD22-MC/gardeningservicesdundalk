@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 servicePillar: "patio-paving"
 date: "2024-05-28 17:34:16"
 draft: false
+seoTitle: "Patio Ideas on a Budget — Affordable Garden Designs That Work"
+seoDescription: "Affordable patio ideas that look expensive. Gravel, concrete slabs, reclaimed materials and clever layouts. Budget-friendly designs from under €500 with photos."
 ---
 
 Creating a charming garden patio doesn't have to break the bank. We can breathe new life into our outdoor spaces with smart planning and cost-effective choices.

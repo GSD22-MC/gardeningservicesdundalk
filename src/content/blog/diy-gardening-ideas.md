@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:18"
 draft: false
+seoTitle: "DIY Gardening Ideas — Easy Projects for Every Skill Level"
+seoDescription: "Simple DIY gardening ideas you can do this weekend. Raised beds, planters, paths, borders and budget landscaping. Step-by-step guides with photos."
 ---
 
 Gardening is a rewarding pastime that can be both enjoyable and therapeutic. With the right DIY garden ideas, you can transform your outdoor space into a lush and beautiful haven. You don't need to be a professional landscape designer or spend a fortune to create an incredible garden; a little creativity and some basic tools can go a long way in making your garden stand out from the rest.

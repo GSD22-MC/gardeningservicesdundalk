@@ -5,6 +5,8 @@ servicePillar: "patio-paving"
 date: "2024-03-22 12:04:04"
 description: " Discover gravel garden ideas to enhance your outdoor space with sustainability and ease. Ideal for those seeking stylish, low-maintenance gardens."
 draft: false
+seoTitle: "Gravel Garden Ideas — Low-Maintenance Designs for 2026"
+seoDescription: "Beautiful gravel garden ideas for low-maintenance outdoor spaces. Mediterranean styles, drought-tolerant planting and decorative aggregates. Photos included."
 ---
 
 Gravel gardens are becoming increasingly popular as an attractive, low-maintenance alternative to traditional gardens. They offer a practical solution for those wanting an easy-care space with stylish design elements. Typically incorporating a mix of drought-resistant plants and decorative gravel, these gardens can be tailored to suit any size and style preferences.

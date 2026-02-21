@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 servicePillar: "patio-paving"
 date: "2024-05-11 10:42:22"
 draft: false
+seoTitle: "Garden Paving Ideas — Patterns, Materials & Layouts (2026)"
+seoDescription: "Best garden paving ideas with photos. Natural stone, porcelain, block paving and concrete slabs. Patterns, colour combinations and layouts for every budget."
 ---
 
 [Garden paving](https://gardeningservicesdundalk.com/paving/) is an essential part of enhancing the aesthetics and functionality of your outdoor space. With countless design options and materials to choose from, paving ideas can transform your garden into a show-stopping display. From selecting the right materials to [creating a stylish patio](https://gardeningservicesdundalk.com/guide-to-patio-paving/), I am here to help as you embark on your garden paving journey.

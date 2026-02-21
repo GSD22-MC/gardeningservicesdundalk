@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-03-22 12:38:40"
 draft: false
+seoTitle: "Garden Border Ideas — Plants, Edging & Design Inspiration"
+seoDescription: "Beautiful garden border ideas for every style. Flower borders, shrub planting, stone edging, sleeper edges and mixed schemes. Easy DIY tips with photos."
 ---
 
 Garden borders are an essential [aspect of landscaping](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/), adding structure, colour, and depth to your outdoor space. From creating a stunning visual appeal to helping divide areas or hide unsightly features, the right garden border can truly transform your garden. With a wide variety of materials, plants, and designs available, there are endless border ideas to suit every taste and budget.

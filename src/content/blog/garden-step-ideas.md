@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250325_174642.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:36"
 draft: false
+seoTitle: "Garden Step Ideas — Stone, Sleeper & Modern Designs (2026)"
+seoDescription: "Beautiful garden step ideas with photos. Natural stone, railway sleepers, brick, concrete and modern floating steps. Design tips for sloped Irish gardens."
 ---
 
 Looking to enhance your outdoor space with some creative and practical steps? From rustic stone pathways to modern concrete designs, discover various ways to elevate your garden’s aesthetic and functionality. Whether you're aiming for a natural, whimsical vibe or sleek, contemporary elegance, explore a world of possibilities with our **Garden Step Ideas**. Find inspiration and transform your yard into an inviting haven.

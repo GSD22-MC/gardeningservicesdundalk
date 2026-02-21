@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 servicePillar: "patio-paving"
 date: "2024-05-28 18:25:34"
 draft: false
+seoTitle: "Small Patio Ideas — Make the Most of a Tiny Outdoor Space"
+seoDescription: "Clever small patio ideas that maximise space. Corner seating, vertical gardens, multi-level designs and bistro layouts. Budget tips for compact gardens."
 ---
 
 When it comes to making the most of our outdoor spaces, small patios can be a challenge. But with a bit of creativity, you can transform even the tiniest of areas into a beautiful and functional haven. In this article, we'll explore some [small patio ideas](https://gardeningservicesdundalk.com/guide-to-patio-paving/) that can help you turn a limited space into an inviting and enjoyable extension of your home.

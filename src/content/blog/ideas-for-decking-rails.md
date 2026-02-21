@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-07 16:54:56"
 draft: false
+seoTitle: "Decking Railing Ideas — Glass, Metal, Wood & Modern Styles"
+seoDescription: "Creative decking railing ideas with photos. Glass panels, metal spindles, wire rope, timber and composite options. Safety rules and building tips included."
 ---
 
 Decking rails are an essential element of any outdoor living space, as they provide both safety and aesthetic appeal. With a multitude of design options, materials, and maintenance requirements, [choosing the right deck](https://gardeningservicesdundalk.com/decking-services-dundalk/) railing can feel like a daunting task.

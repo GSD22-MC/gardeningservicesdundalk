@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 09:25:27"
 draft: false
+seoTitle: "Best Plants for Irish Gardens — What to Ask Before You Buy"
+seoDescription: "Choosing plants for Irish weather? Essential questions to ask your garden centre. Soil types, rainfall, frost-hardy varieties and seasonal planting advice."
 ---
 
 When venturing into plant selection for your Irish garden, the local climate is a pivotal factor to consider. Ireland's weather patterns are characterised by considerable rainfall, moderate temperatures throughout the year, and a relatively short growing season, which can significantly influence the types of plants that will thrive in your garden.

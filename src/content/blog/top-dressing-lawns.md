@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:28"
 draft: false
+seoTitle: "Top Dressing a Lawn — When, Why & How to Do It Right"
+seoDescription: "Complete guide to top dressing your lawn. Best materials, when to apply, how thick to spread and recovery time. Level bumpy lawns and improve soil quality."
 ---
 
 Top dressing a lawn is an [essential aspect of lawn care](https://gardeningservicesdundalk.com/caring-for-lawn/) that provides numerous benefits to your grass and soil. This process involves adding a thin layer of material, such as sand, soil, compost, or a mixture, to the surface of your lawn.

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 servicePillar: "patio-paving"
 date: "2024-05-07 17:40:34"
 draft: false
+seoTitle: "How to Remove Oil Stains from a Driveway — 6 Easy Methods"
+seoDescription: "Remove oil stains from driveways fast. Baking soda, washing-up liquid, WD-40, cat litter and pressure washing. Works on tarmac, concrete and block paving."
 ---
 
 Having a clean driveway can drastically improve the overall appearance of your home. However, oil stains can be quite stubborn and challenging to remove, especially if they have been sitting there for a while. In this article, we will discuss techniques to efficiently and effectively remove oil stains from your driveway, keeping it looking fresh and clean.

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:36"
 draft: false
+seoTitle: "Low-Maintenance Small Garden Design — Easy-Care Ideas"
+seoDescription: "Low-maintenance small garden designs that save time and effort. Gravel, evergreens, artificial grass, raised beds and smart planting. Ideal for busy homeowners."
 ---
 
 Creating a low maintenance small garden design can be both rewarding and convenient for those with limited outdoor space or busy lifestyles. By incorporating easy-care elements and strategies, it is possible to enjoy a beautiful and functional garden with minimal effort. In this article, we'll explore how to craft a low maintenance small garden that suits your needs and preferences.

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:38"
 draft: false
+seoTitle: "Outdoor Kitchen Ideas — BBQ Areas, Pizza Ovens & More"
+seoDescription: "Best outdoor kitchen ideas for Irish gardens. Built-in BBQs, pizza ovens, countertops and shelter solutions. Budget to premium designs with photos and costs."
 ---
 
 Outdoor kitchens have become increasingly popular as more people seek to extend their living space and enjoy outdoor entertainment. I've noticed a rise in the number of innovative and functional outdoor kitchen ideas, many of which cater to a range of budgets, styles, and space constraints.

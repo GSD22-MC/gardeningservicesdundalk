@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 09:39:30"
 draft: false
+seoTitle: "Garden Bar Ideas — DIY Builds, Pallet Bars & Outdoor Designs"
+seoDescription: "Brilliant garden bar ideas for outdoor entertaining. Pallet bars, tiki bars, built-in counters and shed conversions. Budget DIY builds and premium designs."
 ---
 
 Home gardens have become go-to destinations for relaxation and entertainment, with the rise of the concept of staycations. One way to elevate your garden experience is by setting up an outdoor garden bar.

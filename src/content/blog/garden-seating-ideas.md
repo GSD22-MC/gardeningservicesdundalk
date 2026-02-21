@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:38"
 draft: false
+seoTitle: "Garden Seating Ideas — Benches, Loungers & Built-In Options"
+seoDescription: "Creative garden seating ideas with photos. Built-in benches, corner sofas, hanging chairs, fire pit seating and dining areas. Budget to premium designs."
 ---
 
 Are you looking to [revamp your garden](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/) and create a cosy, inviting space for relaxing and entertaining? One of the key elements to achieving this is by incorporating creative and stylish garden seating ideas.

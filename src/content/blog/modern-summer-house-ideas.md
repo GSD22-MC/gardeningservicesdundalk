@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 10:28:13"
 draft: false
+seoTitle: "Summer House Ideas — Modern Designs & Garden Rooms (2026)"
+seoDescription: "Modern summer house ideas for Irish gardens. Garden rooms, home offices, she-sheds and entertainment spaces. Costs, planning permission and best suppliers."
 ---
 
 Modern summer houses have become increasingly popular as a haven for relaxation, [outdoor entertainment](https://gardeningservicesdundalk.com/outdoor-living-spaces-ideas/), or a tranquil home office. These stylish structures enhance the beauty of your garden while also increasing the functionality of your outdoor space.

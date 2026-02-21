@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250716_172844.jpg"
 servicePillar: "hedge-trimming"
 date: "2024-05-28 19:02:33"
 draft: false
+seoTitle: "When & How to Trim a Hedge — Seasonal Guide for Ireland"
+seoDescription: "When to trim hedges in Ireland month by month. Covers laurel, privet, beech and leylandii. Tools, techniques and legal cutting season dates explained."
 ---
 
 [Trimming a hedge](https://gardeningservicesdundalk.com/hedge-trimming-cutting/) is an important aspect of garden maintenance that keeps your green space looking neat and tidy. It not only enhances the visual appeal of your garden but also promotes healthy growth and dense foliage. The best time to trim your hedges largely depends on the type of hedge you have.

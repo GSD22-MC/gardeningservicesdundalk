@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
 servicePillar: "patio-paving"
 date: "2024-02-01 20:57:25"
 draft: false
+seoTitle: "Patio Paving Guide — Materials, Costs & Installation Tips"
+seoDescription: "Complete guide to patio paving. Natural stone, porcelain, concrete and block paving compared. Covers costs per m², sub-base prep, drainage and DIY vs professional."
 ---
 
 Patio paving can transform your outdoor space, creating a beautiful and functional area for relaxation and entertainment. Understanding your desire for a stunning and practical patio, this guide aims to address the common challenges and decisions you face in this project.

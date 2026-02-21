@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 10:26:45"
 draft: false
+seoTitle: "Back Garden Ideas — Landscaping Designs for Every Space"
+seoDescription: "Back garden landscaping ideas with photos. Patios, planting, lawns, decking, water features and lighting. Designs for small, medium and large Irish gardens."
 ---
 
 Landscape back garden ideas can help transform your outdoor space into a personal oasis that reflects your style and needs. We understand that finding inspiration might be overwhelming, especially with the plethora of design elements and garden features available.

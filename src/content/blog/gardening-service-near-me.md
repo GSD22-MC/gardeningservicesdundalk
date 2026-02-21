@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 09:23:39"
 draft: false
+seoTitle: "What to Ask a Gardening Service Before Hiring — Checklist"
+seoDescription: "Essential questions to ask a gardening service near you. Covers pricing, insurance, experience and what to expect. Handy checklist for Irish homeowners."
 ---
 
 Starting a vegetable patch is an exciting venture, and finding the right [gardening service](https://gardeningservicesdundalk.com/) can make all the difference. In Ireland's diverse climate, you need expert advice to navigate the specific gardening challenges.

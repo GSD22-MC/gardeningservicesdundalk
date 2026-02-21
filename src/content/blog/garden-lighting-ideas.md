@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-04 09:28:57"
 draft: false
+seoTitle: "Garden Lighting Ideas — Solar, LED & Festoon Designs (2026)"
+seoDescription: "Best garden lighting ideas to transform your outdoor space. Solar path lights, LED spotlights, festoon strings and wall lights. Installation tips and photos."
 ---
 
 Garden lighting can transform your outdoor space into a magical nighttime landscape, inviting you to enjoy your garden well after sunset. Whether you’re looking to host evening garden parties or simply enjoy a quiet night surrounded by nature, the right lighting can make all the difference.

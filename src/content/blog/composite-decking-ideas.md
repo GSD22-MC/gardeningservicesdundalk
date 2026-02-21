@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-07 16:59:19"
 draft: false
+seoTitle: "Composite Decking Ideas — Colours, Styles & Layouts (2026)"
+seoDescription: "Best composite decking ideas with photos. Grey, oak and charcoal finishes, board layouts, edging options and costs. Low-maintenance designs for Irish gardens."
 ---
 
 Composite decking is an innovative and versatile solution for creating beautiful outdoor spaces that are stylish, durable, and low-maintenance. This popular material is ideal for a variety of applications, including patios, terraces, poolside decks, and garden pathways. By choosing the right [composite decking ideas](https://gardeningservicesdundalk.com/guide-to-patio-paving/), you can create outdoor living spaces that not only look great but can also withstand the test of time.

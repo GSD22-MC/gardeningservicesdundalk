@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:30"
 draft: false
+seoTitle: "How to Kill Moss in Your Lawn — Causes & Treatment Guide"
+seoDescription: "Get rid of moss in your lawn for good. Iron sulphate, lawn sand, raking and prevention tips. Why moss grows and how to stop it returning in Irish lawns."
 ---
 
 Moss can be a pesky problem for many lawn owners, as it competes with grass for space, nutrients, and sunlight. While a little bit of moss might not be a significant issue, it's essential to understand effective ways to remove and control it, ensuring that your lawn remains healthy and thriving.

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 servicePillar: "grass-cutting"
 date: "2024-05-04 09:38:27"
 draft: false
+seoTitle: "Hiring a Lawn Care Service — Questions to Ask First (Ireland)"
+seoDescription: "Key questions to ask a lawn care service before hiring. Covers pricing, treatments, schedules and how they handle Ireland's variable weather and wet conditions."
 ---
 
 When seeking [lawn care services in Ireland](https://gardeningservicesdundalk.com/grass-cutting-lawn-care/), it's important to prepare a set of questions that will help you understand how they manage the unique challenges posed by the country's variable weather.

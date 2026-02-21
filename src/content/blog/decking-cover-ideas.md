@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-04 10:29:04"
 draft: false
+seoTitle: "Decking Cover Ideas — Pergolas, Canopies & Roof Options"
+seoDescription: "Best decking cover ideas for year-round use. Pergolas, retractable canopies, polycarbonate roofs and sail shades. Shelter your deck from Irish rain and wind."
 ---
 
 [Outdoor decking](https://gardeningservicesdundalk.com/decking-services-dundalk/) is a popular way to create a designated area in your garden or backyard for lounging and al fresco dining. One way to enhance the appeal and functionality of a deck is by adding a cover, which provides shade and shelter.

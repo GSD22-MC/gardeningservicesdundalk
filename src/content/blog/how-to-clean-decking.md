@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-28 18:30:40"
 draft: false
+seoTitle: "How to Clean Decking — Remove Algae, Moss & Green Stains"
+seoDescription: "Clean your decking like a pro. Pressure washing, bleach, specialist cleaners and scrubbing methods. Remove green algae, moss and slippery build-up safely."
 ---
 
 Cleaning your [decking](https://gardeningservicesdundalk.com/decking-services-dundalk/) is an essential task to keep it looking fresh and well-maintained. Throughout the year, dirt, moss, algae, and stains can accumulate, making your decking look old and worn out. But worry not! The process of cleaning your decking is relatively simple and, with the right tools and methods, you can have your decking looking as good as new in no time.

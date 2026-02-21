@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250131_130248.jpg"
 servicePillar: "decking-fencing"
 date: "2024-05-04 10:45:47"
 draft: false
+seoTitle: "Garden Fencing Ideas — Panels, Posts & Modern Styles (2026)"
+seoDescription: "Creative garden fencing ideas with photos. Slatted panels, picket fences, composite boards, trellis toppers and contemporary designs. Irish supplier guide."
 ---
 
 [Garden fencing](https://gardeningservicesdundalk.com/fencing/) is not only about securing your outdoor space; it's also about incorporating elements of style and design to create a showstopping boundary. As we explore various fencing ideas for gardens, we'll delve into innovative concepts and materials that cater to different preferences and needs.

@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:37"
 draft: false
+seoTitle: "Outdoor Living Spaces — Stylish Garden Ideas for 2026"
+seoDescription: "Beautiful outdoor living space ideas. Covered seating, alfresco dining, garden lounges, fire features and hot tub areas. Year-round designs for Irish gardens."
 ---
 
 Outdoor living spaces have become increasingly popular as people look to make the [most of their gardens](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/) and yards. By creating comfortable and stylish areas outside, homeowners can expand their living spaces, providing additional areas for relaxation, entertainment, and family time.

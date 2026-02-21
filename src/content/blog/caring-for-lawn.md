@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:25"
 draft: false
+seoTitle: "Lawn Care Guide — Feeding, Mowing & Seasonal Tips (Ireland)"
+seoDescription: "Complete lawn care guide for Irish gardens. Mowing heights, feeding schedules, watering, aeration and seasonal tips. Keep your grass lush and green year-round."
 ---
 
 Caring for your lawn may seem like a daunting task, but with the right approach and information, you can create a healthy and beautiful green space. In this article, we will explore the basics of understanding your lawn, and delve into essential maintenance practices to keep it looking its best all year round. We understand that every lawn is unique, which is why we have also included seasonal lawn care tips and problem-solving advice to address specific challenges you may face.

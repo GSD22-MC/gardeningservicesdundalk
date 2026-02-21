@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
 servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:27"
 draft: false
+seoTitle: "When to Sow Grass Seed in Ireland — Best Months & Tips"
+seoDescription: "When to sow grass seed in Ireland for best results. Spring vs autumn sowing, soil temperature, ground preparation and aftercare. Month-by-month Irish guide."
 ---
 
 Establishing a lush, green lawn is a rewarding home improvement project that boosts curb appeal and provides a great place for outdoor activities. One of the most crucial aspects of creating a beautiful lawn is knowing the optimal time to sow grass seed. In this article, we'll discuss the factors that determine the best time to sow grass seed, helping you achieve the luscious lawn of your dreams.

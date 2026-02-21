@@ -4,6 +4,8 @@ featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
 servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:31"
 draft: false
+seoTitle: "Backyard Ideas — 25+ Designs for Every Budget (2026)"
+seoDescription: "Transform your backyard with creative design ideas. Seating areas, fire pits, water features and low-maintenance layouts. Irish-friendly designs with photos."
 ---
 
 Transforming your backyard into a stylish and functional outdoor space can be a rewarding experience. With the right backyard ideas, it's possible to create an area that's perfect for relaxing, entertaining, or spending time with family and friends.
