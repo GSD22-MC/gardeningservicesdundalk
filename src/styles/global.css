@@ -872,6 +872,13 @@ button[type="submit"]:hover {
   font-size: 0.9rem;
 }
 
+.review-author {
+  color: var(--gsd-green);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
 .review-source {
   color: var(--gsd-text-light);
   font-size: 0.8rem;

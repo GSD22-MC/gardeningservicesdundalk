@@ -20,6 +20,7 @@ const reviewsCollection = defineCollection({
   type: 'data',
   schema: z.object({
     name: z.string(),
+    author: z.string().optional(),
     text: z.string(),
     rating: z.number().min(1).max(5).default(5),
     date: z.coerce.date().optional(),

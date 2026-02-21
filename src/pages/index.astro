@@ -210,6 +210,7 @@ const areas = [
             <div class="review-stars">{'★'.repeat(review.data.rating)}</div>
             <p class="review-title">"{review.data.name}"</p>
             <p class="review-text">{review.data.text.length > 200 ? review.data.text.slice(0, 200) + '...' : review.data.text}</p>
+            <p class="review-author">— {review.data.author || 'Happy Customer'}</p>
             <p class="review-source">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
               Customer Review
