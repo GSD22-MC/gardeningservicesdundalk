@@ -1,13 +1,14 @@
 ---
 title: "Decking Lights Ideas: Top Trends for Illuminating Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-07 17:40:15"
 draft: false
 ---
 
 Incorporating decking lights can greatly enhance your outdoor space, creating an inviting atmosphere while providing safety and functionality. With a wide range of styles and types available, it's essential to plan your deck lighting carefully to achieve the desired effect. By considering various lighting techniques, power sources, and materials, you can transform your deck into a functional and aesthetically pleasing extension of your living space.
 
-![Colorful decking lights illuminate a cozy outdoor space, casting a warm and inviting glow over the seating area and creating a festive and welcoming atmosphere](https://koala.sh/api/image/v2-92fq6-zuzv5.jpg?width=1216&height=832&dream)
+![Colorful decking lights illuminate a cozy outdoor space, casting a warm and inviting glow over the seating area and creating a festive and welcoming atmosphere](/images/gallery/gallery-47.jpg)
 
 The planning process should take into account the purpose of your outdoor area, the specific requirements of your deck, and the overall design of your garden or yard. When selecting lighting options, consider both their practical application and how they will contribute to the ambiance of your outdoor space. Additionally, with energy-efficient choices and innovative designs becoming increasingly popular, there's no shortage of decking light ideas to draw inspiration from.
 
@@ -19,7 +20,7 @@ The planning process should take into account the purpose of your outdoor area, 
 
 ## Planning Your Deck Lighting
 
-![A deck at dusk with soft, warm lighting illuminating the perimeter. A mix of overhead and ground-level lights create a cozy, inviting atmosphere for outdoor gatherings](https://koala.sh/api/image/v2-92fqp-2wl9l.jpg?width=1216&height=832&dream)
+![A deck at dusk with soft, warm lighting illuminating the perimeter. A mix of overhead and ground-level lights create a cozy, inviting atmosphere for outdoor gatherings](/images/gallery/gallery-35.jpg)
 
 ### Determining the Purpose
 
@@ -152,7 +153,7 @@ Some garden and path lighting ideas to consider are:
 
 ## Power Sources and Energy Efficiency
 
-![A row of solar-powered decking lights illuminating a wooden deck, surrounded by energy-efficient LED bulbs integrated into the landscape](https://koala.sh/api/image/v2-92fuo-hntvl.jpg?width=1216&height=832&dream)
+![A row of solar-powered decking lights illuminating a wooden deck, surrounded by energy-efficient LED bulbs integrated into the landscape](/images/gallery/gallery-46.jpg)
 
 As we explore various deck lighting ideas, it's important to consider the power sources and energy efficiency of the lighting options at hand. We'll be focusing on two popular solutions, namely solar lighting, and LED and low-voltage options.
 
@@ -206,7 +207,7 @@ To finish off our deck space, don't hesitate to include personal touches like ou
 
 ## Lighting Considerations for Special Occasions
 
-![A backyard adorned with string lights, casting a warm glow over a festive gathering. The lights are draped over trees and wrapped around poles, creating a magical ambiance for special occasions](https://koala.sh/api/image/v2-92fw5-6ghgk.jpg?width=1216&height=832&dream)
+![A backyard adorned with string lights, casting a warm glow over a festive gathering. The lights are draped over trees and wrapped around poles, creating a magical ambiance for special occasions](/images/gallery/work2025/20250109_100322.jpg)
 
 When planning deck lighting for special occasions, it's important to set the right atmosphere while ensuring the safety and functionality of your outdoor space. In this section, we'll explore various lighting ideas to help you create the perfect setting for events that require a festival feel, romance, alfresco entertaining, and more during the lovely summer season.
 

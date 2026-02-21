@@ -1,6 +1,7 @@
 ---
 title: "Top Dressing Lawns: A Simple Guide for Lush Green Spaces"
 featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
+servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:28"
 draft: false
 ---

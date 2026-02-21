@@ -1,6 +1,7 @@
 ---
 title: "Hot Tub Surround Ideas: Innovative Designs for Ultimate Relaxation"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 seoTitle: "Hot Tub Surround Ideas — Decking, Stone & DIY Builds (2025)"
 seoDescription: "Creative hot tub surround ideas with photos. Decking platforms, stone bases, privacy screens and lighting. Includes budget DIY options and premium designs."
 date: "2024-05-07 16:57:49"
@@ -11,7 +12,7 @@ Hot tubs are a fantastic addition to any outdoor space, providing relaxation and
 
 A well-designed surround not only enhances the aesthetics of the space but also improves its functionality and comfort.
 
-![A wooden deck with built-in seating surrounds a modern hot tub, accented with potted plants and soft lighting for a cozy, inviting atmosphere](https://koala.sh/api/image/v2-9602m-x3r3w.jpg?width=1216&height=832&dream)
+![A wooden deck with built-in seating surrounds a modern hot tub, accented with potted plants and soft lighting for a cozy, inviting atmosphere](/images/gallery/gallery-44.jpg)
 
 We explore various hot tub surround ideas to inspire your own [backyard oasis](https://gardeningservicesdundalk.com/backyard-ideas/). From selecting the right materials to creating an [atmosphere with lighting](https://gardeningservicesdundalk.com/garden-lighting-ideas/), enhancing privacy, and adding functional elements, we'll guide you through the process of designing an outdoor space that perfectly complements your hot tub experience.
 
@@ -63,7 +64,7 @@ Remember, designing your hot tub surround is not just about selecting an aesthet
 
 ## Selecting Materials
 
-![A person choosing materials for a hot tub surround, with various options displayed on a table or shelf](https://koala.sh/api/image/v2-9603i-wswqh.jpg?width=1216&height=832&dream)
+![A person choosing materials for a hot tub surround, with various options displayed on a table or shelf](/images/gallery/gallery-45.jpg)
 
 When it comes to creating the perfect hot tub surround, the materials you choose play an essential role in both the aesthetics and functionality. In this section, we'll explore various material options that cater to different styles and environments.
 
@@ -131,7 +132,7 @@ By thoughtfully incorporating these features, we can make the most of our outdoo
 
 ## Creating Atmosphere with Lighting
 
-![A hot tub nestled in a lush garden, softly lit by warm, ambient lighting. Trees and plants cast gentle shadows, creating a tranquil and inviting atmosphere](https://koala.sh/api/image/v2-9604v-cvxw2.jpg?width=1216&height=832&dream)
+![A hot tub nestled in a lush garden, softly lit by warm, ambient lighting. Trees and plants cast gentle shadows, creating a tranquil and inviting atmosphere](/images/gallery/work2025/20250204_173031.jpg)
 
 ### Spotlights and LEDs
 
@@ -165,7 +166,7 @@ In conclusion, combining aesthetically pleasing seating, [proper accessibility w
 
 ## Incorporating Plants and Greenery
 
-![A hot tub surrounded by lush green plants and foliage, creating a serene and natural atmosphere](https://koala.sh/api/image/v2-9605z-ozquk.jpg?width=1216&height=832&dream)
+![A hot tub surrounded by lush green plants and foliage, creating a serene and natural atmosphere](/images/gallery/work2025/20250206_083458.jpg)
 
 Adding plants and greenery to the area surrounding your hot tub not only enhances the visual appeal but also creates a sense of tranquillity and privacy. In this section, we'll discuss how to incorporate plants and greenery through planters and raised beds, selecting suitable plants and flowers, and utilising trees and ornamental grass.
 

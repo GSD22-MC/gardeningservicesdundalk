@@ -1533,6 +1533,85 @@ button[type="submit"]:hover {
 }
 
 /* ============================================================
+   SERVICE PILLAR CALLOUT & RELATED POSTS
+   ============================================================ */
+.pillar-callout {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pillar-callout-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gsd-text-light);
+  margin-bottom: 0.5rem;
+}
+
+.pillar-callout-link {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--gsd-green-dark);
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  background: var(--gsd-white);
+  border-radius: var(--gsd-radius-lg);
+  box-shadow: var(--gsd-shadow-sm);
+  transition: all var(--gsd-transition);
+}
+
+.pillar-callout-link:hover {
+  box-shadow: var(--gsd-shadow-md);
+  transform: translateY(-2px);
+  color: var(--gsd-green);
+}
+
+.pillar-callout-desc {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--gsd-text);
+}
+
+.related-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.related-post-card {
+  background: var(--gsd-white);
+  border-radius: var(--gsd-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--gsd-shadow-sm);
+  text-decoration: none;
+  color: var(--gsd-green-dark);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all var(--gsd-transition);
+}
+
+.related-post-card:hover {
+  box-shadow: var(--gsd-shadow-md);
+  transform: translateY(-3px);
+}
+
+.related-post-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.related-post-card span {
+  display: block;
+  padding: 0.75rem 1rem;
+  line-height: 1.3;
+}
+
+/* ============================================================
    FAQ ACCORDIONS
    ============================================================ */
 .faq-accordion {
@@ -1594,4 +1673,167 @@ button[type="submit"]:hover {
   line-height: 1.7;
   border-top: 1px solid #f0f0f0;
   padding-top: 1rem;
+}
+
+/* ============================================================
+   SERVICE PAGE HERO
+   ============================================================ */
+
+.service-hero {
+  padding: 6rem 0 5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--gsd-white);
+  text-align: center;
+  position: relative;
+}
+
+.service-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-hero h1 {
+  color: var(--gsd-white);
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 1rem 0 1rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.service-hero-desc {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.service-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .service-hero {
+    padding: 4rem 0 3rem;
+  }
+  .service-hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* ============================================================
+   BENEFITS GRID
+   ============================================================ */
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.benefit-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: var(--gsd-white);
+  border-radius: var(--gsd-radius-lg);
+  box-shadow: var(--gsd-shadow-md);
+  transition: transform var(--gsd-transition), box-shadow var(--gsd-transition);
+}
+
+.benefit-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--gsd-shadow-lg);
+}
+
+.benefit-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.benefit-card h3 {
+  color: var(--gsd-green-dark);
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.benefit-card p {
+  color: var(--gsd-text-light);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .benefit-card {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Service content uses default dark text on white background */
+
+/* Mid-page CTA */
+.cta-mid {
+  padding: 3.5rem 0;
+}
+
+/* ============================================================
+   AREA PAGE HERO
+   ============================================================ */
+
+.area-hero {
+  padding: 5rem 0 4rem;
+  background-size: cover;
+  background-position: center;
+  color: var(--gsd-white);
+  text-align: center;
+}
+
+.area-hero h1 {
+  color: var(--gsd-white);
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+  margin: 1rem 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.area-hero-desc {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.area-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .area-hero {
+    padding: 3.5rem 0 2.5rem;
+  }
+  .area-hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .area-hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
 }

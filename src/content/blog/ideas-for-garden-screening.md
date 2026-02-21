@@ -1,6 +1,7 @@
 ---
 title: "Ideas for Garden Screening: Top Solutions for Modern Spaces"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
+servicePillar: "decking-fencing"
 seoTitle: "Garden Screening Ideas — Privacy Panels, Plants & Fencing (2025)"
 seoDescription: "Best garden screening ideas for privacy. Trellis panels, bamboo, tall plants, slatted fencing and modern screens. Budget options to premium designs with photos."
 date: "2024-05-04 09:41:56"
@@ -11,7 +12,7 @@ Garden screening is an essential aspect of creating a comfortable and welcoming 
 
 There are numerous ideas and materials available to achieve the desired level of privacy, ranging from [standard fencing](https://gardeningservicesdundalk.com/fencing/) to plant-based solutions and creative features.
 
-![A lush garden with tall, leafy plants and decorative trellises, creating privacy and a serene atmosphere](https://koala.sh/api/image/v2-964ca-m4tsm.jpg?width=1216&height=832&dream)
+![A lush garden with tall, leafy plants and decorative trellises, creating privacy and a serene atmosphere](/images/gallery/gallery-46.jpg)
 
 Understanding the different garden screening options is crucial before making a decision. Consider factors such as the level of privacy desired, the maintenance required, and the visual impact on the surrounding environment.
 
@@ -113,7 +114,7 @@ By carefully choosing the right screening for your space, integrating it into yo
 
 ## Structural Screenings
 
-![A garden with various structural screening ideas such as trellises, lattice panels, and bamboo screens arranged to create privacy and visual interest](https://koala.sh/api/image/v2-964f6-sac1d.jpg?width=1216&height=832&dream)
+![A garden with various structural screening ideas such as trellises, lattice panels, and bamboo screens arranged to create privacy and visual interest](/images/gallery/gallery-35.jpg)
 
 ### Pergolas and Gazebos
 
@@ -171,7 +172,7 @@ By using these plant-based screening solutions, we can create natural and beauti
 
 ## Temporary and Seasonal Screens
 
-![A garden with temporary screens, such as bamboo or fabric, providing seasonal privacy and decoration. Trees and flowers in the background add to the natural setting](https://koala.sh/api/image/v2-964ha-zuvzt.jpg?width=1216&height=832&dream)
+![A garden with temporary screens, such as bamboo or fabric, providing seasonal privacy and decoration. Trees and flowers in the background add to the natural setting](/images/gallery/gallery-47.jpg)
 
 ### Using Planters and Containers
 
@@ -222,7 +223,7 @@ By implementing these garden privacy ideas, we can substantially enhance the val
 
 ## Garden Screening for Wildlife and Ecology
 
-![Lush garden with native plants, bird feeders, and a small pond. A variety of wildlife, including birds, butterflies, and bees, are attracted to the area](https://koala.sh/api/image/v2-964iz-g4uqh.jpg?width=1216&height=832&dream)
+![Lush garden with native plants, bird feeders, and a small pond. A variety of wildlife, including birds, butterflies, and bees, are attracted to the area](/images/gallery/work2025/20250116_094234.jpg)
 
 Garden screening plays a vital role in not only maintaining privacy but also contributing to the local ecosystem. We will explore different garden screening ideas that can help support local fauna and utilise eco-friendly materials.
 
@@ -290,7 +291,7 @@ By adopting these ideas and materials, we can create a garden environment that n
 
 ## Maintenance and Upkeep
 
-![A gardener paints a wooden garden screen with protective sealant, while another replaces damaged panels with new ones. A third person trims overgrown vines and plants around the screening](https://koala.sh/api/image/v2-964jk-f9z7l.jpg?width=1216&height=832&dream)
+![A gardener paints a wooden garden screen with protective sealant, while another replaces damaged panels with new ones. A third person trims overgrown vines and plants around the screening](/images/gallery/work2025/20250116_094246.jpg)
 
 When it comes to garden screening ideas, maintenance and upkeep are crucial factors for ensuring the longevity and pristine appearance of your outdoor space. In this section, we'll discuss some important aspects of maintaining various garden screening elements.
 

@@ -1,6 +1,7 @@
 ---
 title: "What Should I Ask a Garden Centre Near Me: Selecting Plants For Irish Weather Conditions"
 featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 09:25:27"
 draft: false
 ---
@@ -9,7 +10,7 @@ When venturing into plant selection for your Irish garden, the local climate is 
 
 Consulting with a knowledgeable garden centre can prove invaluable in making informed choices. It's important to ask targeted questions about plant varieties that are well-suited to the Irish climate and the particular conditions of your garden, such as soil type, exposure to sun and wind, and local pest populations.
 
-![Lush green garden center with a variety of plants. Signs indicate climate suitability. Staff assisting customers with plant selection](https://koala.sh/api/image/v2-bfapd-o9jwn.jpg?width=1216&height=832&dream)
+![Lush green garden center with a variety of plants. Signs indicate climate suitability. Staff assisting customers with plant selection](/images/services/landscaping.jpg)
 
 Understanding which plants are best for your garden's design and the level of maintenance you can commit to is another key element to discuss.
 
@@ -90,7 +91,7 @@ Your choice of plants should also take into account the _seasonal changes_ inher
 
 ## Specific Plant Types and Their Care
 
-![Lush greenery surrounds a sign labeled "Specific Plant Types and Their Care." A variety of plants, from delicate flowers to sturdy shrubs, are on display. The scene exudes a sense of tranquility and natural beauty, inviting viewers to explore](https://koala.sh/api/image/v2-bfasd-kukyw.jpg?width=1216&height=832&dream)
+![Lush greenery surrounds a sign labeled "Specific Plant Types and Their Care." A variety of plants, from delicate flowers to sturdy shrubs, are on display. The scene exudes a sense of tranquility and natural beauty, inviting viewers to explore](/images/gallery/gallery-36.jpg)
 
 When choosing plants for an Irish climate, it's important to consider the specific type of plants and the care they will require in such a diverse weather system.
 
@@ -119,7 +120,7 @@ Vegetable gardening can be deeply rewarding, and with the right choices, you'll 
 
 ## Designing Your Garden's Layout
 
-![Lush green garden with diverse plant species. Garden center staff advising on plant suitability for Irish climate](https://koala.sh/api/image/v2-bfatk-rf8qc.jpg?width=1216&height=832&dream)
+![Lush green garden with diverse plant species. Garden center staff advising on plant suitability for Irish climate](/images/gallery/gallery-43.jpg)
 
 When choosing plants for your garden in an Irish climate, it's important to consider not just the plants' needs, but also how they'll fit into your overall [garden design](https://gardeningservicesdundalk.com/paving-ideas-for-gardens/). Thoughtful layout planning can create an appealing and sustainable garden space.
 
@@ -198,7 +199,7 @@ Your garden will require different tasks as the seasons change. Here's what you 
 
 ## The Role of Garden Nurseries and Horticulturists
 
-![A garden nursery with rows of diverse plants, a horticulturist advising a customer, and a sign displaying plant care tips for an Irish climate](https://koala.sh/api/image/v2-bfavp-jr4uc.jpg?width=1216&height=832&dream)
+![A garden nursery with rows of diverse plants, a horticulturist advising a customer, and a sign displaying plant care tips for an Irish climate](/images/gallery/work2025/20250118_161417.jpg)
 
 When venturing into the world of gardening in Ireland, you'll find that garden nurseries and horticulturists are indispensable allies in choosing the right plants for your garden.
 
@@ -225,7 +226,7 @@ Involvement with gardening societies such as the **Royal Horticultural Society o
 
 ## Additional Considerations and Garden Features
 
-![Lush green garden with colorful flowers, a variety of plants, and a mix of sun and shade. A garden center sign and helpful staff assisting customers](https://koala.sh/api/image/v2-bfax7-pkdud.jpg?width=1216&height=832&dream)
+![Lush green garden with colorful flowers, a variety of plants, and a mix of sun and shade. A garden center sign and helpful staff assisting customers](/images/gallery/work2025/20250118_161608.jpg)
 
 When you're planning your garden, it's important to think beyond just the plants. Garden features such as water elements and stonework, as well as choices that affect your ability to create cut flower arrangements and suitable decorations, will enhance the enjoyment and functionality of your space.
 

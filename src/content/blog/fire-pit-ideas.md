@@ -1,6 +1,7 @@
 ---
 title: "Fire Pit Ideas: Transforming Your Outdoor Space with Style"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 seoTitle: "Fire Pit Ideas for Gardens — DIY, Stone & Modern Designs"
 seoDescription: "Garden fire pit ideas with photos. DIY builds, stone fire pits, sunken designs, chimineas and modern styles. Includes safety tips and budget options."
 date: "2024-05-07 17:40:13"
@@ -9,7 +10,7 @@ draft: false
 
 As the colder months approach, there's nothing quite like gathering around a fire pit with friends and family to keep warm and create a cosy atmosphere. Fire pits have come a long way from simple stone circles, with various designs and styles available to suit any outdoor space. Whether you want to upgrade your backyard with a DIY project or invest in a ready-made fire pit solution, we've got you covered with this article showcasing some fantastic fire pit ideas.
 
-![A crackling fire pit surrounded by cozy seating, casting a warm glow on a starry night](https://koala.sh/api/image/v2-92g05-ub9kb.jpg?width=1216&height=832&dream)
+![A crackling fire pit surrounded by cozy seating, casting a warm glow on a starry night](/images/services/landscaping.jpg)
 
 Planning a fire pit includes taking into account factors like size, location, and fuel type. Consider materials such as stone, bricks, pavers, concrete, or metal to build a fire pit that suits your style, size, and budget. If you're looking for a more hands-on approach, tackle DIY fire pit projects by using inexpensive or repurposed materials, or opt for ready-made options that can be easily installed in your outdoor space.
 
@@ -73,7 +74,7 @@ To enhance the look of your DIY fire pit and create a cosy atmosphere for your o
 
 ## Ready-Made Fire Pit Solutions
 
-![A cozy fire pit surrounded by comfortable seating, with a stack of firewood nearby. The flames flicker and dance, casting a warm glow on the surrounding area](https://koala.sh/api/image/v2-92g2k-tsva6.jpg?width=1216&height=832&dream)
+![A cozy fire pit surrounded by comfortable seating, with a stack of firewood nearby. The flames flicker and dance, casting a warm glow on the surrounding area](/images/gallery/gallery-43.jpg)
 
 In this section, we'll explore various ready-made fire pit solutions to compliment outdoor spaces. We've divided our recommendations into three subsections: Portable Fire Pit Options, Permanent Fire Structure Choices, and Innovative Fire Pit Technologies.
 
@@ -198,7 +199,7 @@ By following these guidelines for maintenance, user safety, and weather protecti
 
 ## Conclusion
 
-![A crackling fire pit surrounded by cozy seating, with soft ambient lighting and a backdrop of starry night sky](https://koala.sh/api/image/v2-92g70-3onbm.jpg?width=1216&height=832&dream)
+![A crackling fire pit surrounded by cozy seating, with soft ambient lighting and a backdrop of starry night sky](/images/gallery/gallery-44.jpg)
 
 In this article, we've explored a variety of fire pit ideas to inspire your [backyard transformation](https://gardeningservicesdundalk.com/backyard-ideas/). We've included a range of styles, sizes, and settings, ensuring there's an option to suit every preference and budget. Below, we've summarised some of our key recommendations to help you easily compare and make a decision.
 

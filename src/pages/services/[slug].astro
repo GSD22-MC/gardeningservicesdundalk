@@ -15,6 +15,19 @@ const { Content } = await service.render();
 const { title, seoTitle, seoDescription, description, image } = service.data;
 const slug = service.id.replace(/\.md$/, '');
 
+// Get related blog posts for this service
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const relatedBlogPosts = allPosts
+  .filter((p) => p.data.servicePillar === slug)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 6);
+
+// Get featured reviews
+const allReviews = await getCollection('reviews');
+const featuredReviews = allReviews
+  .filter((r) => r.data.rating === 5)
+  .slice(0, 3);
+
 // Map service slugs to their service-area URL patterns
 const serviceAreaPatterns: Record<string, { prefix: string; label: string }[]> = {
   'garden-landscaping': [{ prefix: 'garden-landscaping', label: 'Garden Landscaping' }],
@@ -47,42 +60,302 @@ const areas = [
 ];
 
 const patterns = serviceAreaPatterns[slug] || [];
+
+// Service-specific gallery images
+const serviceGallery: Record<string, string[]> = {
+  'garden-landscaping': [
+    '/images/services/landscaping.jpg',
+    '/images/gallery/gallery-36.jpg',
+    '/images/gallery/gallery-43.jpg',
+    '/images/gallery/gallery-44.jpg',
+    '/images/gallery/gallery-45.jpg',
+    '/images/gallery/gallery-29.jpg',
+  ],
+  'grass-cutting': [
+    '/images/services/grass-cutting.jpg',
+    '/images/gallery/gallery-30.jpg',
+    '/images/gallery/gallery-44.jpg',
+    '/images/gallery/gallery-43.jpg',
+    '/images/gallery/gallery-36.jpg',
+    '/images/gallery/gallery-45.jpg',
+  ],
+  'hedge-trimming': [
+    '/images/services/hedge-trimming.jpg',
+    '/images/gallery/gallery-38.jpg',
+    '/images/gallery/gallery-39.jpg',
+    '/images/gallery/gallery-36.jpg',
+    '/images/gallery/gallery-44.jpg',
+    '/images/gallery/gallery-30.jpg',
+  ],
+  'decking-fencing': [
+    '/images/gallery/gallery-46.jpg',
+    '/images/gallery/gallery-35.jpg',
+    '/images/gallery/gallery-47.jpg',
+    '/images/gallery/gallery-42.jpg',
+    '/images/gallery/gallery-31.jpg',
+    '/images/gallery/gallery-29.jpg',
+  ],
+  'patio-paving': [
+    '/images/services/paving.jpg',
+    '/images/gallery/gallery-29.jpg',
+    '/images/gallery/gallery-31.jpg',
+    '/images/gallery/gallery-42.jpg',
+    '/images/gallery/gallery-30.jpg',
+    '/images/gallery/gallery-36.jpg',
+  ],
+  'garden-clearance': [
+    '/images/services/garden-clearance.jpg',
+    '/images/gallery/gallery-40.jpg',
+    '/images/gallery/gallery-41.jpg',
+    '/images/gallery/gallery-36.jpg',
+    '/images/gallery/gallery-43.jpg',
+    '/images/gallery/gallery-30.jpg',
+  ],
+};
+
+const galleryImages = serviceGallery[slug] || [];
+
+// Service-specific benefits
+const serviceBenefits: Record<string, { icon: string; title: string; text: string }[]> = {
+  'garden-landscaping': [
+    { icon: '🎨', title: 'Bespoke Design', text: 'Every garden is unique. We design around your space, tastes, and budget.' },
+    { icon: '🏗️', title: 'Full Build Service', text: 'From foundations to planting — we handle every stage of your project.' },
+    { icon: '🌱', title: 'Planting Expertise', text: '35+ years of knowledge on what thrives in the Irish climate.' },
+  ],
+  'grass-cutting': [
+    { icon: '📅', title: 'Flexible Scheduling', text: 'Weekly, fortnightly, or one-off cuts — on a schedule that suits you.' },
+    { icon: '✂️', title: 'Expert Finishing', text: 'Clean edges, stripe patterns, and attention to detail on every cut.' },
+    { icon: '🧪', title: 'Lawn Treatments', text: 'Seasonal feeds, scarifying, and overseeding for a lush, healthy lawn.' },
+  ],
+  'hedge-trimming': [
+    { icon: '🌿', title: 'All Hedge Types', text: 'Leylandii, laurel, privet, beech — we handle every species expertly.' },
+    { icon: '🔧', title: 'Professional Equipment', text: 'Commercial-grade tools for clean, precise cuts every time.' },
+    { icon: '🚛', title: 'Full Clean-up', text: 'All cuttings removed and disposed of — your garden left spotless.' },
+  ],
+  'decking-fencing': [
+    { icon: '🪵', title: 'Quality Materials', text: 'Hardwood, softwood, and composite options — built to last in Irish weather.' },
+    { icon: '📐', title: 'Custom Design', text: 'Every deck and fence tailored to your space and requirements.' },
+    { icon: '🛡️', title: 'Built to Last', text: 'Proper foundations, treated timber, and expert craftsmanship throughout.' },
+  ],
+  'patio-paving': [
+    { icon: '🪨', title: 'Premium Materials', text: 'Natural stone, limestone, sandstone, granite, and block paving options.' },
+    { icon: '💧', title: 'Proper Drainage', text: 'Correct falls and drainage to prevent waterlogging and frost damage.' },
+    { icon: '📏', title: 'Solid Foundations', text: 'Every job built on proper sub-base for paving that lasts decades.' },
+  ],
+  'garden-clearance': [
+    { icon: '⚡', title: 'Fast Turnaround', text: 'Most clearances completed in 1-2 days — efficient and thorough.' },
+    { icon: '♻️', title: 'Responsible Disposal', text: 'All waste removed and disposed of properly — green waste recycled.' },
+    { icon: '🌱', title: 'Ready for Next Steps', text: 'Site left level and prepared for landscaping, paving, or planting.' },
+  ],
+};
+
+const benefits = serviceBenefits[slug] || [];
+
+// Service page SEO descriptions (longer, keyword-rich)
+const seoDescriptions: Record<string, string> = {
+  'garden-landscaping': `Professional garden landscaping services in Dundalk and County Louth. Complete garden design, hard landscaping, patios, planting, and outdoor living spaces. Free quotes from Pete & Seamus — 35+ years experience.`,
+  'grass-cutting': `Reliable grass cutting and lawn care services in Dundalk and County Louth. Regular cuts, lawn edging, scarifying, top-dressing, and seasonal treatments. Free quotes from Pete & Seamus.`,
+  'hedge-trimming': `Expert hedge trimming and cutting services in Dundalk and County Louth. All hedge types — leylandii, laurel, privet, beech. Shaping, reduction, and removal. Free quotes from Pete & Seamus.`,
+  'decking-fencing': `Custom decking and fencing installation in Dundalk and County Louth. Timber and composite decking, garden fencing, gates, and repairs. Free quotes from Pete & Seamus — 35+ years experience.`,
+  'patio-paving': `Professional patio and paving installation in Dundalk and County Louth. Natural stone patios, block paving driveways, garden paths, and steps. Free quotes from Pete & Seamus.`,
+  'garden-clearance': `Fast, reliable garden clearance services in Dundalk and County Louth. Overgrown gardens, rubbish removal, site preparation, and tree removal. Free quotes from Pete & Seamus.`,
+};
+
+// Service schema
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: title,
+  description: seoDescriptions[slug] || description,
+  provider: {
+    '@type': 'LocalBusiness',
+    name: 'Gardening Services Dundalk',
+    url: 'https://gardeningservicesdundalk.com',
+    telephone: '+353851685170',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Dundalk',
+      addressRegion: 'County Louth',
+      addressCountry: 'IE',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5',
+      reviewCount: '50',
+    },
+  },
+  areaServed: {
+    '@type': 'State',
+    name: 'County Louth',
+  },
+  serviceType: title,
+};
 ---
 
 <PageLayout
-  title={seoTitle || `${title} — Gardening Services Dundalk`}
-  description={seoDescription || description}
+  title={seoTitle || `${title} in Dundalk & County Louth — Free Quotes | Gardening Services Dundalk`}
+  description={seoDescriptions[slug] || seoDescription || description}
+  ogImage={image}
 >
-  <section class="section section-green">
+  <!-- Service Schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <!-- ====== HERO ====== -->
+  <section class="service-hero" style={`background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${image}');`}>
     <div class="container">
-      <div class="section-header">
-        <span class="section-badge">Our Services</span>
-        <h1>{title}</h1>
-        <p class="section-subtitle">{description}</p>
-        <hr class="section-divider" />
+      <div class="service-hero-content">
+        <span class="section-badge" style="background: var(--gsd-orange); color: #fff;">Our Services</span>
+        <h1>{title} in Dundalk & County Louth</h1>
+        <p class="service-hero-desc">{description}</p>
+        <div class="service-hero-buttons">
+          <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            085 168 5170
+          </a>
+          <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="/contact/" class="btn btn-white btn-lg">Get Free Quote</a>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- ====== TRUST BAR ====== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>5-Star Rated</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>35+ Years Experience</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>Free Quotes</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Fully Insured</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY CHOOSE US — Benefits Grid ====== -->
+  {benefits.length > 0 && (
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2>Why Choose Us for {title}?</h2>
+          <p class="section-subtitle">Dundalk's trusted {title.toLowerCase()} specialists — here's what sets us apart.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="benefits-grid">
+          {benefits.map((b) => (
+            <div class="benefit-card fade-in">
+              <span class="benefit-icon">{b.icon}</span>
+              <h3>{b.title}</h3>
+              <p>{b.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ====== SERVICES DETAIL — Markdown Content ====== -->
   <section class="section section-white">
     <div class="container-narrow">
-      {image && (
-        <img src={image} alt={title} style="width: 100%; border-radius: var(--gsd-radius-lg); box-shadow: var(--gsd-shadow-md); margin-bottom: 2rem;" loading="lazy" />
-      )}
       <div class="blog-content">
         <Content />
       </div>
     </div>
   </section>
 
-  {patterns.length > 0 && (
+  <!-- ====== MID-PAGE CTA ====== -->
+  <section class="cta-section cta-mid">
+    <div class="container fade-in">
+      <h2>Get a Free {title} Quote Today</h2>
+      <p>No obligation — just honest advice and fair pricing from Pete & Seamus.</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY ====== -->
+  {galleryImages.length > 0 && (
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-badge">Our Work</span>
+          <h2>{title} — Recent Projects</h2>
+          <p class="section-subtitle">A sample of our {title.toLowerCase()} work across Dundalk and County Louth.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="gallery-grid" style="max-width: 900px; margin: 0 auto;">
+          {galleryImages.map((img) => (
+            <div class="gallery-item fade-in">
+              <img src={img} alt={`${title} project in Dundalk, County Louth`} loading="lazy" width="400" height="300" />
+            </div>
+          ))}
+        </div>
+        <div class="text-center" style="margin-top: 1.5rem;">
+          <a href="/gallery/" class="btn btn-outline">View Full Gallery →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ====== REVIEWS ====== -->
+  {featuredReviews.length > 0 && (
     <section class="section section-green">
       <div class="container">
-        <h2 class="text-center" style="margin-bottom: 0.5rem;">{title} Near You</h2>
-        <p class="text-center section-subtitle" style="margin-bottom: 1.5rem;">Find {title.toLowerCase()} services in your local area.</p>
+        <div class="section-header fade-in">
+          <span class="section-badge">⭐ What Our Customers Say</span>
+          <h2>50+ Five-Star Reviews</h2>
+          <p class="section-subtitle">Don't just take our word for it — hear from our happy customers.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="reviews-grid">
+          {featuredReviews.map((review, i) => (
+            <div class="review-card fade-in" style={i > 0 ? `transition-delay: ${i * 0.1}s` : ''}>
+              <div class="review-stars">{'★'.repeat(review.data.rating)}</div>
+              <p class="review-title">"{review.data.name}"</p>
+              <p class="review-text">{review.data.text.length > 200 ? review.data.text.slice(0, 200) + '...' : review.data.text}</p>
+              <p class="review-author">— {review.data.author || 'Happy Customer'}</p>
+              <p class="review-source">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Customer Review
+              </p>
+            </div>
+          ))}
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+          <a href="/reviews/" class="btn btn-primary">Read All Reviews →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ====== AREAS WE COVER ====== -->
+  {patterns.length > 0 && (
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-badge">📍 Service Areas</span>
+          <h2>{title} Near You</h2>
+          <p class="section-subtitle">Find {title.toLowerCase()} services in your local area across County Louth.</p>
+          <hr class="section-divider" />
+        </div>
         {patterns.map((pattern) => (
           <div style="margin-bottom: 1.5rem;">
-            {patterns.length > 1 && <h3 style="margin-bottom: 0.75rem; font-size: 1.1rem;">{pattern.label}</h3>}
+            {patterns.length > 1 && <h3 class="text-center" style="margin-bottom: 0.75rem; font-size: 1.1rem;">{pattern.label}</h3>}
             <div class="service-area-links">
               {areas.map((area) => (
                 <a href={`/${pattern.prefix}-${area.slug}/`} class="service-area-link">
@@ -97,14 +370,94 @@ const patterns = serviceAreaPatterns[slug] || [];
     </section>
   )}
 
+  <!-- ====== RELATED BLOG POSTS ====== -->
+  {relatedBlogPosts.length > 0 && (
+    <section class="section section-green">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-badge">📝 Expert Advice</span>
+          <h2>{title} Tips & Guides</h2>
+          <p class="section-subtitle">Expert advice and how-to articles from our team.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="blog-grid" style="max-width: 900px; margin: 0 auto;">
+          {relatedBlogPosts.map((post) => (
+            <a href={`/${post.id.replace(/\.md$/, '')}/`} class="blog-card fade-in" style="text-decoration: none;">
+              {post.data.featuredImage && (
+                <img src={post.data.featuredImage} alt={post.data.title} class="blog-card-img" width="400" height="200" loading="lazy" />
+              )}
+              <div class="blog-card-body">
+                <h3><span style="color: var(--gsd-green-dark);">{post.data.title}</span></h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ Accordion Script -->
+  <script>
+    function initFaqAccordions() {
+      document.querySelectorAll('.blog-content').forEach((content) => {
+        const headings = content.querySelectorAll('h2');
+        headings.forEach((h2) => {
+          if (!h2.textContent?.toLowerCase().includes('faq') && !h2.textContent?.toLowerCase().includes('frequently asked')) return;
+
+          const accordion = document.createElement('div');
+          accordion.className = 'faq-accordion';
+          let sibling = h2.nextElementSibling;
+
+          while (sibling && sibling.tagName !== 'H2') {
+            const next = sibling.nextElementSibling;
+            if (sibling.tagName === 'H3') {
+              const details = document.createElement('details');
+              const summary = document.createElement('summary');
+              summary.textContent = sibling.textContent;
+              details.appendChild(summary);
+
+              const answer = document.createElement('div');
+              answer.className = 'faq-answer';
+              let answerSibling = next;
+              while (answerSibling && answerSibling.tagName !== 'H3' && answerSibling.tagName !== 'H2') {
+                const nextAnswer = answerSibling.nextElementSibling;
+                answer.appendChild(answerSibling);
+                answerSibling = nextAnswer;
+              }
+              details.appendChild(answer);
+              accordion.appendChild(details);
+              sibling.remove();
+              sibling = answerSibling;
+              continue;
+            }
+            sibling = next;
+          }
+
+          if (accordion.children.length > 0) {
+            h2.after(accordion);
+          }
+        });
+      });
+    }
+    initFaqAccordions();
+    document.addEventListener('astro:after-swap', initFaqAccordions);
+  </script>
+
+  <!-- ====== FOOTER CTA ====== -->
   <section class="cta-section">
     <div class="container fade-in">
-      <h2>Get a Free {title} Quote</h2>
-      <p>Call us today for a free, no-obligation quote.</p>
+      <h2>Ready to Get Started?</h2>
+      <p>Call us today for a free, no-obligation {title.toLowerCase()} quote.</p>
       <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
       <div class="cta-buttons">
-        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
-        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.331 0-4.512-.654-6.378-1.788l-.458-.273-3.044 1.02 1.02-3.044-.273-.458A9.955 9.955 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp Us
+        </a>
         <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
       </div>
     </div>

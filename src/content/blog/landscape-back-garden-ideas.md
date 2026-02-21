@@ -1,6 +1,7 @@
 ---
 title: "Landscape Back Garden Ideas: Transform Your Outdoor Space Effortlessly"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 10:26:45"
 draft: false
 ---
@@ -9,7 +10,7 @@ Landscape back garden ideas can help transform your outdoor space into a persona
 
 In this article, we'll introduce you to some of the essential aspects of landscaping and planning that will guide you in creating a beautiful and functional back garden.
 
-![A lush garden with a winding stone path, blooming flower beds, a small pond, and a cozy seating area surrounded by tall trees](https://koala.sh/api/image/v2-962en-6428k.jpg?width=1216&height=832&dream)
+![A lush garden with a winding stone path, blooming flower beds, a small pond, and a cozy seating area surrounded by tall trees](/images/services/landscaping.jpg)
 
 When embarking on your [garden makeover](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/), it's essential to keep the layout in mind, as it will determine how different components work together.
 
@@ -60,7 +61,7 @@ In conclusion, planning your garden layout requires assessing your space, choosi
 
 ## Garden Features
 
-![A lush, green garden with a variety of flowers, shrubs, and trees. A winding stone path leads to a central fountain surrounded by colorful blooms. A wooden pergola covered in climbing vines provides a peaceful seating area](https://koala.sh/api/image/v2-962gu-uv7vy.jpg?width=1216&height=832&dream)
+![A lush, green garden with a variety of flowers, shrubs, and trees. A winding stone path leads to a central fountain surrounded by colorful blooms. A wooden pergola covered in climbing vines provides a peaceful seating area](/images/gallery/gallery-36.jpg)
 
 ### Incorporating Water Features
 
@@ -121,7 +122,7 @@ With these planting ideas, you can create a beautiful, low-maintenance back gard
 
 ## Design Elements and Textures
 
-![A lush garden with winding paths, vibrant flowers, and a variety of textured foliage. A cozy seating area is nestled among the greenery, with a small fountain adding a soothing ambiance](https://koala.sh/api/image/v2-962iw-0uhbx.jpg?width=1216&height=832&dream)
+![A lush garden with winding paths, vibrant flowers, and a variety of textured foliage. A cozy seating area is nestled among the greenery, with a small fountain adding a soothing ambiance](/images/gallery/gallery-43.jpg)
 
 In this section, we will explore various design elements and textures that can enhance the visual appeal of your back garden. We will focus on both hard and soft landscaping aspects to create a harmonious and inviting outdoor space.
 
@@ -143,7 +144,7 @@ In conclusion, integrating a mix of hard and soft landscaping elements, as well 
 
 ## Outdoor Living Spaces
 
-![A cozy outdoor living space with a pergola, comfortable seating, and a fire pit surrounded by lush greenery and colorful flowers](https://koala.sh/api/image/v2-962jl-gmekn.jpg?width=1216&height=832&dream)
+![A cozy outdoor living space with a pergola, comfortable seating, and a fire pit surrounded by lush greenery and colorful flowers](/images/gallery/gallery-44.jpg)
 
 ### Dining and Entertainment Areas
 
@@ -226,7 +227,7 @@ By selecting sustainable materials and low-maintenance plants, we can create a b
 
 ## Custom Garden Solutions
 
-![A lush backyard garden with a variety of plants, flowers, and trees arranged in a visually appealing and functional design](https://koala.sh/api/image/v2-962me-v30ud.jpg?width=1216&height=832&dream)
+![A lush backyard garden with a variety of plants, flowers, and trees arranged in a visually appealing and functional design](/images/gallery/gallery-45.jpg)
 
 ### Garden Offices and Outbuildings
 
@@ -254,7 +255,7 @@ To transform your back garden into a functional and beautiful space, it's essent
 
 ## Frequently Asked Questions
 
-![A serene back garden with colorful flowers, neatly trimmed hedges, and a winding stone path leading to a cozy seating area](https://koala.sh/api/image/v2-962n3-n8t7n.jpg?width=1216&height=832&dream)
+![A serene back garden with colorful flowers, neatly trimmed hedges, and a winding stone path leading to a cozy seating area](/images/gallery/work2025/20250210_112921.jpg)
 
 ### How can I design a low-maintenance back garden?
 

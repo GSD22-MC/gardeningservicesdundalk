@@ -1,6 +1,7 @@
 ---
 title: "Decking Steps Ideas: Creative and Practical Solutions for Your Garden"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 seoTitle: "Decking Steps Ideas — Wide, Corner & Wrap-Around Designs"
 seoDescription: "Decking step ideas for every garden. Wide steps, corner stairs, wrap-around designs and floating steps. Photos, materials guide and building tips included."
 date: "2024-05-07 17:27:02"
@@ -11,7 +12,7 @@ Decking steps not only serve as a functional element for your outdoor space, but
 
 [Incorporating a variety of decking](https://gardeningservicesdundalk.com/decking-services-dundalk/) steps ideas into your decking design can have a significant impact on the overall look and feel of your [garden landscape](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/). With proper planning and a touch of creativity, you can create a space that is both visually stunning and highly functional.
 
-![A wooden staircase with integrated lighting leading to a cozy outdoor seating area surrounded by potted plants and a decorative railing](https://koala.sh/api/image/v2-92gfp-5pjjk.jpg?width=1216&height=832&dream)
+![A wooden staircase with integrated lighting leading to a cozy outdoor seating area surrounded by potted plants and a decorative railing](/images/gallery/gallery-35.jpg)
 
 When designing your deck steps, it's essential to consider factors such as the available space, the materials used, and the overall style of your outdoor area. The design possibilities are vast, from sleek and modern to rustic and charming.
 

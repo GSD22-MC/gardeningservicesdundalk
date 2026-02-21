@@ -1,6 +1,7 @@
 ---
 title: "Fence Privacy Ideas: Innovative Solutions for Your Garden"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
+servicePillar: "decking-fencing"
 date: "2024-03-22 12:06:10"
 description: "Elevate your garden's privacy with innovative fencing solutions! Explore creative ways to shield your outdoor sanctuary stylishly."
 draft: false
@@ -8,7 +9,7 @@ draft: false
 
 Fence privacy ideas are an essential consideration for homeowners who value their outdoor space. Creating a private area where you can relax and entertain without being overlooked by neighbours can significantly improve your quality of life. Whether your home is in the city, suburbs, or countryside, there are [various fencing options](https://gardeningservicesdundalk.com/fencing/) available to suit your needs and personal style.
 
-![A wooden fence with climbing vines and hanging plants, creating a natural barrier for privacy](https://koala.sh/api/image/v2-965sg-rs8b2.jpg?width=1216&height=832&dream)
+![A wooden fence with climbing vines and hanging plants, creating a natural barrier for privacy](/images/gallery/gallery-46.jpg)
 
 Selecting the right fence design involves not only focusing on the height and type of materials used but also on incorporating aesthetic elements that enhance your outdoor space.
 
@@ -75,7 +76,7 @@ For those looking for a more bespoke or unique fencing solution, there are plent
 
 ## Enhancing Your Outdoor Space
 
-![A tall wooden fence surrounds a cozy outdoor seating area, adorned with hanging plants and twinkling string lights for added privacy and ambiance](https://koala.sh/api/image/v2-965vb-bop2q.jpg?width=1216&height=832&dream)
+![A tall wooden fence surrounds a cozy outdoor seating area, adorned with hanging plants and twinkling string lights for added privacy and ambiance](/images/gallery/gallery-35.jpg)
 
 ### Complementing Garden and Patio
 
@@ -126,7 +127,7 @@ Combining these elements with your chosen plants and accessories will result in 
 
 ## Optimising Fence Performance
 
-![A tall, sturdy fence stands against a backdrop of lush greenery, providing maximum privacy and security. Various creative privacy ideas, such as decorative panels or climbing plants, enhance the fence's functionality](https://koala.sh/api/image/v2-965wt-npp6s.jpg?width=1216&height=832&dream)
+![A tall, sturdy fence stands against a backdrop of lush greenery, providing maximum privacy and security. Various creative privacy ideas, such as decorative panels or climbing plants, enhance the fence's functionality](/images/gallery/gallery-47.jpg)
 
 ### Maintenance Tips for Longevity
 
@@ -158,7 +159,7 @@ By considering the factors above and applying diligent maintenance, we can optim
 
 ## Personalising Fence Aesthetics
 
-![A wooden fence adorned with hanging planters, string lights, and decorative panels, creating a cozy and private outdoor space](https://koala.sh/api/image/v2-965xx-g7rfy.jpg?width=1216&height=832&dream)
+![A wooden fence adorned with hanging planters, string lights, and decorative panels, creating a cozy and private outdoor space](/images/gallery/work2025/20250109_100322.jpg)
 
 Creating an inviting and visually appealing private space begins with choosing the right fence aesthetic. In this section, we will delve into various aspects of fence design to help you personalise your fence and make a statement.
 
@@ -223,7 +224,7 @@ Overall, privacy features are an essential part of any outdoor space. By combini
 
 ## Special Types of Privacy Fences
 
-![A wooden privacy fence stands tall, with latticework on top. Vines and flowers climb up the sides, creating a natural and inviting barrier](https://koala.sh/api/image/v2-965zy-uzvmz.jpg?width=1216&height=832&dream)
+![A wooden privacy fence stands tall, with latticework on top. Vines and flowers climb up the sides, creating a natural and inviting barrier](/images/gallery/work2025/20250109_163752.jpg)
 
 ### Living Walls and Natural Fences
 
@@ -248,7 +249,7 @@ By combining living walls, natural fences, and adaptive fence solutions, it is p
 
 ## Cost and Installation Considerations
 
-![A person measuring and inspecting a backyard for fence installation, considering cost and privacy ideas](https://koala.sh/api/image/v2-9660m-8s00n.jpg?width=1216&height=832&dream)
+![A person measuring and inspecting a backyard for fence installation, considering cost and privacy ideas](/images/gallery/work2025/20250114_092022.jpg)
 
 When planning to install a privacy fence, it's essential to consider the costs, materials, and labour involved. We'll provide a brief overview of these factors to help you make an informed decision.
 

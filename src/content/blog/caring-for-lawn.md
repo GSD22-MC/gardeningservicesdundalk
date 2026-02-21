@@ -1,6 +1,7 @@
 ---
 title: "Caring for Lawn: Top Tips for a Lush Green Garden"
 featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
+servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:25"
 draft: false
 ---

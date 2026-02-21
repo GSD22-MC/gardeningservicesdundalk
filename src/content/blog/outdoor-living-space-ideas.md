@@ -1,13 +1,14 @@
 ---
 title: "Outdoor Living Space Ideas: Transforming Your Garden Experience"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:19"
 draft: false
 ---
 
 Creating an outdoor living space can truly transform your home, providing an inviting and comfortable atmosphere to make the most of the great outdoors. Designing an outdoor area that caters to relaxation, entertainment, and functionality is essential for fully embracing the benefits of alfresco living. By considering various aspects such as ambience, privacy, and adaptability to different weather conditions, you can craft a space that meets your individual needs and preferences.
 
-![A cozy outdoor living space with a wooden deck, comfortable seating, a fire pit, and string lights hanging above](https://koala.sh/api/image/v2-92et0-4e5st.jpg?width=1216&height=832&dream)
+![A cozy outdoor living space with a wooden deck, comfortable seating, a fire pit, and string lights hanging above](/images/gallery/gallery-45.jpg)
 
 To achieve a perfect outdoor living space, it's important to incorporate elements such as [outdoor dining areas and kitchens](https://gardeningservicesdundalk.com/outdoor-kitchens-ideas/), leisure and entertainment features, and suitable lighting to set the mood. Balancing aesthetics with practicality is key, so consider sustainable options and all-weather considerations to ensure your outdoor area can be enjoyed all year round.
 
@@ -79,7 +80,7 @@ Experiment with different [outdoor dining ideas](https://www.homesandgardens.com
 
 ## Ambience and Lighting
 
-![A cozy outdoor living space with warm string lights, a crackling fire pit, and comfortable seating surrounded by lush greenery](https://koala.sh/api/image/v2-92ev8-ie8wf.jpg?width=1216&height=832&dream)
+![A cozy outdoor living space with warm string lights, a crackling fire pit, and comfortable seating surrounded by lush greenery](/images/gallery/gallery-36.jpg)
 
 ### Strategic Use of Lighting
 
@@ -197,7 +198,7 @@ We hope these tips and ideas inspire you to create a beautiful outdoor space tha
 
 ## Aesthetic Enhancements
 
-![A cozy outdoor living space with a wooden deck, string lights, potted plants, and comfortable seating area](https://koala.sh/api/image/v2-92ez9-o0oa9.jpg?width=1216&height=832&dream)
+![A cozy outdoor living space with a wooden deck, string lights, potted plants, and comfortable seating area](/images/gallery/gallery-43.jpg)
 
 When it comes to creating a beautiful outdoor living space, there are many design elements and décor options to consider. In this section, we will discuss some key aesthetic enhancements that can take your outdoor space to the next level.
 
@@ -215,7 +216,7 @@ To summarise, paying attention to aesthetic enhancements like indoor outdoor fur
 
 ## Sustainable Outdoor Living
 
-![A cozy outdoor space with a wooden deck, potted plants, comfy seating, and solar-powered string lights creating a warm and inviting atmosphere](https://koala.sh/api/image/v2-92ezs-ujui2.jpg?width=1216&height=832&dream)
+![A cozy outdoor space with a wooden deck, potted plants, comfy seating, and solar-powered string lights creating a warm and inviting atmosphere](/images/gallery/work2025/20250210_112921.jpg)
 
 ### Integrating Nature and Eco-Friendly Elements
 

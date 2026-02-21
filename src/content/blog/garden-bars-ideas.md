@@ -1,6 +1,7 @@
 ---
 title: "Garden Bars Ideas: Top Trends for Outdoor Entertaining in 2024"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 09:39:30"
 draft: false
 ---
@@ -9,7 +10,7 @@ Home gardens have become go-to destinations for relaxation and entertainment, wi
 
 A garden bar is the perfect addition to your outdoor space, allowing you to unwind with your favourite drinks and socialise with friends and family. In this article, we explore a variety of garden bar ideas, including design inspirations, tips for building your own bar, and essential outdoor bar features to consider.
 
-![Colorful garden bars with hanging string lights, wooden stools, and potted plants. A rustic bar counter with a variety of drinks and cocktails. Lively atmosphere with people chatting and enjoying drinks](https://koala.sh/api/image/v2-964oe-edbmu.jpg?width=1216&height=832&dream)
+![Colorful garden bars with hanging string lights, wooden stools, and potted plants. A rustic bar counter with a variety of drinks and cocktails. Lively atmosphere with people chatting and enjoying drinks](/images/gallery/gallery-45.jpg)
 
 Creating an appealing garden bar requires careful consideration of various aspects, such as the design, space availability, furniture, and accessories.
 
@@ -178,7 +179,7 @@ By following these tips, we believe your outdoor living space will be transforme
 
 ## Seasonal Adaptations
 
-![Lush garden with outdoor bars, adorned with seasonal decorations. Cozy seating areas with fire pits. Colorful flowers and foliage in bloom](https://koala.sh/api/image/v2-964va-e7y6q.jpg?width=1216&height=832&dream)
+![Lush garden with outdoor bars, adorned with seasonal decorations. Cozy seating areas with fire pits. Colorful flowers and foliage in bloom](/images/gallery/work2025/20250204_173031.jpg)
 
 ### Quick and Easy Seasonal Updates
 
@@ -227,7 +228,7 @@ By merging your garden bar with a garden room, you can [create an exciting backy
 
 ## Final Touches
 
-![Lush garden with cozy bars, string lights, and comfortable seating. Colorful flowers and greenery add a vibrant touch](https://koala.sh/api/image/v2-964wn-8apmi.jpg?width=1216&height=832&dream)
+![Lush garden with cozy bars, string lights, and comfortable seating. Colorful flowers and greenery add a vibrant touch](/images/gallery/work2025/20250206_083458.jpg)
 
 ### Bar Cart Essentials
 

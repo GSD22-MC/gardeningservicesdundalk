@@ -1,6 +1,7 @@
 ---
 title: "Modern Gardens Ideas: Innovative Designs for 2024 Outdoor Spaces"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 10:14:34"
 draft: false
 ---
@@ -9,7 +10,7 @@ Modern gardens have become increasingly popular as homeowners seek to create sty
 
 By considering aspects such as garden features, installations, and planting choices, you can tailor your modern garden to your personal preferences and practical needs.
 
-![A sleek, minimalist garden with geometric planters and clean lines. A mix of greenery and concrete create a contemporary, serene outdoor space](https://koala.sh/api/image/v2-962xd-2mbw4.jpg?width=1216&height=832&dream)
+![A sleek, minimalist garden with geometric planters and clean lines. A mix of greenery and concrete create a contemporary, serene outdoor space](/images/services/landscaping.jpg)
 
 As you embark on your modern garden journey, it's essential to consider how you will utilise the space, incorporating elements that reflect your individual style and requirements.
 
@@ -47,7 +48,7 @@ By integrating these key elements, you can successfully create a modern garden t
 
 ## Planning Your Garden Space
 
-![A spacious backyard with neatly arranged raised garden beds, trellises, and pathways. A mix of colorful flowers, herbs, and vegetables create a harmonious and modern garden space](https://koala.sh/api/image/v2-962yr-k49oc.jpg?width=1216&height=832&dream)
+![A spacious backyard with neatly arranged raised garden beds, trellises, and pathways. A mix of colorful flowers, herbs, and vegetables create a harmonious and modern garden space](/images/gallery/gallery-36.jpg)
 
 ### Assessing the Size and Shape
 
@@ -69,7 +70,7 @@ Neutral colours, such as whites and greys, create a timeless and versatile backd
 
 ## Garden Features and Installations
 
-![A modern garden with sleek, geometric planters, a minimalist water feature, and a sculptural installation as the focal point](https://koala.sh/api/image/v2-962zg-4wfg8.jpg?width=1216&height=832&dream)
+![A modern garden with sleek, geometric planters, a minimalist water feature, and a sculptural installation as the focal point](/images/gallery/gallery-43.jpg)
 
 ### Decking and Patio Areas
 
@@ -128,7 +129,7 @@ By thoughtfully selecting plants and employing these low maintenance strategies,
 
 ## Outdoor Living and Dining
 
-![A modern outdoor living and dining area with sleek furniture, a fire pit, and a pergola surrounded by lush greenery and contemporary landscaping](https://koala.sh/api/image/v2-96314-a1csd.jpg?width=1216&height=832&dream)
+![A modern outdoor living and dining area with sleek furniture, a fire pit, and a pergola surrounded by lush greenery and contemporary landscaping](/images/gallery/gallery-44.jpg)
 
 ### Modern Outdoor Kitchen and Barbecue
 
@@ -150,7 +151,7 @@ By implementing these [modern garden ideas](https://gardeningservicesdundalk.com
 
 ## Furnishing Your Outdoor Space
 
-![A sleek outdoor space with minimalist furniture, geometric planters, and a fire pit. Clean lines and neutral colors create a contemporary, inviting atmosphere](https://koala.sh/api/image/v2-9631z-onqyf.jpg?width=1216&height=832&dream)
+![A sleek outdoor space with minimalist furniture, geometric planters, and a fire pit. Clean lines and neutral colors create a contemporary, inviting atmosphere](/images/gallery/gallery-45.jpg)
 
 ### Contemporary Garden Furniture
 
@@ -205,7 +206,7 @@ By thoughtfully integrating architectural elements like fences, boundaries, and 
 
 ## Special Features for Families and Children
 
-![Lush greenery surrounds a play area with colorful structures. Families gather around picnic tables and children explore interactive garden features](https://koala.sh/api/image/v2-96333-erejf.jpg?width=1216&height=832&dream)
+![Lush greenery surrounds a play area with colorful structures. Families gather around picnic tables and children explore interactive garden features](/images/gallery/work2025/20250206_083458.jpg)
 
 ### Safe and Engaging Children’s Areas
 
@@ -287,7 +288,7 @@ Both of these case studies exemplify the potential of modern garden design, demo
 
 ## Frequently Asked Questions
 
-![A modern garden with clean lines, geometric shapes, and minimalistic plantings. A pergola or seating area with sleek furniture and integrated lighting](https://koala.sh/api/image/v2-9635b-dux6p.jpg?width=1216&height=832&dream)
+![A modern garden with clean lines, geometric shapes, and minimalistic plantings. A pergola or seating area with sleek furniture and integrated lighting](/images/gallery/work2025/20250207_163445.jpg)
 
 ### What are the essential elements of a contemporary garden design?
 

@@ -1,6 +1,7 @@
 ---
 title: "Gravel Gardens Ideas: Top Trends and Designs for 2024"
 featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
+servicePillar: "patio-paving"
 date: "2024-03-22 12:04:04"
 description: " Discover gravel garden ideas to enhance your outdoor space with sustainability and ease. Ideal for those seeking stylish, low-maintenance gardens."
 draft: false
@@ -8,7 +9,7 @@ draft: false
 
 Gravel gardens are becoming increasingly popular as an attractive, low-maintenance alternative to traditional gardens. They offer a practical solution for those wanting an easy-care space with stylish design elements. Typically incorporating a mix of drought-resistant plants and decorative gravel, these gardens can be tailored to suit any size and style preferences.
 
-![A gravel garden with various textures and colors, featuring succulents, cacti, and ornamental grasses arranged in geometric patterns](https://koala.sh/api/image/v2-966qs-yk85r.jpg?width=1216&height=832&dream)
+![A gravel garden with various textures and colors, featuring succulents, cacti, and ornamental grasses arranged in geometric patterns](/images/services/paving.jpg)
 
 Creating a gravel garden starts with selecting the right plants and materials. The key is to choose drought-tolerant plants such as succulents, grasses, and Mediterranean herbs that will thrive in well-drained soil conditions. Additionally, it is important to consider the style of gravel and other decorative elements, such as boulders and [pathways](https://gardeningservicesdundalk.com/paving-ideas-for-gardens/), to complement the overall design.
 

@@ -25,6 +25,7 @@ const { page, contentType } = Astro.props;
 const { Content } = await page.render();
 const { title, seoTitle, seoDescription } = page.data;
 const isBlog = contentType === 'blog';
+const pageSlug = page.id.replace(/\.md$/, '');
 
 // Blog-specific data
 const formattedDate = isBlog
@@ -32,12 +33,65 @@ const formattedDate = isBlog
   : null;
 const featuredImage = isBlog ? page.data.featuredImage : null;
 const description = isBlog ? page.data.description : null;
+const servicePillar = isBlog ? page.data.servicePillar : null;
+
+// Service pillar mapping
+const pillarNames: Record<string, string> = {
+  'decking-fencing': 'Decking & Fencing',
+  'patio-paving': 'Patio & Paving',
+  'grass-cutting': 'Grass Cutting & Lawn Care',
+  'garden-landscaping': 'Garden Landscaping',
+  'hedge-trimming': 'Hedge Trimming',
+  'garden-clearance': 'Garden Clearance',
+};
+const pillarName = servicePillar ? pillarNames[servicePillar] || servicePillar : null;
+
+// Get related blog posts (same service pillar, excluding current)
+let relatedPosts: any[] = [];
+if (isBlog && servicePillar) {
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const currentSlug = page.id.replace(/\.md$/, '');
+  relatedPosts = allPosts
+    .filter((p) => p.data.servicePillar === servicePillar && p.id.replace(/\.md$/, '') !== currentSlug)
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+    .slice(0, 6);
+}
 
 // Service-area specific data
 const areaMatch = !isBlog
   ? title.match(/(?:in\s+|Services?\s+|Installation[:\s]+|Mowing\s+|Contractors?\s+)([A-Z][a-zA-Z\s,]+)$/)
   : null;
 const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
+
+// Determine service type from slug for hero image and pillar link
+const serviceImageMap: Record<string, { image: string; pillar: string; pillarSlug: string }> = {
+  'garden-landscaping': { image: '/images/services/landscaping.jpg', pillar: 'Garden Landscaping', pillarSlug: 'garden-landscaping' },
+  'grass-cutting': { image: '/images/services/grass-cutting.jpg', pillar: 'Grass Cutting & Lawn Care', pillarSlug: 'grass-cutting' },
+  'hedge-trimming': { image: '/images/services/hedge-trimming.jpg', pillar: 'Hedge Trimming', pillarSlug: 'hedge-trimming' },
+  'decking-services': { image: '/images/gallery/gallery-46.jpg', pillar: 'Decking & Fencing', pillarSlug: 'decking-fencing' },
+  'fencing-installation': { image: '/images/gallery/gallery-35.jpg', pillar: 'Decking & Fencing', pillarSlug: 'decking-fencing' },
+  'patio-paving': { image: '/images/services/paving.jpg', pillar: 'Patio & Paving', pillarSlug: 'patio-paving' },
+  'garden-clearance': { image: '/images/services/garden-clearance.jpg', pillar: 'Garden Clearance', pillarSlug: 'garden-clearance' },
+  'garden-maintenance': { image: '/images/services/landscaping.jpg', pillar: 'Garden Landscaping', pillarSlug: 'garden-landscaping' },
+};
+
+let serviceInfo = null;
+if (!isBlog) {
+  for (const [prefix, info] of Object.entries(serviceImageMap)) {
+    if (pageSlug.startsWith(prefix)) {
+      serviceInfo = info;
+      break;
+    }
+  }
+}
+const heroImage = serviceInfo?.image || '/images/gallery/gallery-36.jpg';
+
+// Get reviews for service-area pages
+let saReviews: any[] = [];
+if (!isBlog) {
+  const allReviews = await getCollection('reviews');
+  saReviews = allReviews.filter((r) => r.data.rating === 5).slice(0, 3);
+}
 ---
 
 <PageLayout
@@ -45,7 +99,7 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
   description={seoDescription || (isBlog
     ? description || `Read about ${title} — gardening advice from Pete & Seamus.`
     : `Professional ${title.toLowerCase()}. Free quotes from Pete & Seamus — 35+ years experience serving County Louth.`)}
-  ogImage={featuredImage}
+  ogImage={isBlog ? featuredImage : heroImage}
 >
   {isBlog && (
     <script slot="head" type="application/ld+json" set:html={JSON.stringify({
@@ -61,6 +115,7 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
   )}
 
   {isBlog ? (
+    <!-- ====== BLOG HEADER ====== -->
     <section class="section section-green" style="padding: 3rem 0;">
       <div class="container-narrow">
         <p style="margin-bottom: 0.5rem;">
@@ -73,13 +128,47 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
       </div>
     </section>
   ) : (
-    <section class="section section-green">
+    <!-- ====== SERVICE-AREA HERO ====== -->
+    <section class="service-hero" style={`background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${heroImage}');`}>
       <div class="container">
-        <div class="section-header">
-          <span class="section-badge">Local Service</span>
+        <div class="service-hero-content">
+          <span class="section-badge" style="background: var(--gsd-orange); color: #fff;">Local Service</span>
           <h1>{title}</h1>
-          <p class="section-subtitle">Professional service from Pete & Seamus — your local gardening experts.</p>
-          <hr class="section-divider" />
+          <p class="service-hero-desc">Professional service from Pete & Seamus — your local gardening experts with 35+ years experience.</p>
+          <div class="service-hero-buttons">
+            <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              085 168 5170
+            </a>
+            <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+            <a href="/contact/" class="btn btn-white btn-lg">Get Free Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Trust bar for service-area pages */}
+  {!isBlog && (
+    <section class="trust-bar">
+      <div class="container">
+        <div class="trust-bar-inner">
+          <div class="trust-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span>5-Star Rated</span>
+          </div>
+          <div class="trust-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>35+ Years Experience</span>
+          </div>
+          <div class="trust-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Free Quotes</span>
+          </div>
+          <div class="trust-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Fully Insured</span>
+          </div>
         </div>
       </div>
     </section>
@@ -100,6 +189,103 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
       </div>
     </div>
   </section>
+
+  {/* Mid-page CTA for service-area pages */}
+  {!isBlog && (
+    <section class="cta-section cta-mid">
+      <div class="container fade-in">
+        <h2>Get a Free Quote in {areaName}</h2>
+        <p>No obligation — just honest advice and fair pricing from Pete & Seamus.</p>
+        <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+        <div class="cta-buttons">
+          <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+          <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Service pillar link for service-area pages */}
+  {!isBlog && serviceInfo && (
+    <section class="section section-white">
+      <div class="container">
+        <div class="pillar-callout">
+          <p class="pillar-callout-label">This is part of our</p>
+          <a href={`/services/${serviceInfo.pillarSlug}/`} class="pillar-callout-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 6px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            {serviceInfo.pillar} Service
+          </a>
+          <p class="pillar-callout-desc">View all our {serviceInfo.pillar.toLowerCase()} services — <a href="/contact/" style="color: var(--gsd-orange);">get a free quote</a>.</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Reviews for service-area pages */}
+  {!isBlog && saReviews.length > 0 && (
+    <section class="section section-green">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-badge">⭐ What Our Customers Say</span>
+          <h2>50+ Five-Star Reviews</h2>
+          <p class="section-subtitle">Trusted by homeowners across County Louth.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="reviews-grid">
+          {saReviews.map((review, i) => (
+            <div class="review-card fade-in" style={i > 0 ? `transition-delay: ${i * 0.1}s` : ''}>
+              <div class="review-stars">{'★'.repeat(review.data.rating)}</div>
+              <p class="review-title">"{review.data.name}"</p>
+              <p class="review-text">{review.data.text.length > 200 ? review.data.text.slice(0, 200) + '...' : review.data.text}</p>
+              <p class="review-author">— {review.data.author || 'Happy Customer'}</p>
+              <p class="review-source">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Customer Review
+              </p>
+            </div>
+          ))}
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+          <a href="/reviews/" class="btn btn-primary">Read All Reviews →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Service Pillar Link + Related Posts for blog */}
+  {isBlog && servicePillar && (
+    <section class="section section-green">
+      <div class="container">
+        {/* Pillar callout */}
+        <div class="pillar-callout">
+          <p class="pillar-callout-label">This article is part of our</p>
+          <a href={`/services/${servicePillar}/`} class="pillar-callout-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 6px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            {pillarName} Service
+          </a>
+          <p class="pillar-callout-desc">Professional {pillarName?.toLowerCase()} across Dundalk & County Louth — <a href="/contact/" style="color: var(--gsd-orange);">get a free quote</a>.</p>
+        </div>
+
+        {/* Related Posts */}
+        {relatedPosts.length > 0 && (
+          <div style="margin-top: 2rem;">
+            <h3 class="text-center" style="margin-bottom: 1rem;">Related Articles</h3>
+            <div class="related-posts-grid">
+              {relatedPosts.map((rp) => (
+                <a href={`/${rp.id.replace(/\.md$/, '')}/`} class="related-post-card">
+                  {rp.data.featuredImage && (
+                    <img src={rp.data.featuredImage} alt={rp.data.title} loading="lazy" width="300" height="150" />
+                  )}
+                  <span>{rp.data.title}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
 
   <!-- FAQ Accordion Script -->
   <script>
@@ -158,9 +344,7 @@ const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
       <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
       <div class="cta-buttons">
         <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
-        {!isBlog && (
-          <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
-        )}
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
         <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
       </div>
     </div>

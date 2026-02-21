@@ -1,6 +1,7 @@
 ---
 title: "Modern Summer House Ideas: 10 Inspiring Designs for the Perfect Retreat"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 10:28:13"
 draft: false
 ---
@@ -9,7 +10,7 @@ Modern summer houses have become increasingly popular as a haven for relaxation,
 
 With contemporary designs and cutting-edge technology, modern summer houses offer a versatile and comfortable sanctuary to escape daily life and immerse yourself in nature.
 
-![A sleek, minimalist summer house with large windows, a spacious outdoor deck, and a stylish, open-concept interior with modern furniture and neutral color scheme](https://koala.sh/api/image/v2-961ye-eylng.jpg?width=1216&height=832&dream)
+![A sleek, minimalist summer house with large windows, a spacious outdoor deck, and a stylish, open-concept interior with modern furniture and neutral color scheme](/images/services/landscaping.jpg)
 
 When planning your summer house, it is essential to focus on both functionality and aesthetics. The design should cater to your needs, blending seamlessly with the surrounding environment, and making the most of the available space.
 
@@ -47,7 +48,7 @@ By selecting the right architectural style, maximising space, and incorporating 
 
 ## Functionality and Versatility
 
-![A modern summer house with open floor plan, large windows, and outdoor living space. Contemporary furniture and natural materials create a seamless indoor-outdoor flow](https://koala.sh/api/image/v2-961zh-gweil.jpg?width=1216&height=832&dream)
+![A modern summer house with open floor plan, large windows, and outdoor living space. Contemporary furniture and natural materials create a seamless indoor-outdoor flow](/images/gallery/gallery-36.jpg)
 
 ### Multi-Purpose Use
 
@@ -109,7 +110,7 @@ Consider using a monochromatic colour scheme, with crisp white walls and dark ac
 
 ## Building and Renovation Tips
 
-![A modern summer house with sleek design, large windows, and a spacious outdoor deck surrounded by lush landscaping. A renovation crew works on adding a stylish pergola and updating the exterior with new siding and fresh paint](https://koala.sh/api/image/v2-9621c-bazop.jpg?width=1216&height=832&dream)
+![A modern summer house with sleek design, large windows, and a spacious outdoor deck surrounded by lush landscaping. A renovation crew works on adding a stylish pergola and updating the exterior with new siding and fresh paint](/images/gallery/gallery-43.jpg)
 
 ### Selecting Materials
 
@@ -136,7 +137,7 @@ By considering these building and renovation tips when creating your modern summ
 
 ## Innovative Features and Technologies
 
-![A sleek, minimalist summer house with solar panels, smart home technology, and a green roof, surrounded by a lush garden and outdoor entertainment area](https://koala.sh/api/image/v2-9621x-erp1r.jpg?width=1216&height=832&dream)
+![A sleek, minimalist summer house with solar panels, smart home technology, and a green roof, surrounded by a lush garden and outdoor entertainment area](/images/gallery/gallery-44.jpg)
 
 ### Smart Home Integration
 
@@ -152,7 +153,7 @@ Modern summer houses are showcasing innovative design elements, such as curved r
 
 ## Space Maximisation Strategies
 
-![The modern summer house features sleek, multifunctional furniture and built-in storage solutions. Large windows flood the space with natural light, and a minimalist color palette creates a sense of openness](https://koala.sh/api/image/v2-9622d-8zp7t.jpg?width=1216&height=832&dream)
+![The modern summer house features sleek, multifunctional furniture and built-in storage solutions. Large windows flood the space with natural light, and a minimalist color palette creates a sense of openness](/images/gallery/gallery-45.jpg)
 
 ### Creative Storage Solutions
 
@@ -196,7 +197,7 @@ We should also account for the cost of any required legal or planning applicatio
 
 ## Frequently Asked Questions
 
-![A sleek, minimalist summer house with large windows, a spacious outdoor deck, and a sleek, contemporary design. The house is surrounded by lush greenery and features modern landscaping](https://koala.sh/api/image/v2-9623s-ywbkl.jpg?width=1216&height=832&dream)
+![A sleek, minimalist summer house with large windows, a spacious outdoor deck, and a sleek, contemporary design. The house is surrounded by lush greenery and features modern landscaping](/images/gallery/work2025/20250118_161608.jpg)
 
 ### How can I design a modern summer house on a tight budget?
 

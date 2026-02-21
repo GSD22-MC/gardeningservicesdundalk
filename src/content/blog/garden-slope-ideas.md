@@ -1,13 +1,14 @@
 ---
 title: "Garden Slope Ideas: Innovative Designs for Steep Spaces"
 featuredImage: "/images/gallery/work2025/20250305_084243.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-07 17:00:45"
 draft: false
 ---
 
 Gardening on a slope presents unique challenges, but it also offers numerous opportunities for creative and functional landscaping. Sloping gardens require careful planning and innovative ideas to transform an uneven terrain into a visually appealing and practical space. Whether you're dealing with a gentle gradient or a steep hillside, there are various [garden design](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/) solutions for maximising the use of this tricky space.
 
-![A lush garden slopes down towards a tranquil pond, with colorful flowers and tall grasses swaying in the gentle breeze](https://koala.sh/api/image/v2-92gky-4m7hm.jpg?width=1216&height=832&dream)
+![A lush garden slopes down towards a tranquil pond, with colorful flowers and tall grasses swaying in the gentle breeze](/images/gallery/gallery-36.jpg)
 
 Understanding the specific challenges of your garden's slope is essential to ensure the success of your landscaping project. Some common issues include poor drainage, erosion, and difficulty in maintaining plants on an incline.
 

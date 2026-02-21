@@ -1,6 +1,7 @@
 ---
 title: "How and When to Trim a Hedge: A Seasonal Guide for Healthy Growth"
 featuredImage: "/images/gallery/work2025/20250716_172844.jpg"
+servicePillar: "hedge-trimming"
 date: "2024-05-28 19:02:33"
 draft: false
 ---
@@ -9,7 +10,7 @@ draft: false
 
 Deciduous [hedges are best trimmed](https://gardeningservicesdundalk.com/ardee/hedge-trimming-services-ardee/) in the late summer, after they've finished their growth spurt, ensuring they look their best throughout the winter. Evergreen [hedges can be trimmed](https://gardeningservicesdundalk.com/ballymascanlan/hedge-trimming-services-ballymascanlan/) in early or late summer as they require less frequent maintenance.
 
-![A pair of hedge clippers trims a neatly shaped hedge in the early morning light](https://koala.sh/api/image/v2-6rd95-0qnjf.jpg?width=1216&height=832&dream)
+![A pair of hedge clippers trims a neatly shaped hedge in the early morning light](/images/services/hedge-trimming.jpg)
 
 Before you start trimming, it’s essential to have the right tools and gear. Secateurs, garden shears, and hedge trimmers are the primary tools, and safety goggles, gloves, and sturdy shoes should be worn to prevent accidents.
 
@@ -114,7 +115,7 @@ Ensure you have a plan for waste disposal; collecting clippings as you go keeps 
 
 ## Trimming Techniques
 
-![](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/Copy-of-How-and-When-to-Trim-a-Hedge-1024x512.jpg)
+![Hedge trimming by Gardening Services Dundalk](/images/gallery/gallery-38.jpg)
 
 Effective [trimming maintains the health and aesthetics of your hedges](https://gardeningservicesdundalk.com/hackballscross/hedge-trimming-services-hackballscross/). Choose the right method and tools to shape formal and informal hedges, keeping in mind their distinct needs for a tidy and vibrant garden.
 
@@ -140,7 +141,7 @@ Informal hedges, such as forsythia or hornbeam (Carpinus betulus), flourish with
 
 ## Post-Trimming Care
 
-![A pair of hedge clippers, a neatly trimmed hedge, and a person wearing gloves and eye protection](https://koala.sh/api/image/v2-6rdbt-3yodi.jpg?width=1216&height=832&dream)
+![A pair of hedge clippers, a neatly trimmed hedge, and a person wearing gloves and eye protection](/images/gallery/gallery-39.jpg)
 
 After giving your [hedges a good trim](https://gardeningservicesdundalk.com/louth-village/hedge-trimming-services-louth-village/), it's crucial to address the aftermath and care to ensure healthy regrowth and a tidy garden appearance.
 
@@ -194,7 +195,7 @@ Remember, patience is key. Hedges may take time to show the full benefit of your
 
 ## Frequently Asked Questions
 
-![A hedge trimmer cutting a neatly shaped hedge in a garden](https://koala.sh/api/image/v2-6rdca-mp2wb.jpg?width=1216&height=832&dream)
+![A hedge trimmer cutting a neatly shaped hedge in a garden](/images/gallery/work2025/20250114_092022.jpg)
 
 Proper hedge [maintenance is crucial for a healthy and aesthetically pleasing garden](https://gardeningservicesdundalk.com/garden-maintenance/). Here are some answers to common questions about [hedge trimming](https://gardeningservicesdundalk.com/hedge-trimming-cutting/).
 

@@ -1,13 +1,14 @@
 ---
 title: "DIY Gardening Ideas: Innovative Tips for a Thriving Garden"
 featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:18"
 draft: false
 ---
 
 Gardening is a rewarding pastime that can be both enjoyable and therapeutic. With the right DIY garden ideas, you can transform your outdoor space into a lush and beautiful haven. You don't need to be a professional landscape designer or spend a fortune to create an incredible garden; a little creativity and some basic tools can go a long way in making your garden stand out from the rest.
 
-![A lush garden with potted plants, hanging baskets, and a colorful array of flowers and vegetables. A small table with gardening tools and supplies](https://koala.sh/api/image/v2-92f4v-8pbro.jpg?width=1216&height=832&dream)
+![A lush garden with potted plants, hanging baskets, and a colorful array of flowers and vegetables. A small table with gardening tools and supplies](/images/services/landscaping.jpg)
 
 When it comes to planning your DIY garden project, there are plenty of aspects to consider such as the type of garden you want, the features you'd like to incorporate, and [even your budget](https://gardeningservicesdundalk.com/garden-patio-ideas-on-a-budget/). You may also want to think about the gardening activities you'll pursue during different seasons and how to adjust your garden for different climates. By taking the time to carefully plan your project, you can ensure that you create a garden tailored to your unique needs and tastes.
 
@@ -152,7 +153,7 @@ Lastly, don't forget the **[front porch planter](https://www.homesandgardens.com
 
 ## Practical Gardening Tips and Tricks
 
-![Lush garden with various plants, tools, and DIY projects. A compost bin and raised beds show sustainable practices. Bright colors and clean lines](https://koala.sh/api/image/v2-92f8y-ckqsf.jpg?width=1216&height=832&dream)
+![Lush garden with various plants, tools, and DIY projects. A compost bin and raised beds show sustainable practices. Bright colors and clean lines](/images/gallery/gallery-36.jpg)
 
 ### Solving Common Garden Problems
 
@@ -176,7 +177,7 @@ By incorporating these DIY garden ideas into your outdoor space, you can overcom
 
 ## Gardening for Different Climates
 
-![Lush green plants thrive in various climates, from desert succulents to tropical flowers. A gardener tends to a colorful array of flora, each adapted to its unique environment](https://koala.sh/api/image/v2-92f9k-lz6oe.jpg?width=1216&height=832&dream)
+![Lush green plants thrive in various climates, from desert succulents to tropical flowers. A gardener tends to a colorful array of flora, each adapted to its unique environment](/images/gallery/gallery-43.jpg)
 
 ### Greenhouse Gardening
 
@@ -261,7 +262,7 @@ Another popular material for budget gardening is _cinder blocks_. These versatil
 
 ## Gardening Health and Safety
 
-![A well-maintained garden with proper tools, gloves, and safety equipment. Clear pathways and organized storage for gardening supplies](https://koala.sh/api/image/v2-92fcc-p5rx9.jpg?width=1216&height=832&dream)
+![A well-maintained garden with proper tools, gloves, and safety equipment. Clear pathways and organized storage for gardening supplies](/images/gallery/gallery-44.jpg)
 
 ### Safe Gardening Practices
 

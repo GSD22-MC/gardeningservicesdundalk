@@ -1,6 +1,7 @@
 ---
 title: "Guide to Patio Paving: Essential Tips for Perfect Outdoor Flooring"
 featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
+servicePillar: "patio-paving"
 date: "2024-02-01 20:57:25"
 draft: false
 ---
@@ -11,7 +12,7 @@ Selecting the right materials and design for patio paving can be overwhelming, c
 
 With expertise in landscape design and [Patio Paving installation](https://gardeningservicesdundalk.com/paving/), this guide will provide you with insights and tips to make your patio paving project successful. Whether you're a DIY enthusiast or planning to hire professionals, you'll find valuable information tailored to your level of experience and involvement.
 
-![A patio with interlocking pavers, surrounded by lush greenery and a cozy seating area. The sun is shining, casting a warm glow on the space](https://koala.sh/api/image/v2-6nyo9-sqzgt.jpg?width=1216&height=832&dream=)
+![A patio with interlocking pavers, surrounded by lush greenery and a cozy seating area. The sun is shining, casting a warm glow on the space](/images/services/paving.jpg)
 
 Before beginning your patio project, it's essential to design your layout carefully. Think about the size of your patio, the shape, and how it will blend with the rest of your garden. Adequate planning also involves preparing the site, which may include excavation and creating a solid foundation to ensure a long-lasting patio.
 
@@ -25,7 +26,7 @@ The installation process involves laying the pavers in your chosen pattern and s
 
 ## Understanding Patio Paving
 
-![A patio with various paving options laid out in a guide format, including different materials, patterns, and designs](https://koala.sh/api/image/v2-6nyp0-078l2.jpg?width=1216&height=832&dream=)
+![A patio with various paving options laid out in a guide format, including different materials, patterns, and designs](/images/gallery/gallery-31.jpg)
 
 When considering patio paving, it is essential to understand the advantages it offers, the variety of materials available, and how to choose the right option for your needs.
 
@@ -56,7 +57,7 @@ By carefully considering these factors, you will be able to [find a paving mater
 
 ## Planning Your Patio Design
 
-![A patio with various paving options laid out in a guidebook, surrounded by potted plants and outdoor furniture](https://koala.sh/api/image/v2-6nyqd-mz877.jpg?width=1216&height=832&dream=)
+![A patio with various paving options laid out in a guidebook, surrounded by potted plants and outdoor furniture](/images/gallery/gallery-42.jpg)
 
 Effective patio design requires careful consideration of both aesthetic and functional elements. Your choice in layout, integration, and dimensions will establish the foundation of your outdoor living space.
 

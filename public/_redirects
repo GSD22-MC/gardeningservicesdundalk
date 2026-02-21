@@ -1,0 +1,99 @@
+# ============================================================
+# Netlify 301 Redirects — preserve WordPress URL structure
+# Generated from Google Search Console data (Feb 2026)
+# ============================================================
+
+# --- Changed page URLs ---
+/about-us/            /about/        301
+/about-us             /about/        301
+/contact-us/          /contact/      301
+/contact-us           /contact/      301
+/locations/           /areas/        301
+/locations            /areas/        301
+/free-quote/          /contact/      301
+/free-quote           /contact/      301
+
+# --- Category pages → Blog ---
+/category/*           /blog/         301
+
+# --- Area pages: /area-name/ → /areas/area-name/ ---
+# --- Nested service-areas: /area-name/slug/ → /slug/ ---
+
+# Louth Village (6 clicks, 363 impressions + 17 clicks nested)
+/louth-village       /areas/louth-village/   301
+/louth-village/      /areas/louth-village/   301
+/louth-village/*     /:splat                 301
+
+# Blackrock (1 click, 828 impressions)
+/blackrock           /areas/blackrock/       301
+/blackrock/          /areas/blackrock/       301
+/blackrock/*         /:splat                 301
+
+# Carlingford (1 click, 274 impressions)
+/carlingford         /areas/carlingford/     301
+/carlingford/        /areas/carlingford/     301
+/carlingford/*       /:splat                 301
+
+# Ardee (265 impressions)
+/ardee               /areas/ardee/           301
+/ardee/              /areas/ardee/           301
+/ardee/*             /:splat                 301
+
+# Annagassan (139 impressions)
+/annagassan          /areas/annagassan/      301
+/annagassan/         /areas/annagassan/      301
+/annagassan/*        /:splat                 301
+
+# Jenkinstown (104 impressions)
+/jenkinstown         /areas/jenkinstown/     301
+/jenkinstown/        /areas/jenkinstown/     301
+/jenkinstown/*       /:splat                 301
+
+# Omeath (90 impressions)
+/omeath              /areas/omeath/          301
+/omeath/             /areas/omeath/          301
+/omeath/*            /:splat                 301
+
+# Castlebellingham (66 impressions)
+/castlebellingham        /areas/castlebellingham/   301
+/castlebellingham/       /areas/castlebellingham/   301
+/castlebellingham/*      /:splat                    301
+
+# Lordship (65 impressions)
+/lordship            /areas/lordship/        301
+/lordship/           /areas/lordship/        301
+/lordship/*          /:splat                 301
+
+# Ballymascanlan (57 impressions)
+/ballymascanlan      /areas/ballymascanlan/  301
+/ballymascanlan/     /areas/ballymascanlan/  301
+/ballymascanlan/*    /:splat                 301
+
+# Greenore (53 impressions)
+/greenore            /areas/greenore/        301
+/greenore/           /areas/greenore/        301
+/greenore/*          /:splat                 301
+
+# Inniskeen (47 impressions)
+/inniskeen           /areas/inniskeen/       301
+/inniskeen/          /areas/inniskeen/       301
+/inniskeen/*         /:splat                 301
+
+# Hackballscross (39 impressions)
+/hackballscross      /areas/hackballscross/  301
+/hackballscross/     /areas/hackballscross/  301
+/hackballscross/*    /:splat                 301
+
+# Knockbridge (21 impressions)
+/knockbridge         /areas/knockbridge/     301
+/knockbridge/        /areas/knockbridge/     301
+/knockbridge/*       /:splat                 301
+
+# Dundalk (safety — main area)
+/dundalk             /areas/dundalk/         301
+/dundalk/            /areas/dundalk/         301
+/dundalk/*           /:splat                 301
+
+# --- Old WordPress pages that may have been indexed ---
+/website-terms-disclaimer/   /404.html   410
+/privacy-policy/             /404.html   410

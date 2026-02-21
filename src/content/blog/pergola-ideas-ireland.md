@@ -1,13 +1,14 @@
 ---
 title: "Pergola Ideas Ireland: Top Designs and Styles to Inspire Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250709_190607.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:16"
 draft: false
 ---
 
 Pergolas have become increasingly popular in Ireland as homeowners discover their aesthetic and functional benefits. These versatile [outdoor structures](https://gardeningservicesdundalk.com/outdoor-living-spaces-ideas/) can enhance the appearance of any garden, while providing a shaded space to relax and enjoy the outdoors. With a range of design choices and materials available, there are endless possibilities when it comes to creating the perfect pergola for your Irish home.
 
-![A rustic pergola in an Irish garden, draped with climbing plants and surrounded by lush greenery and colorful flowers](https://koala.sh/api/image/v2-92fgl-q65sr.jpg?width=1216&height=832&dream)
+![A rustic pergola in an Irish garden, draped with climbing plants and surrounded by lush greenery and colorful flowers](/images/services/landscaping.jpg)
 
 As you start exploring pergola ideas in Ireland, consider aspects such as design, functionality, and installation process. The design you select should complement your existing garden and home, reflecting the overall style and atmosphere you wish to create.
 
@@ -21,7 +22,7 @@ Functionally, pergolas can serve various purposes, from a [covered seating area 
 
 ## Exploring Pergola Ideas in Ireland
 
-![A lush garden in Ireland with a stone pergola surrounded by blooming flowers and greenery, with a backdrop of rolling hills and a cloudy sky](https://koala.sh/api/image/v2-92fgz-wtnls.jpg?width=1216&height=832&dream)
+![A lush garden in Ireland with a stone pergola surrounded by blooming flowers and greenery, with a backdrop of rolling hills and a cloudy sky](/images/gallery/gallery-36.jpg)
 
 Ireland offers many opportunities for creating beautiful and functional outdoor living spaces, and a pergola can be an essential element in enhancing your garden. As we explore different pergola ideas, we'll take you through various [design options and considerations to transform your outdoor space](https://gardeningservicesdundalk.com/backyard-ideas/).
 
@@ -42,7 +43,7 @@ In summary, creating an ideal pergola in Ireland involves careful consideration 
 
 ## Design and Aesthetic Considerations
 
-![A wooden pergola stands in a lush Irish garden, surrounded by blooming flowers and climbing vines, with a backdrop of rolling green hills](https://koala.sh/api/image/v2-92fhv-rfzea.jpg?width=1216&height=832&dream)
+![A wooden pergola stands in a lush Irish garden, surrounded by blooming flowers and climbing vines, with a backdrop of rolling green hills](/images/gallery/gallery-43.jpg)
 
 ### Incorporating Nature and Art
 
@@ -68,7 +69,7 @@ On the other hand, a pergola with classic architectural influences might involve
 
 ## Functional Aspects of Pergolas
 
-![A sturdy pergola stands in a lush garden, providing shade and support for climbing plants. The wooden beams and lattice roof create a visually appealing structure, while the open design allows for natural light and air flow](https://koala.sh/api/image/v2-92fin-dho4g.jpg?width=1216&height=832&dream)
+![A sturdy pergola stands in a lush garden, providing shade and support for climbing plants. The wooden beams and lattice roof create a visually appealing structure, while the open design allows for natural light and air flow](/images/gallery/gallery-44.jpg)
 
 ### Weatherproofing with Roofs and Screens
 
@@ -121,7 +122,7 @@ By choosing us for your pergola installation and customisation needs, you can be
 
 ## Enhancing Outdoor Living
 
-![A cozy outdoor pergola in Ireland, surrounded by lush greenery and blooming flowers, with comfortable seating and soft lighting](https://koala.sh/api/image/v2-92fk6-9ex8p.jpg?width=1216&height=832&dream)
+![A cozy outdoor pergola in Ireland, surrounded by lush greenery and blooming flowers, with comfortable seating and soft lighting](/images/gallery/gallery-45.jpg)
 
 ### Furniture and Accessories for Comfort
 
@@ -143,7 +144,7 @@ In summary, with the right furniture and amenities, a pergola can serve as a com
 
 ## Additional Features for Pergolas
 
-![A lush garden with a wooden pergola, adorned with climbing plants and hanging fairy lights, overlooking a serene Irish landscape](https://koala.sh/api/image/v2-92fkr-cqebz.jpg?width=1216&height=832&dream)
+![A lush garden with a wooden pergola, adorned with climbing plants and hanging fairy lights, overlooking a serene Irish landscape](/images/gallery/work2025/20250204_173031.jpg)
 
 ### Privacy and Protection Features
 
@@ -177,7 +178,7 @@ By incorporating these additional features into your pergola, you can create a b
 
 ## The Value of Investment
 
-![A lush garden pergola in Ireland, adorned with climbing vines and flowers, surrounded by cozy seating and soft lighting, creating a serene and inviting atmosphere](https://koala.sh/api/image/v2-92flg-pk59b.jpg?width=1216&height=832&dream)
+![A lush garden pergola in Ireland, adorned with climbing vines and flowers, surrounded by cozy seating and soft lighting, creating a serene and inviting atmosphere](/images/gallery/work2025/20250210_112921.jpg)
 
 Investing in a pergola for your garden is not only a fantastic way to enhance your outdoor living space but also proves to be a valuable investment. By opting for outdoor garden pergolas in Ireland, you are adding an attractive, functional, and durable structure to your property. In this section, we will delve into why investing in a pergola is a smart choice for homeowners.
 
@@ -193,7 +194,7 @@ To summarise, investing in a pergola is a wise decision for those looking to enh
 
 ## Pergola DIY: Steps and Tips
 
-![A wooden pergola being constructed in a lush garden setting, with tools and materials laid out, and a clear step-by-step process being followed](https://koala.sh/api/image/v2-92fm2-x4ils.jpg?width=1216&height=832&dream)
+![A wooden pergola being constructed in a lush garden setting, with tools and materials laid out, and a clear step-by-step process being followed](/images/gallery/work2025/20250118_161417.jpg)
 
 ### Choosing Durable Paint and Finishes
 

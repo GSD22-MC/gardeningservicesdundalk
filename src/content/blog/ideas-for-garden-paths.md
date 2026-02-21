@@ -1,6 +1,7 @@
 ---
 title: "Ideas for Garden Paths: Top Trends and Expert Tips"
 featuredImage: "/images/gallery/work2025/20250325_174642.jpg"
+servicePillar: "garden-landscaping"
 seoTitle: "30+ Garden Path Ideas — Gravel, Stone, Stepping Stones & More"
 seoDescription: "Stunning garden path ideas for every budget. Gravel paths, flagstone, stepping stones, brick edging and modern designs. Includes photos and DIY tips."
 date: "2024-03-22 12:09:43"
@@ -9,7 +10,7 @@ draft: false
 
 [Garden paths & paving](https://gardeningservicesdundalk.com/paving/) play a crucial role in defining the landscape and overall look of your garden. They provide a practical way to navigate through your outdoor space, while also enhancing its aesthetic appeal. There is a [myriad of design possibilities](https://gardeningservicesdundalk.com/guide-to-patio-paving/) and materials to consider when planning your garden path, ranging from classic brick and stone to more versatile options like gravel and wood.
 
-![](https://gardeningservicesdundalk.com/wp-content/uploads/2024/01/dundalk-patio-laying.jpg)
+![Garden path installation by Gardening Services Dundalk](/images/services/landscaping.jpg)
 
 Incorporating elements of nature is another essential aspect of garden path design. By thoughtfully blending the path into your garden, you can create a harmonious, inviting space that highlights the beauty of your plants and flowers. Additionally, incorporating decorative elements and DIY path-making techniques can add a personal touch to your garden and give it an extraordinary look.
 
@@ -21,7 +22,7 @@ Incorporating elements of nature is another essential aspect of garden path desi
 
 ## Design Fundamentals
 
-![A winding garden path leads through a lush, vibrant landscape with various textures and colors, bordered by blooming flowers and foliage](https://koala.sh/api/image/v2-9653o-o7869.jpg?width=1216&height=832&dream)
+![A winding garden path leads through a lush, vibrant landscape with various textures and colors, bordered by blooming flowers and foliage](/images/gallery/gallery-43.jpg)
 
 ### Understanding Space and Function
 
@@ -49,7 +50,7 @@ Remember, combining different path types can add visual interest and variety to 
 
 ## Path Materials and Textures
 
-![A garden path made of natural stone, surrounded by lush greenery and vibrant flowers, with dappled sunlight filtering through the leaves](https://koala.sh/api/image/v2-96549-twu4d.jpg?width=1216&height=832&dream)
+![A garden path made of natural stone, surrounded by lush greenery and vibrant flowers, with dappled sunlight filtering through the leaves](/images/gallery/gallery-45.jpg)
 
 ### Natural Stone and Flagstone
 
@@ -69,7 +70,7 @@ Wood and mulch are natural, eco-friendly options for garden paths, working well 
 
 ## Incorporating Nature
 
-![A winding garden path lined with colorful flowers and surrounded by lush greenery, with a gentle stream flowing alongside, and birds chirping in the background](https://koala.sh/api/image/v2-96553-sgwpm.jpg?width=1216&height=832&dream)
+![A winding garden path lined with colorful flowers and surrounded by lush greenery, with a gentle stream flowing alongside, and birds chirping in the background](/images/gallery/work2025/20250118_161417.jpg)
 
 In this section, we'll explore ways to seamlessly integrate natural elements into garden paths. We will cover adding plants and shrubs, using lawn as pathways, and incorporating water features and elements.
 

@@ -15,6 +15,12 @@ const { Content } = await area.render();
 const { title, seoTitle, seoDescription, description } = area.data;
 const areaSlug = area.id.replace(/\.md$/, '');
 
+// Get featured reviews
+const allReviews = await getCollection('reviews');
+const featuredReviews = allReviews
+  .filter((r) => r.data.rating === 5)
+  .slice(0, 3);
+
 // Services offered in each area with links to service-area pages
 const services = [
   {
@@ -22,46 +28,53 @@ const services = [
     desc: `Complete garden design and landscaping in ${title}.`,
     image: '/images/services/landscaping.jpg',
     link: `/garden-landscaping-${areaSlug}/`,
+    pillar: '/services/garden-landscaping/',
   },
   {
     name: 'Grass Cutting & Lawn Care',
     desc: `Regular grass cutting and lawn maintenance in ${title}.`,
     image: '/images/services/grass-cutting.jpg',
     link: `/grass-cutting-lawn-care-${areaSlug}/`,
+    pillar: '/services/grass-cutting/',
   },
   {
     name: 'Hedge Trimming',
     desc: `Professional hedge trimming and shaping in ${title}.`,
     image: '/images/services/hedge-trimming.jpg',
     link: `/hedge-trimming-services-${areaSlug}/`,
+    pillar: '/services/hedge-trimming/',
   },
   {
     name: 'Decking',
     desc: `Custom decking design and installation in ${title}.`,
     image: '/images/gallery/gallery-46.jpg',
     link: `/decking-services-${areaSlug}/`,
+    pillar: '/services/decking-fencing/',
   },
   {
     name: 'Fencing',
     desc: `Garden fencing installation and repair in ${title}.`,
     image: '/images/gallery/gallery-35.jpg',
     link: `/fencing-installation-${areaSlug}/`,
+    pillar: '/services/decking-fencing/',
   },
   {
     name: 'Patio & Paving',
     desc: `Patio and paving installation in ${title}.`,
     image: '/images/services/paving.jpg',
     link: `/patio-paving-installation-${areaSlug}/`,
+    pillar: '/services/patio-paving/',
   },
   {
     name: 'Garden Clearance',
     desc: `Full garden clearance and waste removal in ${title}.`,
     image: '/images/services/garden-clearance.jpg',
     link: `/garden-clearance-${areaSlug}/`,
+    pillar: '/services/garden-clearance/',
   },
 ];
 
-// Sample gallery images for this area
+// Gallery images
 const galleryImages = [
   '/images/gallery/gallery-29.jpg',
   '/images/gallery/gallery-31.jpg',
@@ -70,23 +83,125 @@ const galleryImages = [
   '/images/gallery/gallery-42.jpg',
   '/images/gallery/gallery-36.jpg',
 ];
+
+// LocalBusiness schema for area
+const areaSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: `Gardening Services ${title}`,
+  description: seoDescription || `Professional gardening and landscaping services in ${title}, County Louth.`,
+  url: `https://gardeningservicesdundalk.com/areas/${areaSlug}/`,
+  telephone: '+353851685170',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: title,
+    addressRegion: 'County Louth',
+    addressCountry: 'IE',
+  },
+  areaServed: {
+    '@type': 'City',
+    name: title,
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    reviewCount: '50',
+  },
+};
 ---
 
 <PageLayout
-  title={seoTitle || `Gardening Services in ${title} — Gardening Services Dundalk`}
-  description={seoDescription || `Professional gardening and landscaping services in ${title}, County Louth. Free quotes from Pete & Seamus.`}
+  title={seoTitle || `Gardening Services ${title} — Free Quotes | Dundalk & County Louth`}
+  description={seoDescription || `Professional gardening, landscaping, decking, paving, and garden maintenance in ${title}, County Louth. Free quotes from Pete & Seamus — 35+ years experience.`}
 >
-  <section class="section section-green">
+  <!-- Area Schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(areaSchema)} />
+
+  <!-- ====== HERO ====== -->
+  <section class="area-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/gallery/gallery-36.jpg');">
     <div class="container">
-      <div class="section-header">
-        <span class="section-badge">📍 {title}</span>
-        <h1>Gardening Services in {title}</h1>
-        <p class="section-subtitle">{description || `Professional gardening and landscaping in ${title} and surrounding areas.`}</p>
-        <hr class="section-divider" />
+      <span class="section-badge" style="background: var(--gsd-orange); color: #fff;">📍 {title}</span>
+      <h1>Gardening Services in {title}</h1>
+      <p class="area-hero-desc">{description || `Professional gardening, landscaping, and garden maintenance in ${title} and surrounding areas. Free quotes from Pete & Seamus.`}</p>
+      <div class="area-hero-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          085 168 5170
+        </a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services%20in%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get Free Quote</a>
       </div>
     </div>
   </section>
 
+  <!-- ====== TRUST BAR ====== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>5-Star Rated</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>35+ Years Experience</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>Free Quotes</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Fully Insured</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES GRID ====== -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-badge">What We Do</span>
+        <h2>Our Services in {title}</h2>
+        <p class="section-subtitle">Click any service to learn more about what we offer in {title}.</p>
+        <hr class="section-divider" />
+      </div>
+      <div class="services-grid">
+        {services.map((service, i) => (
+          <a href={service.link} class="service-card fade-in" style={`transition-delay: ${i * 0.08}s`}>
+            <div style="overflow: hidden;">
+              <img src={service.image} alt={`${service.name} in ${title}`} class="service-card-img" loading="lazy" width="400" height="250" />
+            </div>
+            <div class="service-card-body">
+              <h3>{service.name}</h3>
+              <p>{service.desc}</p>
+              <span class="service-card-link">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== MID-PAGE CTA ====== -->
+  <section class="cta-section cta-mid">
+    <div class="container fade-in">
+      <h2>Need a Gardener in {title}?</h2>
+      <p>Call us today for a free, no-obligation quote — we cover {title} and all surrounding areas.</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services%20in%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== AREA CONTENT (from Markdown) ====== -->
   <section class="section section-white">
     <div class="container-narrow">
       <div class="blog-content">
@@ -95,54 +210,121 @@ const galleryImages = [
     </div>
   </section>
 
-  <!-- Services Grid -->
+  <!-- ====== GALLERY ====== -->
   <section class="section section-green">
     <div class="container">
-      <h2 class="text-center" style="margin-bottom: 0.5rem;">Our Services in {title}</h2>
-      <p class="text-center section-subtitle" style="margin-bottom: 2rem;">Click any service to learn more about what we offer in {title}.</p>
-      <div class="services-grid">
-        {services.map((service) => (
-          <a href={service.link} class="service-card fade-in">
-            <div class="service-card-img">
-              <img src={service.image} alt={`${service.name} in ${title}`} loading="lazy" width="400" height="250" />
-            </div>
-            <div class="service-card-body">
-              <h3>{service.name}</h3>
-              <p>{service.desc}</p>
-              <span class="service-card-link">Learn More →</span>
-            </div>
-          </a>
-        ))}
+      <div class="section-header fade-in">
+        <span class="section-badge">Our Work</span>
+        <h2>Recent Projects Across County Louth</h2>
+        <p class="section-subtitle">A sample of our recent work in the area.</p>
+        <hr class="section-divider" />
       </div>
-    </div>
-  </section>
-
-  <!-- Sample Work Gallery -->
-  <section class="section section-white">
-    <div class="container">
-      <h2 class="text-center" style="margin-bottom: 0.5rem;">Our Work Across County Louth</h2>
-      <p class="text-center section-subtitle" style="margin-bottom: 2rem;">A sample of our recent projects in the area.</p>
       <div class="gallery-grid" style="max-width: 900px; margin: 0 auto;">
-        {galleryImages.map((img, i) => (
+        {galleryImages.map((img) => (
           <div class="gallery-item fade-in">
             <img src={img} alt={`Garden project near ${title}, Co. Louth`} loading="lazy" width="400" height="300" />
           </div>
         ))}
       </div>
       <div class="text-center" style="margin-top: 1.5rem;">
-        <a href="/gallery/" class="btn btn-cta">View Full Gallery</a>
+        <a href="/gallery/" class="btn btn-primary">View Full Gallery →</a>
       </div>
     </div>
   </section>
 
+  <!-- ====== REVIEWS ====== -->
+  {featuredReviews.length > 0 && (
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-badge">⭐ What Our Customers Say</span>
+          <h2>50+ Five-Star Reviews</h2>
+          <p class="section-subtitle">Trusted by homeowners across County Louth.</p>
+          <hr class="section-divider" />
+        </div>
+        <div class="reviews-grid">
+          {featuredReviews.map((review, i) => (
+            <div class="review-card fade-in" style={i > 0 ? `transition-delay: ${i * 0.1}s` : ''}>
+              <div class="review-stars">{'★'.repeat(review.data.rating)}</div>
+              <p class="review-title">"{review.data.name}"</p>
+              <p class="review-text">{review.data.text.length > 200 ? review.data.text.slice(0, 200) + '...' : review.data.text}</p>
+              <p class="review-author">— {review.data.author || 'Happy Customer'}</p>
+              <p class="review-source">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Customer Review
+              </p>
+            </div>
+          ))}
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+          <a href="/reviews/" class="btn btn-outline">Read All Reviews →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ Accordion Script -->
+  <script>
+    function initFaqAccordions() {
+      document.querySelectorAll('.blog-content').forEach((content) => {
+        const headings = content.querySelectorAll('h2');
+        headings.forEach((h2) => {
+          if (!h2.textContent?.toLowerCase().includes('faq') && !h2.textContent?.toLowerCase().includes('frequently asked')) return;
+
+          const accordion = document.createElement('div');
+          accordion.className = 'faq-accordion';
+          let sibling = h2.nextElementSibling;
+
+          while (sibling && sibling.tagName !== 'H2') {
+            const next = sibling.nextElementSibling;
+            if (sibling.tagName === 'H3') {
+              const details = document.createElement('details');
+              const summary = document.createElement('summary');
+              summary.textContent = sibling.textContent;
+              details.appendChild(summary);
+
+              const answer = document.createElement('div');
+              answer.className = 'faq-answer';
+              let answerSibling = next;
+              while (answerSibling && answerSibling.tagName !== 'H3' && answerSibling.tagName !== 'H2') {
+                const nextAnswer = answerSibling.nextElementSibling;
+                answer.appendChild(answerSibling);
+                answerSibling = nextAnswer;
+              }
+              details.appendChild(answer);
+              accordion.appendChild(details);
+              sibling.remove();
+              sibling = answerSibling;
+              continue;
+            }
+            sibling = next;
+          }
+
+          if (accordion.children.length > 0) {
+            h2.after(accordion);
+          }
+        });
+      });
+    }
+    initFaqAccordions();
+    document.addEventListener('astro:after-swap', initFaqAccordions);
+  </script>
+
+  <!-- ====== FOOTER CTA ====== -->
   <section class="cta-section">
     <div class="container fade-in">
-      <h2>Need a Gardener in {title}?</h2>
-      <p>Call us today for a free, no-obligation quote.</p>
+      <h2>Ready to Transform Your Garden in {title}?</h2>
+      <p>Get in touch today for a free, no-obligation quote.</p>
       <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
       <div class="cta-buttons">
-        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
-        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services%20in%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services%20in%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.331 0-4.512-.654-6.378-1.788l-.458-.273-3.044 1.02 1.02-3.044-.273-.458A9.955 9.955 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          WhatsApp Us
+        </a>
         <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
       </div>
     </div>

@@ -1,6 +1,7 @@
 ---
 title: "How to Kill Moss on Tarmac Driveways: Simple & Effective Solutions!"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "patio-paving"
 seoTitle: "How to Kill Moss on Tarmac Driveways (5 Methods That Work)"
 seoDescription: "Kill moss on tarmac driveways fast with baking soda, bleach, pressure washing and more. Step-by-step guide with the cheapest and most effective methods for Irish driveways."
 date: "2024-05-28 19:06:32"
@@ -60,7 +61,7 @@ By sticking to these guidelines, you'll set the stage for a smooth and efficient
 
 ## Moss Removal Techniques
 
-![A person spraying moss-killing solution on a tarmac driveway, with visible moss patches being eradicated](https://koala.sh/api/image/v2-6pkjh-vrmrm.jpg?width=1216&height=832&dream)
+![A person spraying moss-killing solution on a tarmac driveway, with visible moss patches being eradicated](/images/services/paving.jpg)
 
 Removing moss from your tarmac driveway keeps it safe and visually appealing. Here are effective techniques you can apply, categorised by their nature – natural, chemical, and mechanical methods.
 
@@ -86,7 +87,7 @@ Regularly brushing your driveway dislodges moss and prevents build-up. A stiff b
 
 ## Disposal of Removed Moss
 
-![Moss being swept and shoveled from a tarmac driveway, with a bottle of moss-killing solution nearby](https://koala.sh/api/image/v2-6pkk3-jau13.jpg?width=1216&height=832&dream)
+![Moss being swept and shoveled from a tarmac driveway, with a bottle of moss-killing solution nearby](/images/gallery/gallery-29.jpg)
 
 Once you've successfully tackled the moss build-up on your tarmac driveway, the next step is to ensure proper disposal of the dead moss and debris.
 
@@ -103,7 +104,7 @@ Remember to check the guidelines provided by your local council regarding the di
 
 ## Preventing Future Moss Growth
 
-![A tarmac driveway with dead moss, surrounded by moss-killing chemicals and tools](https://koala.sh/api/image/v2-6pkkl-mc4sv.jpg?width=1216&height=832&dream)
+![A tarmac driveway with dead moss, surrounded by moss-killing chemicals and tools](/images/gallery/gallery-31.jpg)
 
 After successfully clearing moss from your tarmac driveway, taking proactive steps can prevent regrowth and maintain the longevity of your driveway.
 
@@ -127,7 +128,7 @@ By following these maintenance tips and improving driveway conditions, you can k
 
 ## Eco-Friendly Options for Moss Control
 
-![A tarmac driveway with moss growth being treated with eco-friendly solutions](https://koala.sh/api/image/v2-6pkky-1w432.jpg?width=1216&height=832&dream)
+![A tarmac driveway with moss growth being treated with eco-friendly solutions](/images/gallery/gallery-42.jpg)
 
 When tackling moss on your tarmac driveway, eco-friendly options such as biodegradable moss killers and manual removal techniques ensure you're maintaining your outdoor space responsibly.
 
@@ -148,7 +149,7 @@ Alternatively, **manual removal** is a chemical-free solution to control moss. H
 
 ## Aftercare and Ongoing Maintenance
 
-![A tarmac driveway with patches of moss being treated with a moss-killing solution and then scrubbed clean, followed by ongoing maintenance to prevent regrowth](https://koala.sh/api/image/v2-6pkld-i3rl6.jpg?width=1216&height=832&dream)
+![A tarmac driveway with patches of moss being treated with a moss-killing solution and then scrubbed clean, followed by ongoing maintenance to prevent regrowth](/images/gallery/work2025/20250120_164613.jpg)
 
 Maintaining your tarmac driveway free of moss involves regularly scheduled cleaning and vigilant monitoring. Proper aftercare can prevent moss from taking hold and will save you time and effort in the long run.
 

@@ -1,6 +1,7 @@
 ---
 title: "Retaining Wall Ideas: Innovative Solutions for Your Garden Space"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "garden-landscaping"
 seoTitle: "Retaining Wall Ideas for Gardens — Stone, Sleeper & Block Designs"
 seoDescription: "Garden retaining wall ideas with photos. Railway sleepers, stone, concrete blocks and gabion designs. Covers sloped gardens, raised beds and terracing."
 date: "2024-05-04 09:59:19"
@@ -11,7 +12,7 @@ Retaining walls are an excellent solution for homeowners looking to tackle slope
 
 With a variety of materials and designs, retaining walls can also enhance the aesthetic of your outdoor space, complementing your home's architecture and garden layout.
 
-![A retaining wall made of stacked stone, surrounded by lush greenery and colorful flowers, with a gentle slope leading up to it](https://koala.sh/api/image/v2-963fh-omw19.jpg?width=1216&height=832&dream)
+![A retaining wall made of stacked stone, surrounded by lush greenery and colorful flowers, with a gentle slope leading up to it](/images/gallery/gallery-36.jpg)
 
 As you embark on your retaining wall project, it is essential to consider the overall design, materials, and structural requirements to ensure the integration of the wall into your landscape.
 
@@ -200,7 +201,7 @@ Remember, no matter which enhancements you choose, keeping the overall design co
 
 ## DIY Considerations
 
-![A person building a retaining wall with various materials like bricks, stones, or timber. The wall may have steps or curves for added visual interest](https://koala.sh/api/image/v2-963ls-430yx.jpg?width=1216&height=832&dream)
+![A person building a retaining wall with various materials like bricks, stones, or timber. The wall may have steps or curves for added visual interest](/images/gallery/gallery-43.jpg)
 
 When looking to build a retaining wall, there are several factors to consider while planning and executing the project. In this section, we will discuss the importance of planning your project, and explore various building techniques and tips for a successful retaining wall construction.
 
@@ -228,7 +229,7 @@ By following these guidelines and tips, you can successfully complete your DIY r
 
 ## Professional Installation and Maintenance
 
-![A team of workers construct a retaining wall with precision and care, using heavy machinery and expert techniques](https://koala.sh/api/image/v2-963mw-5z4lm.jpg?width=1216&height=832&dream)
+![A team of workers construct a retaining wall with precision and care, using heavy machinery and expert techniques](/images/gallery/work2025/20250118_161608.jpg)
 
 ### Hiring Experts
 

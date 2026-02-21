@@ -1,6 +1,7 @@
 ---
 title: "Fencing Ideas for Garden: Innovative Solutions for Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250131_130248.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-04 10:45:47"
 draft: false
 ---
@@ -9,7 +10,7 @@ draft: false
 
 Whether it's for privacy, security, or a bit of flair, there are numerous options to choose from that can truly transform your garden.
 
-![Lush garden with a variety of fencing options: wooden picket, wrought iron, and hedge. Bright flowers and greenery surround the area](https://koala.sh/api/image/v2-9616u-0i85h.jpg?width=1216&height=832&dream)
+![Lush garden with a variety of fencing options: wooden picket, wrought iron, and hedge. Bright flowers and greenery surround the area](/images/gallery/gallery-47.jpg)
 
 Selecting the right fence for your garden takes careful consideration of both functional and aesthetic factors. Understanding the fundamentals of garden fencing, such as material choices, styles, and installation, will help you find the perfect fit. A
 
@@ -105,7 +106,7 @@ Incorporating these [innovative ideas into your garden fence](https://gardenings
 
 ## Functional Elements in Fencing
 
-![A garden with a sturdy wooden fence, gate, and trellis, surrounded by lush greenery and blooming flowers](https://koala.sh/api/image/v2-9619l-6dtuc.jpg?width=1216&height=832&dream)
+![A garden with a sturdy wooden fence, gate, and trellis, surrounded by lush greenery and blooming flowers](/images/gallery/work2025/20250109_163752.jpg)
 
 When designing a garden fence, it's important to consider the functional aspects as well as the aesthetics. In this section, we will discuss three key functional elements in fencing: incorporating garden furniture, establishing zones and enclosures, and addressing wildlife and pest concerns.
 
@@ -125,7 +126,7 @@ Remember, garden fences serve a multitude of purposes, so consider the functiona
 
 ## Material and Style Selection
 
-![A garden with wooden or metal fencing, surrounded by lush greenery and colorful flowers. The fencing could be traditional picket style, modern horizontal slats, or decorative wrought iron](https://koala.sh/api/image/v2-961a4-r7bdn.jpg?width=1216&height=832&dream)
+![A garden with wooden or metal fencing, surrounded by lush greenery and colorful flowers. The fencing could be traditional picket style, modern horizontal slats, or decorative wrought iron](/images/gallery/work2025/20250114_092022.jpg)
 
 ### Exploring Wood and Metal Options
 

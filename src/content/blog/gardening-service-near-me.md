@@ -1,6 +1,7 @@
 ---
 title: "Sowing a Vegetable Patch: What Should I Ask a Gardening Service Near Me Beforehand"
 featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 09:23:39"
 draft: false
 ---
@@ -9,7 +10,7 @@ Starting a vegetable patch is an exciting venture, and finding the right [garden
 
 Key things to ask about include understanding your garden's unique environment, knowing what planning is necessary for a thriving vegetable patch, and learning about soil preparation. These questions ensure that your garden will not only start off on the right foot but continue to flourish through the seasons.
 
-![A gardener examines soil, climate, and pests in an Irish garden. They discuss services, tools, and plant selection with a local gardening service](https://koala.sh/api/image/v2-bfbc1-hdcy8.jpg?width=1216&height=832&dream)
+![A gardener examines soil, climate, and pests in an Irish garden. They discuss services, tools, and plant selection with a local gardening service](/images/services/landscaping.jpg)
 
 Choosing to grow vegetables at home can bring immense satisfaction, but it requires careful planning and maintenance. Before you commit to a gardening service, inquire about their approach to planting, growing, and irrigation.
 
@@ -25,7 +26,7 @@ If your plans include [garden structures like decking](https://gardeningservices
 
 ## Understanding Your Garden's Environment
 
-![Lush green garden with rich soil, surrounded by rolling hills and a quaint Irish countryside backdrop. Various vegetables and herbs thrive in the well-tended patch](https://koala.sh/api/image/v2-bfbd9-h3gzu.jpg?width=1216&height=832&dream)
+![Lush green garden with rich soil, surrounded by rolling hills and a quaint Irish countryside backdrop. Various vegetables and herbs thrive in the well-tended patch](/images/gallery/gallery-36.jpg)
 
 Before enlisting a gardening service, it's crucial to understand your garden's environmental conditions to ensure a fertile vegetable patch.
 
@@ -64,7 +65,7 @@ Your gardening service can perform a soil test to determine pH levels and nutrie
 
 ## Crafting the Garden Plan
 
-![A gardener holds a map of Ireland, surrounded by seed packets and gardening tools. They ponder questions to ask a nearby gardening service before starting a vegetable patch](https://koala.sh/api/image/v2-bfbef-vlbb3.jpg?width=1216&height=832&dream)
+![A gardener holds a map of Ireland, surrounded by seed packets and gardening tools. They ponder questions to ask a nearby gardening service before starting a vegetable patch](/images/gallery/gallery-43.jpg)
 
 Creating a flourishing vegetable patch begins with a meticulous plan that caters to the climate of Ireland and considers the unique needs of your garden space. Your aim should be to maximise growth while ensuring a harmonious layout.
 
@@ -150,7 +151,7 @@ A strategic plan utilising companion planting can result in a more productive an
 
 ## Preparing the Soil
 
-![A gardener tilling the rich Irish soil, surrounded by gardening tools and seed packets, with a backdrop of lush green countryside](https://koala.sh/api/image/v2-bfbfc-2xln4.jpg?width=1216&height=832&dream)
+![A gardener tilling the rich Irish soil, surrounded by gardening tools and seed packets, with a backdrop of lush green countryside](/images/gallery/gallery-44.jpg)
 
 Creating a productive vegetable patch hinges on the quality of your soil. Your first task is to condition the soil to support healthy plant growth, which involves integrating organic matter and adjusting the soil's nutrient profile and pH.
 
@@ -178,7 +179,7 @@ Keep in mind that it takes time for these adjustments to take effect, so prepare
 
 ## Planting and Growing
 
-![A gardener prepares soil, selects seeds, and plants a vegetable patch in a lush Irish garden, surrounded by greenery and under a cloudy sky](https://koala.sh/api/image/v2-bfbfy-g898p.jpg?width=1216&height=832&dream)
+![A gardener prepares soil, selects seeds, and plants a vegetable patch in a lush Irish garden, surrounded by greenery and under a cloudy sky](/images/gallery/gallery-45.jpg)
 
 When you're starting a vegetable patch with a gardening service, it's essential to understand the right methods for planting and ensuring your crops receive the care they need to thrive. Here's what you should focus on when discussing planting and growing with your chosen gardeners.
 
@@ -280,7 +281,7 @@ Proactively addressing weed and pest issues will set your vegetable patch up for
 
 ## Seasonal Gardening Tips
 
-![A sunny Irish garden with raised beds, filled with lush green vegetables and blooming flowers. A gardener consults with a local service, discussing soil quality and plant selection](https://koala.sh/api/image/v2-bfbj8-ijsom.jpg?width=1216&height=832&dream)
+![A sunny Irish garden with raised beds, filled with lush green vegetables and blooming flowers. A gardener consults with a local service, discussing soil quality and plant selection](/images/gallery/work2025/20250204_173031.jpg)
 
 When creating a [vegetable patch](https://gardeningservicesdundalk.com/border-ideas-for-garden/) in Ireland, understanding the seasonal nuances is crucial. Your success will largely depend on timely preparations in spring and considered maintenance in autumn.
 
@@ -338,7 +339,7 @@ Incorporating these seasonal gardening tips will help ensure a fruitful vegetabl
 
 ## Additional Considerations
 
-![A gardener in Ireland consults with a local gardening service, discussing soil quality, climate considerations, and pest control for starting a vegetable patch](https://koala.sh/api/image/v2-bfbjx-2izgw.jpg?width=1216&height=832&dream)
+![A gardener in Ireland consults with a local gardening service, discussing soil quality, climate considerations, and pest control for starting a vegetable patch](/images/gallery/work2025/20250206_083458.jpg)
 
 When you're ready to start your vegetable patch in Ireland, it's essential to think beyond the basics. You'll be considering how to best utilise your tools, involve children in the gardening process, and make the most of smaller spaces. Here are some strategic tips to get you started.
 
@@ -373,7 +374,7 @@ Ensure your containers have sufficient **drainage holes** and are placed in a _s
 
 ## Building Garden Structures
 
-![A lush garden with raised beds, trellises, and a small greenhouse set against the backdrop of rolling green hills in Ireland](https://koala.sh/api/image/v2-bfbkn-tl07b.jpg?width=1216&height=832&dream)
+![A lush garden with raised beds, trellises, and a small greenhouse set against the backdrop of rolling green hills in Ireland](/images/gallery/work2025/20250207_163445.jpg)
 
 When starting your vegetable patch, constructing appropriate garden structures is vital for a thriving garden. These include raised beds for efficient planting and support systems for climbing plants, as well as greenhouses for extended growing seasons.
 

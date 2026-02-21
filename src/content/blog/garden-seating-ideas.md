@@ -1,6 +1,7 @@
 ---
 title: "Garden Seating Ideas: Fresh Inspiration for Relaxing Spaces"
 featuredImage: "/images/gallery/work2025/20250605_191623.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-07 17:40:38"
 draft: false
 ---

@@ -1,6 +1,7 @@
 ---
 title: "What Should I Ask a Tree Surgeon Near Me: Key Questions Before Pruning in an Irish Garden"
 featuredImage: "/images/gallery/work2025/20250117_160017.jpg"
+servicePillar: "hedge-trimming"
 date: "2024-05-04 09:36:52"
 draft: false
 ---
@@ -9,7 +10,7 @@ Maintaining the health and aesthetics of your Irish garden requires occasional [
 
 By asking the right questions, you not only safeguard the well-being of your trees but also ensure that the work done aligns with your vision for your garden.
 
-![A tree surgeon pruning trees in an Irish garden, surrounded by lush greenery and colorful flowers. A ladder and pruning tools are nearby](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-9.jpeg)
+![A tree surgeon pruning trees in an Irish garden, surrounded by lush greenery and colorful flowers. A ladder and pruning tools are nearby](/images/services/hedge-trimming.jpg)
 
 Pruning trees can seem straightforward, but it involves much more than just cutting away branches. It's a crucial task that should be done with care and precision to preserve the tree's health and appearance as well as to ensure the safety of your property and surroundings.
 
@@ -23,7 +24,7 @@ Consequently, the expertise of a tree surgeon becomes invaluable. When selecting
 
 ## Understanding Tree Pruning and Its Importance
 
-![A tree surgeon carefully trims branches of a mature tree in an Irish garden, ensuring proper pruning techniques are used to maintain tree health and shape](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-10.jpeg)
+![A tree surgeon carefully trims branches of a mature tree in an Irish garden, ensuring proper pruning techniques are used to maintain tree health and shape](/images/gallery/gallery-38.jpg)
 
 When you're looking to optimise the health and appearance of the trees in your garden, understanding the practice of pruning becomes essential. Key components include the benefits, various techniques employed, and knowing the optimal time to prune.
 
@@ -85,7 +86,7 @@ Before making a decision, read reviews and testimonials to gauge **customer sati
 
 ## Services Offered
 
-![A tree surgeon pruning trees in an Irish garden, inspecting branches and discussing services offered](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-11.jpeg)
+![A tree surgeon pruning trees in an Irish garden, inspecting branches and discussing services offered](/images/gallery/gallery-39.jpg)
 
 Before inviting a tree surgeon into your garden, knowing the breadth of services they offer ensures your green space gets the appropriate care and maintenance it requires.
 
@@ -116,7 +117,7 @@ Beyond trees, professional services may extend to **hedge trimming** and **[grou
 
 ## Factors Affecting Tree Pruning
 
-![A tree surgeon carefully prunes branches in an Irish garden, considering factors such as tree health, growth patterns, and aesthetic appeal](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-13.jpeg)
+![A tree surgeon carefully prunes branches in an Irish garden, considering factors such as tree health, growth patterns, and aesthetic appeal](/images/gallery/work2025/20250114_092022.jpg)
 
 Before a tree surgeon embarks on pruning your trees, it's crucial to consider a few key points. The species and size of the tree, its health and condition, and the surrounding environmental factors all influence the approach and methods used in pruning.
 
@@ -147,7 +148,7 @@ Always check local **wildlife regulations** as certain times of year may be off-
 
 ## Cost and Pricing
 
-![A tree surgeon carefully pruning branches in a lush Irish garden, with tools and safety equipment nearby](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-12.jpeg)
+![A tree surgeon carefully pruning branches in a lush Irish garden, with tools and safety equipment nearby](/images/gallery/work2025/20250116_094234.jpg)
 
 Before you get your trees pruned, it's crucial to understand how much it might cost you and what factors will affect that cost. Comparing quotes from different tree surgeons can ensure you find an affordable service that suits your needs.
 
@@ -182,7 +183,7 @@ By weighing up these elements, you can choose a tree surgeon that offers not onl
 
 ## Safety and Compliance
 
-![A tree surgeon carefully prunes branches in an Irish garden, ensuring safety and compliance with local regulations](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-9.jpeg)
+![A tree surgeon carefully prunes branches in an Irish garden, ensuring safety and compliance with local regulations](/images/gallery/work2025/20250116_094246.jpg)
 
 Before you engage a tree surgeon to prune trees in your garden, it's crucial to ensure they follow robust safety protocols and comply with all relevant regulations. This will safeguard both the workers and your property during the tree pruning process.
 
@@ -210,7 +211,7 @@ Despite all precautions, emergencies can occur. Your tree surgeon should have an
 
 ## Geographical and Area Coverage
 
-![A tree surgeon pruning trees in an Irish garden, surrounded by lush greenery and rolling hills, with a variety of tree species and a clear blue sky above](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-16.jpeg)
+![A tree surgeon pruning trees in an Irish garden, surrounded by lush greenery and rolling hills, with a variety of tree species and a clear blue sky above](/images/gallery/work2025/20250109_100322.jpg)
 
 Before you arrange for a tree surgeon to attend your Irish garden, it's important to understand the geographical and area coverage of their services. This ensures they're permitted to work in your specific locale, and that they're familiar with the unique flora and regulations of your region.
 
@@ -237,7 +238,7 @@ Conversing with your tree surgeon about local regulations is key. For instance, 
 
 ## Aftercare and Maintenance
 
-![A tree surgeon inspects an Irish garden, discussing pruning with the owner. Tools and safety equipment are laid out nearby](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-14.jpeg)
+![A tree surgeon inspects an Irish garden, discussing pruning with the owner. Tools and safety equipment are laid out nearby](/images/gallery/work2025/20250109_163752.jpg)
 
 After your trees have been pruned, it's vital to follow proper aftercare to ensure their health and promote vigorous growth. Regular maintenance services also play a crucial role in the longevity and aesthetics of your garden.
 
@@ -271,7 +272,7 @@ By being attentive to the seasonal needs of your trees, you can contribute to th
 
 ## Choosing the Right Time for Tree Surgery
 
-![A tree surgeon carefully pruning branches in an Irish garden, assessing the right time for tree surgery](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-14.jpeg)
+![A tree surgeon carefully pruning branches in an Irish garden, assessing the right time for tree surgery](/images/gallery/gallery-38.jpg)
 
 When considering tree surgery in your Irish garden, timing is essential. Not only does it affect the health of your trees, but it also involves dealing with Irish weather and arranging your busy schedule.
 
@@ -293,7 +294,7 @@ When considering tree surgery in your Irish garden, timing is essential. Not onl
 
 ## Final Thoughts and Next Steps
 
-![A tree surgeon carefully pruning trees in an Irish garden, surrounded by lush greenery and colorful flowers, with a thoughtful expression on their face](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/image-15.jpeg)
+![A tree surgeon carefully pruning trees in an Irish garden, surrounded by lush greenery and colorful flowers, with a thoughtful expression on their face](/images/gallery/gallery-39.jpg)
 
 When you're ready to care for your Irish garden, finding a professional tree surgeon is key to ensuring the health of your trees. Take these steps to secure a reliable service:
 

@@ -1,13 +1,14 @@
 ---
 title: "Border Ideas for Garden: Enhancing Your Outdoor Space with Style"
 featuredImage: "/images/gallery/work2025/20250719_180625.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-03-22 12:38:40"
 draft: false
 ---
 
 Garden borders are an essential [aspect of landscaping](https://gardeningservicesdundalk.com/garden-landscaping-dundalk/), adding structure, colour, and depth to your outdoor space. From creating a stunning visual appeal to helping divide areas or hide unsightly features, the right garden border can truly transform your garden. With a wide variety of materials, plants, and designs available, there are endless border ideas to suit every taste and budget.
 
-![Lush greenery lines the garden border, with colorful flowers peeking out from the foliage. A small stone pathway weaves through the plants, leading to a quaint seating area](https://koala.sh/api/image/v2-965fe-9rj0u.jpg?width=1216&height=832&dream)
+![Lush greenery lines the garden border, with colorful flowers peeking out from the foliage. A small stone pathway weaves through the plants, leading to a quaint seating area](/images/services/landscaping.jpg)
 
 Understanding the purpose of your garden border and your specific needs will help you choose the perfect combination of plants and materials. Whether you are seeking to create a traditional English cottage garden or a modern minimalist paradise, it is essential to consider factors such as maintenance levels, your local climate, and how you use your outdoor space.
 
@@ -207,7 +208,7 @@ With proper installation and attention to detail, your garden can have aesthetic
 
 ## Accessorising Your Garden Border
 
-![Lush green garden border with colorful flowers, winding pathways, and decorative stone accents. Tall grasses sway in the breeze, creating a sense of tranquility](https://koala.sh/api/image/v2-965mj-1m34s.jpg?width=1216&height=832&dream)
+![Lush green garden border with colorful flowers, winding pathways, and decorative stone accents. Tall grasses sway in the breeze, creating a sense of tranquility](/images/gallery/gallery-44.jpg)
 
 ### Garden Ornaments and Topiary
 
@@ -229,7 +230,7 @@ In addition to water features, sculptures can be a striking addition to your gar
 
 ## Frequently Asked Questions
 
-![A garden border with various plant species, labeled with signs and surrounded by a pathway for easy access](https://koala.sh/api/image/v2-965nj-1m4b5.jpg?width=1216&height=832&dream)
+![A garden border with various plant species, labeled with signs and surrounded by a pathway for easy access](/images/gallery/work2025/20250210_112921.jpg)
 
 ### What are some creative flower border ideas for garden enhancement?
 

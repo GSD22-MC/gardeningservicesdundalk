@@ -1,13 +1,14 @@
 ---
 title: "Composite Decking Ideas: Innovative Designs for Outdoor Spaces"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-07 16:59:19"
 draft: false
 ---
 
 Composite decking is an innovative and versatile solution for creating beautiful outdoor spaces that are stylish, durable, and low-maintenance. This popular material is ideal for a variety of applications, including patios, terraces, poolside decks, and garden pathways. By choosing the right [composite decking ideas](https://gardeningservicesdundalk.com/guide-to-patio-paving/), you can create outdoor living spaces that not only look great but can also withstand the test of time.
 
-![A backyard with a spacious composite deck, surrounded by potted plants and outdoor furniture, overlooking a serene garden or natural landscape](https://koala.sh/api/image/v2-92gza-rp92p.jpg?width=1216&height=832&dream)
+![A backyard with a spacious composite deck, surrounded by potted plants and outdoor furniture, overlooking a serene garden or natural landscape](/images/gallery/gallery-46.jpg)
 
 There are many ways to create visually appealing, functional outdoor areas using composite decking. From incorporating modern design features and accessories to selecting the perfect colours and textures, your options for customisation are vast.
 
@@ -21,7 +22,7 @@ Composite decking is also an environmentally friendly alternative to traditional
 
 ## Benefits of Composite Decking
 
-![A backyard deck with composite decking, featuring a cozy seating area, potted plants, and a built-in fire pit](https://koala.sh/api/image/v2-95zu4-5wy6d.jpg?width=1216&height=832&dream)
+![A backyard deck with composite decking, featuring a cozy seating area, potted plants, and a built-in fire pit](/images/gallery/gallery-35.jpg)
 
 Composite decking has become increasingly popular for outdoor spaces due to its many advantages over traditional wood decking. In this section, we'll explore some of the key benefits of choosing composite decking for your project.
 
@@ -77,7 +78,7 @@ In conclusion, designing a beautiful composite deck involves considering the sty
 
 ## Deck Features and Accessories
 
-![A deck with built-in seating, a fire pit, and a pergola surrounded by lush greenery and potted plants. A grill and outdoor lighting add to the inviting atmosphere](https://koala.sh/api/image/v2-95zvj-qlijh.jpg?width=1216&height=832&dream)
+![A deck with built-in seating, a fire pit, and a pergola surrounded by lush greenery and potted plants. A grill and outdoor lighting add to the inviting atmosphere](/images/gallery/gallery-47.jpg)
 
 ### Railings and Fencing Options
 
@@ -186,7 +187,7 @@ Next to the outdoor kitchen, you can create a comfortable dining area with styli
 
 ## Accessorising Your Deck
 
-![A cozy outdoor deck with stylish furniture, potted plants, and soft lighting. A composite decking in a warm, natural tone adds a modern touch](https://koala.sh/api/image/v2-95zy4-saf1s.jpg?width=1216&height=832&dream)
+![A cozy outdoor deck with stylish furniture, potted plants, and soft lighting. A composite decking in a warm, natural tone adds a modern touch](/images/gallery/work2025/20250109_100322.jpg)
 
 ### Furniture and Decor
 

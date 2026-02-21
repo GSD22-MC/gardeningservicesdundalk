@@ -1,6 +1,7 @@
 ---
 title: "Decking Cover Ideas: Innovative Solutions for Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-04 10:29:04"
 draft: false
 ---
@@ -9,7 +10,7 @@ draft: false
 
 Deck covers come in various styles, materials, and designs, offering a multitude of possibilities for your outdoor living space.
 
-![A wooden deck with a pergola covered in climbing vines and hanging string lights, surrounded by potted plants and comfortable outdoor furniture](https://koala.sh/api/image/v2-961qh-sne4b.jpg?width=1216&height=832&dream)
+![A wooden deck with a pergola covered in climbing vines and hanging string lights, surrounded by potted plants and comfortable outdoor furniture](/images/gallery/gallery-46.jpg)
 
 When considering deck cover ideas, it's essential to take into account the existing architecture of your home, as well as the overall aesthetics and utility of your outdoor space. Our goal is to present you with options that blend seamlessly with your home, cater to your personal taste, and help maximise the use of your deck.
 
@@ -127,7 +128,7 @@ Remember, personalisation is crucial when creating your ideal outdoor space. By 
 
 ## Features of a Comfortable Deck
 
-![A spacious, well-lit deck with comfortable seating and a pergola overhead, surrounded by lush greenery and decorative lighting](https://koala.sh/api/image/v2-961t0-mcy8s.jpg?width=1216&height=832&dream)
+![A spacious, well-lit deck with comfortable seating and a pergola overhead, surrounded by lush greenery and decorative lighting](/images/gallery/gallery-35.jpg)
 
 ### Deck Railing Designs
 
@@ -149,7 +150,7 @@ To extend the outdoor decking season and create a warm, inviting atmosphere, con
 
 ## Considerations for Building a Deck
 
-![A deck with various cover ideas: pergola, awning, or canopy. Surrounding landscape includes trees, flowers, and outdoor furniture](https://koala.sh/api/image/v2-961tk-802ii.jpg?width=1216&height=832&dream)
+![A deck with various cover ideas: pergola, awning, or canopy. Surrounding landscape includes trees, flowers, and outdoor furniture](/images/gallery/gallery-47.jpg)
 
 When planning to build a deck, there are several factors to consider, including cost estimates, budgeting, materials, maintenance, and longevity. In this section, we will discuss these aspects to help you make informed decisions for your decking project.
 

@@ -1,6 +1,7 @@
 ---
 title: "How to Cut Grass Edges on Lawn: A Quick and Easy Guide"
 featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
+servicePillar: "grass-cutting"
 seoTitle: "How to Cut Grass Edges Neatly (With & Without a Trimmer)"
 seoDescription: "Cut perfect lawn edges with or without a strimmer. Covers edging next to walls, paths and flower beds. Simple techniques for a sharp, professional finish."
 date: "2024-05-07 17:40:24"

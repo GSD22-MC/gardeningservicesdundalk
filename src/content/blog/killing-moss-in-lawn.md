@@ -1,6 +1,7 @@
 ---
 title: "Killing Moss in Lawn: Simple and Friendly Tips"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:30"
 draft: false
 ---

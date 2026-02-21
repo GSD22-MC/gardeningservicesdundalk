@@ -1,6 +1,7 @@
 ---
 title: "Garden Wall Cladding Ideas: Transform Your Outdoor Space Today"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "garden-landscaping"
 seoTitle: "25 Garden Wall Cladding Ideas (Stone, Brick & Modern Styles)"
 seoDescription: "Beautiful garden wall cladding ideas with photos. Stone, brick, timber and modern panel options to transform dull walls. Includes budget-friendly picks."
 date: "2024-05-04 10:48:29"
@@ -11,7 +12,7 @@ Garden wall cladding has become an increasingly popular way to transform outdoor
 
 From stone and wooden cladding to composite materials, garden wall designs can cater to various tastes and budgets, ensuring there's something for everyone.
 
-![A garden wall adorned with climbing vines, hanging planters, and colorful ceramic tiles](https://koala.sh/api/image/v2-960w9-pa4rm.jpg?width=1216&height=832&dream)
+![A garden wall adorned with climbing vines, hanging planters, and colorful ceramic tiles](/images/services/landscaping.jpg)
 
 Understanding the different types of garden wall cladding and the design concepts they can offer is essential for selecting the ideal solution for your space. It's not just about aesthetics; practical considerations such as installation, maintenance and durability are also crucial factors to consider.
 
@@ -190,7 +191,7 @@ In conclusion, practical considerations for garden wall cladding installation in
 
 ## Creative Elements in Garden Wall Cladding
 
-![Lush greenery climbs up a stone wall, intertwining with wooden trellises. Colorful flowers bloom, adding pops of vibrant hues to the serene garden setting](https://koala.sh/api/image/v2-960zx-7gjv3.jpg?width=1216&height=832&dream)
+![Lush greenery climbs up a stone wall, intertwining with wooden trellises. Colorful flowers bloom, adding pops of vibrant hues to the serene garden setting](/images/gallery/gallery-36.jpg)
 
 ### Colour and Texture Combinations
 
@@ -206,7 +207,7 @@ Garden wall cladding can also be designed to create depth and warmth, making you
 
 ## Enhancing Outdoor Spaces with Garden Wall Features
 
-![A garden wall adorned with decorative cladding, surrounded by lush greenery and vibrant flowers, creating a serene and inviting outdoor space](https://koala.sh/api/image/v2-9610j-d6zaa.jpg?width=1216&height=832&dream)
+![A garden wall adorned with decorative cladding, surrounded by lush greenery and vibrant flowers, creating a serene and inviting outdoor space](/images/gallery/gallery-43.jpg)
 
 Garden walls offer plenty of opportunities to not only enhance the aesthetic appeal of our outdoor spaces but also provide functional solutions for various needs. In this section, we will explore a few ways to use garden walls to improve garden screening, incorporate trellis and containers, and utilise them for terraces and sloping sites.
 
@@ -230,7 +231,7 @@ Moreover, garden walls can be used to define pathways and stairs, guiding visito
 
 ## Landscaping Integration with Garden Wall Cladding
 
-![A garden wall with integrated landscaping features. Cladding ideas include natural stone, wood panels, or decorative tiles](https://koala.sh/api/image/v2-96117-q57qc.jpg?width=1216&height=832&dream)
+![A garden wall with integrated landscaping features. Cladding ideas include natural stone, wood panels, or decorative tiles](/images/gallery/gallery-44.jpg)
 
 Garden wall cladding can transform the appearance of outdoor spaces, creating visually stunning backdrops for gardens and offering practical benefits. Integrating cladding with other elements of the landscape design, such as paths, decking, and exteriors, can harmonise the entire garden design and maximise the use of space.
 
@@ -262,7 +263,7 @@ Incorporating garden wall cladding into landscape integration can significantly 
 
 ## Seasonal and Thematic Cladding Ideas
 
-![A garden wall adorned with colorful seasonal cladding, featuring themed designs such as flowers, leaves, and natural patterns](https://koala.sh/api/image/v2-96128-p74tx.jpg?width=1216&height=832&dream)
+![A garden wall adorned with colorful seasonal cladding, featuring themed designs such as flowers, leaves, and natural patterns](/images/gallery/gallery-45.jpg)
 
 ### Spring and Summer Cladding Themes
 

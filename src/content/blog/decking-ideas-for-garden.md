@@ -1,6 +1,7 @@
 ---
 title: "Decking Ideas for Garden: Unique Designs and Top Tips"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-28 18:56:22"
 draft: false
 ---
@@ -25,7 +26,7 @@ When it comes to decking materials, the options are plentiful. The traditional c
 
 On the other hand, **composite decking** is a modern alternative that offers durability and [low maintenance](https://gardeningservicesdundalk.com/low-maintenance-small-garden-design/). This type of decking is made from a blend of wood fibres and plastic, which gives it a wood-like appearance without the demand for constant upkeep. Both materials have their pros and cons, so it's essential to consider what works best for your garden and lifestyle. For example, some wood options include traditional timber and modern composite.
 
-![](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/441496070_122151541232184495_4847103696704932105_n-1024x768.jpg)
+![Garden decking project by Gardening Services Dundalk](/images/gallery/gallery-46.jpg)
 
 ### Planning Your Garden's Layout
 

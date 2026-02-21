@@ -1,6 +1,7 @@
 ---
 title: "Garden Lighting Ideas: Illuminating Outdoor Spaces Effectively"
 featuredImage: "/images/gallery/work2025/20250109_100322.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 09:28:57"
 draft: false
 ---
@@ -11,7 +12,7 @@ Addressing common challenges such as safety and aesthetics, it's important to ch
 
 With expert tips on types of lights to use, such as solar, LED, or traditional lanterns, and advice on their placement, your garden can achieve both functionality and enchantment. This guide is tailored to help homeowners create an inviting and well-lit outdoor sanctuary that complements their personal style and the natural beauty of their garden.
 
-![A garden with soft, warm lighting casting a gentle glow on the foliage and pathways, creating a cozy and inviting atmosphere](https://koala.sh/api/image/v2-966aa-isn5t.jpg?width=1216&height=832&dream)
+![A garden with soft, warm lighting casting a gentle glow on the foliage and pathways, creating a cozy and inviting atmosphere](/images/gallery/gallery-36.jpg)
 
 When planning your garden lighting, it is important to consider both the aesthetics and functionality.
 
@@ -158,7 +159,7 @@ By incorporating these different lighting ideas into our garden, we can create a
 
 ## Integrating Lighting into Garden Features
 
-![A garden path winds through lush foliage, with soft uplighting illuminating trees and shrubs. Subtle downlighting highlights a tranquil water feature, creating a peaceful ambiance](https://koala.sh/api/image/v2-966fr-taeaj.jpg?width=1216&height=832&dream)
+![A garden path winds through lush foliage, with soft uplighting illuminating trees and shrubs. Subtle downlighting highlights a tranquil water feature, creating a peaceful ambiance](/images/gallery/gallery-45.jpg)
 
 When designing your garden, it's essential to consider how lighting will enhance and showcase its features. In this section, we will discuss three vital areas where lighting can make a significant impact: highlighting trees and plants, garden furniture and seating areas, and pergolas and fire pits.
 
@@ -270,7 +271,7 @@ In conclusion, both solar and battery-powered garden lights have their respectiv
 
 ## Lighting for Small Gardens and Containers
 
-![A small garden with soft, warm lighting illuminating potted plants and pathways. Fairy lights wrap around trellises and lanterns hang from branches](https://koala.sh/api/image/v2-966hs-ztahi.jpg?width=1216&height=832&dream)
+![A small garden with soft, warm lighting illuminating potted plants and pathways. Fairy lights wrap around trellises and lanterns hang from branches](/images/gallery/work2025/20250207_163445.jpg)
 
 When working with small gardens or container plants, choosing the right lighting can make all the difference in showcasing their beauty. In this section, we will explore some solutions to enhance the aesthetics of your compact garden space, covering compact lighting fixtures and stake lights or spotlights.
 

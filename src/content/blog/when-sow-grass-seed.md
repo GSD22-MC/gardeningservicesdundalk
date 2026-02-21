@@ -1,6 +1,7 @@
 ---
 title: "When Sow Grass Seed: Top Tips for Perfect Timing in the UK"
 featuredImage: "/images/gallery/work2025/20250519_140714.jpg"
+servicePillar: "grass-cutting"
 date: "2024-05-07 17:40:27"
 draft: false
 ---

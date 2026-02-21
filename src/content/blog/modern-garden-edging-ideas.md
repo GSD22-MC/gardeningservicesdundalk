@@ -1,6 +1,7 @@
 ---
 title: "Modern Garden Edging Ideas: Innovative Solutions for Stylish Outdoor Spaces"
 featuredImage: "/images/gallery/work2025/20250703_151558.jpg"
+servicePillar: "garden-landscaping"
 date: "2024-05-04 10:44:04"
 draft: false
 ---
@@ -9,7 +10,7 @@ Garden edging serves both practical and aesthetic functions in any landscape, pr
 
 Whether you are looking for low maintenance options or creative solutions, the right choice of garden edging can transform your outdoor space into an appealing and organised haven.
 
-![A sleek metal border lines a contemporary garden with geometric plantings and smooth paving](https://koala.sh/api/image/v2-961gf-eqwn8.jpg?width=1216&height=832&dream)
+![A sleek metal border lines a contemporary garden with geometric plantings and smooth paving](/images/gallery/gallery-44.jpg)
 
 To select the best edging design for your garden, consider the overall style and theme of your landscape and the materials you prefer. From natural stone to woven branches, there are countless options that can be used to achieve a clean and contemporary look.
 
@@ -44,7 +45,7 @@ While it's vital to be creative, it's equally important to ensure proper install
 
 ## Choosing Materials for Garden Edging
 
-![A person selecting various materials like bricks, stones, or metal for modern garden edging ideas](https://koala.sh/api/image/v2-961he-b3swh.jpg?width=1216&height=832&dream)
+![A person selecting various materials like bricks, stones, or metal for modern garden edging ideas](/images/gallery/gallery-45.jpg)
 
 When planning our garden design, selecting the right materials for garden edging is important as it impacts the visual appeal and functionality of our garden spaces. In this section, we will discuss various options for garden edging materials, how they can be used, and their advantages.
 
@@ -233,7 +234,7 @@ In summary, modern garden edging ideas come in a wide variety of styles and them
 
 ## Accessorising Your Edging
 
-![A modern garden with sleek metal edging, surrounded by vibrant greenery and colorful flowers](https://koala.sh/api/image/v2-961l3-m3joo.jpg?width=1216&height=832&dream)
+![A modern garden with sleek metal edging, surrounded by vibrant greenery and colorful flowers](/images/gallery/work2025/20250204_173031.jpg)
 
 ### Incorporating Lighting
 

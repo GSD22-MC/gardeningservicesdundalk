@@ -1,6 +1,7 @@
 ---
 title: "Ideas for Decking Rails: Top Trends and Practical Tips"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
+servicePillar: "decking-fencing"
 date: "2024-05-07 16:54:56"
 draft: false
 ---
@@ -45,7 +46,7 @@ To further enhance our outdoor space, we should also consider elements such as l
 
 ## Materials and Maintenance
 
-![](https://gardeningservicesdundalk.com/wp-content/uploads/2024/05/Ideas-for-Decking-Rails-1-1024x512.jpg)
+![Decking rails installation by Gardening Services Dundalk](/images/gallery/gallery-46.jpg)
 
 ### Wooden Railings: Traditional and Rustic
 
@@ -79,7 +80,7 @@ In summary, consider the style, maintenance requirements, and budget when decidi
 
 ## Ensuring Safety and Compliance
 
-![A sturdy deck railing with proper height and spacing, secured with durable materials and smooth edges, meeting safety and building code regulations](https://koala.sh/api/image/v2-960gy-drk9l.jpg?width=1216&height=832&dream)
+![A sturdy deck railing with proper height and spacing, secured with durable materials and smooth edges, meeting safety and building code regulations](/images/gallery/gallery-35.jpg)
 
 When it comes to decking rails, ensuring safety and compliance with regulations is of utmost importance. In this section, we will discuss the key aspects of understanding deck railing regulations and choosing safe and secure railing systems.
 
@@ -153,7 +154,7 @@ In summary, numerous options can help you achieve the perfect deck railing aesth
 
 ## Additional Considerations
 
-![The scene shows various options for decking rails, including metal, wood, and glass, with different designs and colors](https://koala.sh/api/image/v2-960is-kiqxg.jpg?width=1216&height=832&dream)
+![The scene shows various options for decking rails, including metal, wood, and glass, with different designs and colors](/images/gallery/gallery-47.jpg)
 
 When choosing deck railing ideas, there are some additional factors to consider. In this section, we will discuss selecting railing for different deck levels and integrating deck furniture and features.
 

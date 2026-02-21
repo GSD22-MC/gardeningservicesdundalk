@@ -1,6 +1,7 @@
 ---
 title: "Privacy Garden Ideas: Turn Your Outdoor Space into Tranquil Haven"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
+servicePillar: "decking-fencing"
 seoTitle: "Privacy Garden Ideas — Screens, Plants & Fencing That Work"
 seoDescription: "Easy garden privacy ideas that actually work. Screening plants, tall hedges, trellis panels, slatted fencing and more. Create a private outdoor space on any budget."
 date: "2024-05-07 17:40:33"

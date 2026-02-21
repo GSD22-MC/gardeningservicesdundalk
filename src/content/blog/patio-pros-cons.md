@@ -1,6 +1,7 @@
 ---
 title: "Patio Pros & Cons: A Guide to Optimising Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250703_151612.jpg"
+servicePillar: "patio-paving"
 date: "2024-02-02 12:51:23"
 description: "Patio perks: chic outdoor living with a catch—cost and upkeep. Worth it?"
 draft: false
@@ -64,7 +65,7 @@ Concrete patios are affordable and can be shaped into any design, offering versa
     -   Concrete can crack over time and may need resurfacing
     -   Pavers can shift if the base is not well-prepared
 
-![](https://gardeningservicesdundalk.com/wp-content/uploads/2024/02/Patio-Pros-Cons-2-1024x512.jpg)
+![Patio paving project by Gardening Services Dundalk](/images/gallery/gallery-29.jpg)
 
 ## Patio Design Considerations
 
