@@ -1,7 +1,7 @@
 ---
 title: "Garden Landscaping"
 description: "Complete garden transformations — design, build, and planting to create your dream outdoor space."
-image: "/images/icons/garden-landscaping.png"
+image: "/images/services/landscaping.jpg"
 order: 1
 ---
 

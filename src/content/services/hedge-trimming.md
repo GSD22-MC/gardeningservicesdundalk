@@ -1,7 +1,7 @@
 ---
 title: "Hedge Trimming"
 description: "Expert hedge cutting, shaping, and removal. We handle hedges of all sizes and types."
-image: "/images/icons/hedge-trimming.png"
+image: "/images/services/hedge-trimming.jpg"
 order: 3
 ---
 

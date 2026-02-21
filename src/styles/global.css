@@ -314,6 +314,61 @@ button[type="submit"]:hover {
   width: auto;
 }
 
+.logo-text {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.logo-green {
+  color: var(--gsd-green);
+}
+
+.logo-orange {
+  color: var(--gsd-orange);
+}
+
+/* Review title styling */
+.review-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--gsd-green-dark);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+/* Service-area links grid */
+.service-area-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.service-area-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--gsd-green-pale);
+  border-radius: var(--gsd-radius);
+  color: var(--gsd-green-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: var(--gsd-transition);
+}
+
+.service-area-link:hover {
+  background: var(--gsd-green);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--gsd-shadow-sm);
+}
+
 .header-nav {
   display: flex;
   align-items: center;

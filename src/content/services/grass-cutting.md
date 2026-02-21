@@ -1,7 +1,7 @@
 ---
 title: "Grass Cutting & Lawn Care"
 description: "Regular grass cutting, lawn treatments, scarifying, and top-dressing for a lush, healthy lawn."
-image: "/images/icons/grass-cutting.png"
+image: "/images/services/grass-cutting.jpg"
 order: 2
 ---
 

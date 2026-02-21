@@ -31,14 +31,6 @@ import PageLayout from '../layouts/PageLayout.astro';
           <span class="ba-label ba-label-before">Before</span>
           <span class="ba-label ba-label-after">After</span>
         </div>
-        <div class="ba-slider" tabindex="0" role="slider" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
-          <img src="/images/before-after/after-2.jpg" alt="After garden transformation" loading="lazy" />
-          <div class="ba-before"><img src="/images/before-after/before-2.jpg" alt="Before garden transformation" loading="lazy" /></div>
-          <div class="ba-divider"></div>
-          <div class="ba-handle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(6,0)"/></svg></div>
-          <span class="ba-label ba-label-before">Before</span>
-          <span class="ba-label ba-label-after">After</span>
-        </div>
       </div>
     </div>
   </section>
@@ -47,10 +39,16 @@ import PageLayout from '../layouts/PageLayout.astro';
     <div class="container">
       <h2 class="text-center" style="margin-bottom: 2rem;">Recent Projects</h2>
       <div class="gallery-grid">
-        <!-- Placeholder: Photos will be added from Cloudinary after upload -->
-        <p class="text-center" style="grid-column: 1/-1; color: var(--gsd-text-light); padding: 3rem;">
-          Project photos are being uploaded. Check back soon!
-        </p>
+        {[...Array(12)].map((_, i) => (
+          <div class="gallery-item fade-in">
+            <img src={`/images/gallery/work-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Gardening project ${i + 1} — Dundalk, Co. Louth`} loading="lazy" width="400" height="300" />
+          </div>
+        ))}
+        {[...Array(22)].map((_, i) => (
+          <div class="gallery-item fade-in">
+            <img src={`/images/gallery/gallery-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Garden work ${i + 1} — Pete & Seamus, County Louth`} loading="lazy" width="400" height="300" />
+          </div>
+        ))}
       </div>
     </div>
   </section>

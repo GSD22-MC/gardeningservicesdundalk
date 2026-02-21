@@ -1,7 +1,7 @@
 ---
 title: "Garden Clearance"
 description: "Full garden clearances, rubbish removal, overgrown garden restoration, and site preparation."
-image: "/images/icons/garden-clearance.png"
+image: "/images/services/garden-clearance.jpg"
 order: 6
 ---
 

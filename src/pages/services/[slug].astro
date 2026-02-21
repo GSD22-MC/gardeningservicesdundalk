@@ -13,6 +13,40 @@ export async function getStaticPaths() {
 const { service } = Astro.props;
 const { Content } = await service.render();
 const { title, seoTitle, seoDescription, description, image } = service.data;
+const slug = service.id.replace(/\.md$/, '');
+
+// Map service slugs to their service-area URL patterns
+const serviceAreaPatterns: Record<string, { prefix: string; label: string }[]> = {
+  'garden-landscaping': [{ prefix: 'garden-landscaping', label: 'Garden Landscaping' }],
+  'grass-cutting': [{ prefix: 'grass-cutting-lawn-care', label: 'Grass Cutting & Lawn Care' }],
+  'hedge-trimming': [{ prefix: 'hedge-trimming-services', label: 'Hedge Trimming' }],
+  'decking-fencing': [
+    { prefix: 'decking-services', label: 'Decking' },
+    { prefix: 'fencing-installation', label: 'Fencing Installation' },
+  ],
+  'patio-paving': [{ prefix: 'patio-paving-installation', label: 'Patio & Paving' }],
+  'garden-clearance': [{ prefix: 'garden-clearance', label: 'Garden Clearance' }],
+};
+
+const areas = [
+  { name: 'Annagassan', slug: 'annagassan' },
+  { name: 'Ardee', slug: 'ardee' },
+  { name: 'Ballymascanlan', slug: 'ballymascanlan' },
+  { name: 'Blackrock', slug: 'blackrock' },
+  { name: 'Carlingford', slug: 'carlingford' },
+  { name: 'Castlebellingham', slug: 'castlebellingham' },
+  { name: 'Dundalk', slug: 'dundalk' },
+  { name: 'Greenore', slug: 'greenore' },
+  { name: 'Hackballscross', slug: 'hackballscross' },
+  { name: 'Inniskeen', slug: 'inniskeen' },
+  { name: 'Jenkinstown', slug: 'jenkinstown' },
+  { name: 'Knockbridge', slug: 'knockbridge' },
+  { name: 'Lordship', slug: 'lordship' },
+  { name: 'Louth Village', slug: 'louth-village' },
+  { name: 'Omeath', slug: 'omeath' },
+];
+
+const patterns = serviceAreaPatterns[slug] || [];
 ---
 
 <PageLayout
@@ -41,6 +75,28 @@ const { title, seoTitle, seoDescription, description, image } = service.data;
     </div>
   </section>
 
+  {patterns.length > 0 && (
+    <section class="section section-green">
+      <div class="container">
+        <h2 class="text-center" style="margin-bottom: 0.5rem;">{title} Near You</h2>
+        <p class="text-center section-subtitle" style="margin-bottom: 1.5rem;">Find {title.toLowerCase()} services in your local area.</p>
+        {patterns.map((pattern) => (
+          <div style="margin-bottom: 1.5rem;">
+            {patterns.length > 1 && <h3 style="margin-bottom: 0.75rem; font-size: 1.1rem;">{pattern.label}</h3>}
+            <div class="service-area-links">
+              {areas.map((area) => (
+                <a href={`/${pattern.prefix}-${area.slug}/`} class="service-area-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  {area.name}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
   <section class="cta-section">
     <div class="container fade-in">
       <h2>Get a Free {title} Quote</h2>
@@ -48,7 +104,7 @@ const { title, seoTitle, seoDescription, description, image } = service.data;
       <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
       <div class="cta-buttons">
         <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
-        <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20{encodeURIComponent(title)}" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href={`https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20${encodeURIComponent(title)}`} class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
         <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
       </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 title: "Decking & Fencing"
 description: "Custom timber decking, composite decking, garden fencing, and gate installations."
-image: "/images/icons/decking-fencing.png"
+image: "/images/services/decking-fencing.jpg"
 order: 4
 ---
 

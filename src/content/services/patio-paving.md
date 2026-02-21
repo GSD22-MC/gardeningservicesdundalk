@@ -1,7 +1,7 @@
 ---
 title: "Patio & Paving"
 description: "Natural stone patios, block paving driveways, garden paths, and step installations."
-image: "/images/icons/paving.png"
+image: "/images/services/paving.jpg"
 order: 5
 ---
 
