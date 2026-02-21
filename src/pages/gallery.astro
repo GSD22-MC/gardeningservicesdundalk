@@ -39,14 +39,21 @@ import PageLayout from '../layouts/PageLayout.astro';
     <div class="container">
       <h2 class="text-center" style="margin-bottom: 2rem;">Recent Projects</h2>
       <div class="gallery-grid">
-        {[...Array(12)].map((_, i) => (
+        {/* 2025 Work Photos */}
+        {[...Array(19)].map((_, i) => (
           <div class="gallery-item fade-in">
-            <img src={`/images/gallery/work-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Gardening project ${i + 1} — Dundalk, Co. Louth`} loading="lazy" width="400" height="300" />
+            <img src={`/images/gallery/gallery-${String(i + 29).padStart(2, '0')}.jpg`} alt={`Gardening project ${i + 1} — Dundalk, Co. Louth 2025`} loading="lazy" width="400" height="300" />
           </div>
         ))}
-        {[...Array(22)].map((_, i) => (
+        {/* Earlier work photos */}
+        {[...Array(12)].map((_, i) => (
           <div class="gallery-item fade-in">
-            <img src={`/images/gallery/gallery-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Garden work ${i + 1} — Pete & Seamus, County Louth`} loading="lazy" width="400" height="300" />
+            <img src={`/images/gallery/work-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Gardening project — Dundalk, Co. Louth`} loading="lazy" width="400" height="300" />
+          </div>
+        ))}
+        {[...Array(28)].map((_, i) => (
+          <div class="gallery-item fade-in">
+            <img src={`/images/gallery/gallery-${String(i + 1).padStart(2, '0')}.jpg`} alt={`Garden work — Pete & Seamus, County Louth`} loading="lazy" width="400" height="300" />
           </div>
         ))}
       </div>
