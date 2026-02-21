@@ -1,0 +1,85 @@
+---
+interface Props {
+  type?: 'LocalBusiness' | 'Article' | 'Both';
+  articleData?: {
+    title: string;
+    description: string;
+    datePublished: string;
+    dateModified?: string;
+    image?: string;
+  };
+}
+
+const { type = 'LocalBusiness', articleData } = Astro.props;
+
+const localBusiness = {
+  '@context': 'https://schema.org',
+  '@type': 'LandscapingBusiness',
+  name: 'Gardening Services Dundalk',
+  description: 'Professional gardening and landscaping services in Dundalk and County Louth. Father and son team offering garden maintenance, landscaping, decking, paving, fencing, and garden clearance.',
+  url: 'https://gardeningservicesdundalk.com',
+  telephone: '+353851685170',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Dundalk',
+    addressRegion: 'County Louth',
+    addressCountry: 'IE',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: '54.0037',
+    longitude: '-6.4023',
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Dundalk' },
+    { '@type': 'City', name: 'Carlingford' },
+    { '@type': 'City', name: 'Blackrock' },
+    { '@type': 'City', name: 'Ardee' },
+    { '@type': 'City', name: 'Castlebellingham' },
+    { '@type': 'City', name: 'Omeath' },
+    { '@type': 'City', name: 'Greenore' },
+    { '@type': 'City', name: 'Annagassan' },
+    { '@type': 'City', name: 'Ballymascanlan' },
+    { '@type': 'City', name: 'Knockbridge' },
+    { '@type': 'City', name: 'Lordship' },
+    { '@type': 'City', name: 'Louth Village' },
+    { '@type': 'City', name: 'Hackballscross' },
+    { '@type': 'City', name: 'Jenkinstown' },
+    { '@type': 'City', name: 'Inniskeen' },
+  ],
+  priceRange: '\u20AC\u20AC',
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    opens: '08:00',
+    closes: '18:00',
+  },
+};
+
+const article = articleData ? {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: articleData.title,
+  description: articleData.description,
+  datePublished: articleData.datePublished,
+  dateModified: articleData.dateModified || articleData.datePublished,
+  image: articleData.image,
+  author: {
+    '@type': 'Organization',
+    name: 'Gardening Services Dundalk',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Gardening Services Dundalk',
+    url: 'https://gardeningservicesdundalk.com',
+  },
+} : null;
+---
+
+<!-- LocalBusiness schema on every page -->
+<script type="application/ld+json" set:html={JSON.stringify(localBusiness, null, 0)} />
+
+<!-- Article schema on blog posts -->
+{article && (
+  <script type="application/ld+json" set:html={JSON.stringify(article, null, 0)} />
+)}

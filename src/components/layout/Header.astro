@@ -1,0 +1,41 @@
+---
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/services/', label: 'Services' },
+  { href: '/gallery/', label: 'Gallery' },
+  { href: '/reviews/', label: 'Reviews' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/about/', label: 'About' },
+  { href: '/areas/', label: 'Areas' },
+];
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="header-logo" aria-label="Gardening Services Dundalk — Home">
+      <img src="/images/logo/gardening-services-dundalk-logo.png" alt="Gardening Services Dundalk" width="150" height="90" />
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+
+    <nav class="header-nav" aria-label="Main navigation">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={[{ active: currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href)) }]}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a href="/contact/" class="header-cta">Free Quote</a>
+    </nav>
+  </div>
+</header>

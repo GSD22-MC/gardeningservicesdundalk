@@ -1,0 +1,434 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+
+// Services data
+const services = [
+  {
+    title: 'Garden Landscaping',
+    description: 'Complete garden transformations — design, build, and planting to create your dream outdoor space.',
+    image: '/images/icons/garden-landscaping.png',
+    href: '/services/garden-landscaping/',
+  },
+  {
+    title: 'Grass Cutting & Lawn Care',
+    description: 'Regular grass cutting, lawn treatments, scarifying, and top-dressing for a lush, healthy lawn.',
+    image: '/images/icons/grass-cutting.png',
+    href: '/services/grass-cutting/',
+  },
+  {
+    title: 'Hedge Trimming',
+    description: 'Expert hedge cutting, shaping, and removal. We handle hedges of all sizes and types.',
+    image: '/images/icons/hedge-trimming.png',
+    href: '/services/hedge-trimming/',
+  },
+  {
+    title: 'Decking & Fencing',
+    description: 'Custom timber decking, composite decking, garden fencing, and gate installations.',
+    image: '/images/icons/decking-fencing.png',
+    href: '/services/decking-fencing/',
+  },
+  {
+    title: 'Patio & Paving',
+    description: 'Natural stone patios, block paving driveways, garden paths, and step installations.',
+    image: '/images/icons/paving.png',
+    href: '/services/patio-paving/',
+  },
+  {
+    title: 'Garden Clearance',
+    description: 'Full garden clearances, rubbish removal, overgrown garden restoration, and site preparation.',
+    image: '/images/icons/garden-clearance.png',
+    href: '/services/garden-clearance/',
+  },
+];
+
+// Areas data
+const areas = [
+  'Annagassan', 'Ardee', 'Ballymascanlan', 'Blackrock', 'Carlingford',
+  'Castlebellingham', 'Dundalk', 'Greenore', 'Hackballscross', 'Inniskeen',
+  'Jenkinstown', 'Knockbridge', 'Lordship', 'Louth Village', 'Omeath',
+];
+---
+
+<PageLayout
+  title="Gardening Services Dundalk — 5-Star Landscaping & Garden Care"
+  description="Professional gardening and landscaping in Dundalk & County Louth. Garden maintenance, decking, paving, fencing & clearance. Free quotes. Call today."
+>
+  <!-- ====== SECTION 1: HERO ====== -->
+  <section class="hero" style="background-image: url('/images/hero/hero-garden.jpg');">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="section-badge">🌿 Dundalk's Trusted Gardeners</span>
+        <h1>Professional Gardening & Landscaping Services in Dundalk</h1>
+        <p>Pete & Seamus — father and son team with 35+ years of experience transforming gardens across County Louth.</p>
+        <div class="hero-buttons">
+          <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            085 168 5170
+          </a>
+          <a href="/contact/" class="btn btn-white btn-lg">Get Free Quote</a>
+        </div>
+      </div>
+      <div class="hero-form">
+        <h3>Get Your Free Quote</h3>
+        <form name="hero-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
+          <input type="hidden" name="form-name" value="hero-quote" />
+          <p style="display:none"><label>Don't fill: <input name="bot-field" /></label></p>
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <select name="service" required>
+              <option value="">Service Required...</option>
+              <option>Garden Landscaping</option>
+              <option>Grass Cutting & Lawn Care</option>
+              <option>Hedge Trimming</option>
+              <option>Decking & Fencing</option>
+              <option>Patio & Paving</option>
+              <option>Garden Clearance</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="3" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-cta" style="width: 100%;">Get Free Quote →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 2: TRUST BAR ====== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>5-Star Rated</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>35+ Years Experience</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>Free Quotes</span>
+        </div>
+        <div class="trust-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Fully Insured</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 3: SERVICES GRID ====== -->
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-badge">What We Do</span>
+        <h2>Our Gardening & Landscaping Services</h2>
+        <p class="section-subtitle">From weekly grass cutting to complete garden transformations — we do it all.</p>
+        <hr class="section-divider" />
+      </div>
+      <div class="services-grid">
+        {services.map((service, i) => (
+          <a href={service.href} class="service-card fade-in" style={`transition-delay: ${i * 0.1}s`}>
+            <div style="overflow: hidden;">
+              <img src={service.image} alt={service.title} class="service-card-img" width="400" height="200" loading="lazy" />
+            </div>
+            <div class="service-card-body">
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+              <span class="service-card-link">
+                Learn more
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 4: BEFORE & AFTER GALLERY ====== -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-badge">Our Results</span>
+        <h2>Before & After Transformations</h2>
+        <p class="section-subtitle">See the difference we make — drag the slider to compare.</p>
+        <hr class="section-divider" />
+      </div>
+      <div class="ba-gallery fade-in">
+        <div class="ba-slider" tabindex="0" role="slider" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <img src="/images/before-after/after-1.jpg" alt="After transformation" loading="lazy" />
+          <div class="ba-before">
+            <img src="/images/before-after/before-1.jpg" alt="Before transformation" loading="lazy" />
+          </div>
+          <div class="ba-divider"></div>
+          <div class="ba-handle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(6,0)"/></svg>
+          </div>
+          <span class="ba-label ba-label-before">Before</span>
+          <span class="ba-label ba-label-after">After</span>
+        </div>
+        <div class="ba-slider" tabindex="0" role="slider" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <img src="/images/before-after/after-2.jpg" alt="After transformation" loading="lazy" />
+          <div class="ba-before">
+            <img src="/images/before-after/before-2.jpg" alt="Before transformation" loading="lazy" />
+          </div>
+          <div class="ba-divider"></div>
+          <div class="ba-handle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(6,0)"/></svg>
+          </div>
+          <span class="ba-label ba-label-before">Before</span>
+          <span class="ba-label ba-label-after">After</span>
+        </div>
+        <div class="ba-slider" tabindex="0" role="slider" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <img src="/images/before-after/after-3.jpg" alt="After transformation" loading="lazy" />
+          <div class="ba-before">
+            <img src="/images/before-after/before-3.jpg" alt="Before transformation" loading="lazy" />
+          </div>
+          <div class="ba-divider"></div>
+          <div class="ba-handle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(6,0)"/></svg>
+          </div>
+          <span class="ba-label ba-label-before">Before</span>
+          <span class="ba-label ba-label-after">After</span>
+        </div>
+        <div class="ba-slider" tabindex="0" role="slider" aria-label="Before and after comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <img src="/images/before-after/after-4.jpg" alt="After transformation" loading="lazy" />
+          <div class="ba-before">
+            <img src="/images/before-after/before-4.jpg" alt="Before transformation" loading="lazy" />
+          </div>
+          <div class="ba-divider"></div>
+          <div class="ba-handle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 15 12 9 6" transform="translate(6,0)"/></svg>
+          </div>
+          <span class="ba-label ba-label-before">Before</span>
+          <span class="ba-label ba-label-after">After</span>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 2rem;">
+        <a href="/gallery/" class="btn btn-outline">View Full Gallery →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 5: REVIEWS ====== -->
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-badge">⭐ What Our Customers Say</span>
+        <h2>50+ Five-Star Reviews</h2>
+        <p class="section-subtitle">Don't just take our word for it — hear from our happy customers.</p>
+        <hr class="section-divider" />
+      </div>
+      <div class="reviews-grid" id="reviews-grid">
+        <!-- Reviews will be populated from content collection -->
+        <!-- Placeholder reviews until migration is complete -->
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Pete and Seamus transformed our overgrown garden into a beautiful outdoor space. Excellent work, very professional, and great value for money. Highly recommend!</p>
+          <p class="review-author">Happy Customer</p>
+          <p class="review-source">Google Review</p>
+        </div>
+        <div class="review-card fade-in" style="transition-delay: 0.1s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Brilliant job on our new patio and garden fencing. The lads were punctual, tidy, and the finish is top-class. Would definitely use again.</p>
+          <p class="review-author">Satisfied Customer</p>
+          <p class="review-source">Google Review</p>
+        </div>
+        <div class="review-card fade-in" style="transition-delay: 0.2s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">We've been using Gardening Services Dundalk for our regular grass cutting and hedge trimming for 3 years now. Always reliable and the garden looks fantastic.</p>
+          <p class="review-author">Regular Customer</p>
+          <p class="review-source">Google Review</p>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 2rem;">
+        <a href="/reviews/" class="btn btn-primary">Read All Reviews →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 6: ABOUT PETE & SEAMUS ====== -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-in-left">
+          <img src="/images/about/pete-seamus.jpg" alt="Pete and Seamus — Gardening Services Dundalk" width="600" height="400" loading="lazy" />
+        </div>
+        <div class="about-content fade-in-right">
+          <span class="section-badge">Meet the Team</span>
+          <h2>Pete & Seamus</h2>
+          <p style="margin: 1rem 0;">We're a father and son team based in Dundalk, County Louth. With over 35 years of combined experience, we take pride in every garden we work on — from weekly maintenance to complete landscaping transformations.</p>
+          <ul class="check-list">
+            <li>Fully insured and reliable</li>
+            <li>Local team — we know Dundalk and Louth</li>
+            <li>Free quotes with no obligation</li>
+            <li>Quality work at honest prices</li>
+          </ul>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-number" data-count="35" data-suffix="+">0+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" data-count="500" data-suffix="+">0+</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" data-count="15" data-suffix="">0</div>
+              <div class="stat-label">Areas Covered</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 7: AREAS WE COVER ====== -->
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-badge">📍 Service Areas</span>
+        <h2>Areas We Cover</h2>
+        <p class="section-subtitle">Serving Dundalk and 15+ towns across County Louth.</p>
+        <hr class="section-divider" />
+      </div>
+      <div class="areas-grid fade-in">
+        {areas.map((area) => (
+          <a href={`/areas/${area.toLowerCase().replace(/\s+/g, '-')}/`} class="area-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            {area}
+          </a>
+        ))}
+      </div>
+      <div class="map-container fade-in" style="margin-top: 2.5rem;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37328.22529397441!2d-6.430321999999999!3d54.003692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48638ca43dd5a427%3A0xa00c7a9973171d0!2sDundalk%2C%20Co.%20Louth!5e0!3m2!1sen!2sie!4v1693000000000"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Gardening Services Dundalk location map"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECTION 8: FOOTER CTA ====== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="fade-in">
+        <h2>Ready to Transform Your Garden?</h2>
+        <p>Get in touch today for a free, no-obligation quote. We'd love to hear about your project.</p>
+        <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+        <div class="cta-buttons">
+          <a href="tel:+353851685170" class="btn btn-cta btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+          <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.96 11.96 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.331 0-4.512-.654-6.378-1.788l-.458-.273-3.044 1.02 1.02-3.044-.273-.458A9.955 9.955 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            WhatsApp Us
+          </a>
+          <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before/After Slider Script -->
+  <script>
+    function initSliders() {
+      document.querySelectorAll('.ba-slider').forEach((slider) => {
+        const before = slider.querySelector('.ba-before') as HTMLElement;
+        const divider = slider.querySelector('.ba-divider') as HTMLElement;
+        const handle = slider.querySelector('.ba-handle') as HTMLElement;
+        if (!before || !divider || !handle) return;
+
+        let isDragging = false;
+
+        function updatePosition(x: number) {
+          const rect = slider.getBoundingClientRect();
+          let percent = ((x - rect.left) / rect.width) * 100;
+          percent = Math.max(0, Math.min(100, percent));
+
+          before.style.width = percent + '%';
+          divider.style.left = percent + '%';
+          handle.style.left = percent + '%';
+
+          const afterImg = slider.querySelector(':scope > img') as HTMLElement;
+          if (afterImg) {
+            before.querySelector('img')!.style.width = (rect.width) + 'px';
+          }
+
+          slider.setAttribute('aria-valuenow', String(Math.round(percent)));
+        }
+
+        slider.addEventListener('mousedown', (e: Event) => {
+          isDragging = true;
+          updatePosition((e as MouseEvent).clientX);
+          e.preventDefault();
+        });
+
+        document.addEventListener('mousemove', (e) => {
+          if (isDragging) updatePosition(e.clientX);
+        });
+
+        document.addEventListener('mouseup', () => { isDragging = false; });
+
+        slider.addEventListener('touchstart', (e: Event) => {
+          isDragging = true;
+          updatePosition((e as TouchEvent).touches[0].clientX);
+        }, { passive: true });
+
+        document.addEventListener('touchmove', (e) => {
+          if (isDragging) updatePosition(e.touches[0].clientX);
+        }, { passive: true });
+
+        document.addEventListener('touchend', () => { isDragging = false; });
+
+        // Keyboard accessibility
+        slider.addEventListener('keydown', (e: Event) => {
+          const ke = e as KeyboardEvent;
+          const current = parseFloat(before.style.width) || 50;
+          if (ke.key === 'ArrowLeft') {
+            const rect = slider.getBoundingClientRect();
+            updatePosition(rect.left + ((current - 2) / 100) * rect.width);
+          } else if (ke.key === 'ArrowRight') {
+            const rect = slider.getBoundingClientRect();
+            updatePosition(rect.left + ((current + 2) / 100) * rect.width);
+          }
+        });
+
+        // Set initial width for before images
+        const rect = slider.getBoundingClientRect();
+        const beforeImg = before.querySelector('img') as HTMLElement;
+        if (beforeImg && rect.width > 0) {
+          beforeImg.style.width = rect.width + 'px';
+        }
+
+        // Resize handler
+        window.addEventListener('resize', () => {
+          const r = slider.getBoundingClientRect();
+          const bi = before.querySelector('img') as HTMLElement;
+          if (bi && r.width > 0) {
+            bi.style.width = r.width + 'px';
+          }
+        });
+      });
+    }
+
+    // Initialize on DOM ready and after navigation
+    initSliders();
+    document.addEventListener('astro:after-swap', initSliders);
+  </script>
+</PageLayout>

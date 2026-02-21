@@ -1,0 +1,48 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<PageLayout
+  title="Blog — Gardening Tips & Advice | Gardening Services Dundalk"
+  description="Expert gardening tips, how-to guides, and landscaping advice from Pete & Seamus. Covering lawn care, paving, decking, and more."
+>
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">📝 Blog</span>
+        <h1>Gardening Tips & Advice</h1>
+        <p class="section-subtitle">Expert advice and how-to guides from our 35+ years of experience.</p>
+        <hr class="section-divider" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-white">
+    <div class="container">
+      {posts.length > 0 ? (
+        <div class="blog-grid">
+          {posts.map((post) => (
+            <a href={`/${post.id.replace(/\.md$/, '')}/`} class="blog-card fade-in" style="text-decoration: none;">
+              {post.data.featuredImage && (
+                <img src={post.data.featuredImage} alt={post.data.title} class="blog-card-img" width="400" height="200" loading="lazy" />
+              )}
+              <div class="blog-card-body">
+                <p class="blog-card-date">{post.data.date.toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+                <h3><span style="color: var(--gsd-green-dark);">{post.data.title}</span></h3>
+                {post.data.description && <p style="color: var(--gsd-text-light); font-size: 0.95rem;">{post.data.description}</p>}
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="text-center" style="color: var(--gsd-text-light); padding: 3rem;">
+          Blog posts are being migrated. Check back soon!
+        </p>
+      )}
+    </div>
+  </section>
+</PageLayout>

@@ -1,0 +1,56 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({
+    params: { slug: service.id.replace(/\.md$/, '') },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+const { Content } = await service.render();
+const { title, seoTitle, seoDescription, description, image } = service.data;
+---
+
+<PageLayout
+  title={seoTitle || `${title} — Gardening Services Dundalk`}
+  description={seoDescription || description}
+>
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Services</span>
+        <h1>{title}</h1>
+        <p class="section-subtitle">{description}</p>
+        <hr class="section-divider" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-white">
+    <div class="container-narrow">
+      {image && (
+        <img src={image} alt={title} style="width: 100%; border-radius: var(--gsd-radius-lg); box-shadow: var(--gsd-shadow-md); margin-bottom: 2rem;" loading="lazy" />
+      )}
+      <div class="blog-content">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>Get a Free {title} Quote</h2>
+      <p>Call us today for a free, no-obligation quote.</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20{encodeURIComponent(title)}" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+</PageLayout>

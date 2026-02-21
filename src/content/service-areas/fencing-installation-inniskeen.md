@@ -1,0 +1,71 @@
+---
+title: "Fencing Installation Inniskeen"
+slug: "fencing-installation-inniskeen"
+seoTitle: "Fencing Inniskeen | PVC, Timber & Panel Fencing | Free Quotes"
+seoDescription: "Professional fencing installation in Inniskeen, Co. Louth. PVC, timber panel, post and rail fencing. Repairs and replacements. Free quotes — call today."
+---
+Need new fencing in Inniskeen? Pete & Seamus install all types of garden and boundary fencing across Inniskeen and County Louth. From a single panel replacement to a complete perimeter fence, we supply quality materials and install them properly so they last.
+
+## Fencing Options for Inniskeen
+
+We install a wide range of fencing styles to suit every property and budget:
+
+### PVC / uPVC Fencing
+Maintenance-free and long-lasting. PVC fencing won't rot, warp or need painting. Available in white, grey and woodgrain finishes. A popular choice in Inniskeen for front and rear gardens.
+
+### Timber Panel Fencing
+The classic garden fence. We use pressure-treated timber panels fitted to sturdy concrete or timber posts. Available in closeboard, lap panel and hit-and-miss styles for different levels of privacy.
+
+### Post and Rail Fencing
+A traditional countryside style, ideal for larger properties around Inniskeen. Available in timber or metal. Often used for boundary definition rather than privacy.
+
+### Concrete Post and Panel
+Extremely durable and low maintenance. Concrete gravel boards at the base prevent rot, while concrete posts mean no future post replacements. Built to last in all weather conditions.
+
+### Composite Fencing
+A modern option that combines the look of timber with the durability of composite materials. No painting, no rotting, and available in a range of colours.
+
+## Fencing Prices in Inniskeen
+
+Fencing costs depend on the length, material and terrain. Here's a rough guide:
+
+| Fencing Type | Price Per Metre (supply & fit) |
+|-------------|-------------------------------|
+| Timber panel (6ft) | From €40 |
+| PVC fencing | From €55 |
+| Concrete post & panel | From €50 |
+| Post and rail | From €30 |
+| Composite fencing | From €70 |
+
+These prices include posts, panels, gravel boards (where applicable) and installation. We remove old fencing and dispose of it for a small additional charge.
+
+## Common Fencing Jobs in Inniskeen
+
+- **Full garden re-fencing** — removing old fencing and installing new
+- **Storm damage repairs** — replacing blown panels and broken posts
+- **Boundary fencing** — new fences between properties
+- **Security fencing** — taller, sturdier fencing for added privacy
+- **Gates** — matching timber, PVC or metal gates to complete the boundary
+- **Trellis and screening** — extending fence height or adding garden features
+
+## Inniskeen Fencing Considerations
+
+In Inniskeen, the main considerations are soil type, boundary lines and privacy requirements. The clay-heavy, slow-draining soil on drumlin terrain provides good post foundations in most locations. We always check with neighbours and boundary lines before starting work.
+
+## Frequently Asked Questions
+
+### What is the legal fence height in Inniskeen?
+Garden fences up to 2 metres (6.5 feet) in your rear garden typically don't need planning permission. Front garden fences are limited to 1.2 metres. Always check with the local authority if you're unsure.
+
+### How long does fencing take to install?
+A typical garden (30–40 metres of fencing) takes 1 to 2 days. We can usually start within a week of your quote being approved.
+
+### Do you take down old fencing?
+Yes — we remove and dispose of old fencing as part of the job. We can also work with existing posts if they're still sound, which reduces cost.
+
+### Can you install fencing on uneven ground?
+Absolutely. We regularly install fencing on sloped and uneven sites in Inniskeen and the surrounding areas. We step the panels to follow the contour of the ground.
+
+## Get a Free Fencing Quote
+
+Call Pete & Seamus on **085 168 5170** for a free quote on fencing in Inniskeen. We'll visit, measure up and give you a written quote with no obligation.

@@ -1,0 +1,21 @@
+{
+  "name": "gardeningservicesdundalk",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Gardening Services Dundalk — Professional landscaping & garden care",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "migrate": "node scripts/wp-to-markdown.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.17.3",
+    "csv-parse": "^6.1.0",
+    "turndown": "^7.2.2",
+    "xlsx": "^0.18.5"
+  }
+}

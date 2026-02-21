@@ -1,0 +1,69 @@
+---
+const currentYear = new Date().getFullYear();
+
+const services = [
+  { href: '/services/garden-landscaping/', label: 'Garden Landscaping' },
+  { href: '/services/grass-cutting/', label: 'Grass Cutting' },
+  { href: '/services/hedge-trimming/', label: 'Hedge Trimming' },
+  { href: '/services/decking-fencing/', label: 'Decking & Fencing' },
+  { href: '/services/patio-paving/', label: 'Patio & Paving' },
+  { href: '/services/garden-clearance/', label: 'Garden Clearance' },
+];
+
+const quickLinks = [
+  { href: '/about/', label: 'About Us' },
+  { href: '/gallery/', label: 'Our Work' },
+  { href: '/reviews/', label: 'Reviews' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/contact/', label: 'Contact' },
+  { href: '/areas/', label: 'Service Areas' },
+];
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Gardening Services Dundalk</h4>
+        <p>Pete & Seamus — a father and son team providing professional gardening and landscaping services across Dundalk and County Louth for over 35 years.</p>
+        <p style="margin-top: 1rem;">
+          <a href="tel:+353851685170" style="font-size: 1.1rem; font-weight: 700;">
+            📞 085 168 5170
+          </a>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        {services.map((link) => (
+          <a href={link.href}>{link.label}</a>
+        ))}
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        {quickLinks.map((link) => (
+          <a href={link.href}>{link.label}</a>
+        ))}
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Dundalk, County Louth, Ireland</p>
+        <p style="margin-top: 0.5rem;">
+          <a href="tel:+353851685170">085 168 5170</a>
+        </p>
+        <p style="margin-top: 0.5rem;">
+          <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services" target="_blank" rel="noopener">WhatsApp Us</a>
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">
+          Mon–Sat: 8:00am – 6:00pm
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {currentYear} Gardening Services Dundalk. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

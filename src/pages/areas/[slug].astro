@@ -1,0 +1,53 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const areas = await getCollection('areas');
+  return areas.map((area) => ({
+    params: { slug: area.id.replace(/\.md$/, '') },
+    props: { area },
+  }));
+}
+
+const { area } = Astro.props;
+const { Content } = await area.render();
+const { title, seoTitle, seoDescription, description } = area.data;
+---
+
+<PageLayout
+  title={seoTitle || `Gardening Services in ${title} — Gardening Services Dundalk`}
+  description={seoDescription || `Professional gardening and landscaping services in ${title}, County Louth. Free quotes from Pete & Seamus.`}
+>
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">📍 {title}</span>
+        <h1>Gardening Services in {title}</h1>
+        <p class="section-subtitle">{description || `Professional gardening and landscaping in ${title} and surrounding areas.`}</p>
+        <hr class="section-divider" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-white">
+    <div class="container-narrow">
+      <div class="blog-content">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>Need a Gardener in {title}?</h2>
+      <p>Call us today for a free, no-obligation quote.</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services%20in%20{encodeURIComponent(title)}" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+</PageLayout>

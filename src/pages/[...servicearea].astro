@@ -1,0 +1,118 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  // Service-area pages (root-level URLs like /grass-cutting-lawn-care-annagassan/)
+  const serviceAreaPages = await getCollection('service-areas');
+  const serviceAreaPaths = serviceAreaPages.map((page) => ({
+    params: { servicearea: page.data.slug || page.id.replace(/\.md$/, '') },
+    props: { page, contentType: 'service-area' },
+  }));
+
+  // Blog posts at root level to preserve WordPress URLs for SEO
+  // WordPress had /how-to-kill-moss-on-tarmac-driveways/ not /blog/how-to-.../
+  const blogPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const blogPaths = blogPosts.map((post) => ({
+    params: { servicearea: post.id.replace(/\.md$/, '') },
+    props: { page: post, contentType: 'blog' },
+  }));
+
+  return [...serviceAreaPaths, ...blogPaths];
+}
+
+const { page, contentType } = Astro.props;
+const { Content } = await page.render();
+const { title, seoTitle, seoDescription } = page.data;
+const isBlog = contentType === 'blog';
+
+// Blog-specific data
+const formattedDate = isBlog
+  ? page.data.date.toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })
+  : null;
+const featuredImage = isBlog ? page.data.featuredImage : null;
+const description = isBlog ? page.data.description : null;
+
+// Service-area specific data
+const areaMatch = !isBlog
+  ? title.match(/(?:in\s+|Services?\s+|Installation[:\s]+|Mowing\s+|Contractors?\s+)([A-Z][a-zA-Z\s,]+)$/)
+  : null;
+const areaName = areaMatch ? areaMatch[1].trim() : 'your area';
+---
+
+<PageLayout
+  title={seoTitle || `${title} | Gardening Services Dundalk`}
+  description={seoDescription || (isBlog
+    ? description || `Read about ${title} — gardening advice from Pete & Seamus.`
+    : `Professional ${title.toLowerCase()}. Free quotes from Pete & Seamus — 35+ years experience serving County Louth.`)}
+  ogImage={featuredImage}
+>
+  {isBlog && (
+    <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: seoDescription || description || title,
+      datePublished: page.data.date.toISOString(),
+      image: featuredImage,
+      author: { '@type': 'Organization', name: 'Gardening Services Dundalk' },
+      publisher: { '@type': 'Organization', name: 'Gardening Services Dundalk', url: 'https://gardeningservicesdundalk.com' },
+    })} />
+  )}
+
+  {isBlog ? (
+    <section class="section section-green" style="padding: 3rem 0;">
+      <div class="container-narrow">
+        <p style="margin-bottom: 0.5rem;">
+          <a href="/blog/" style="color: var(--gsd-green-dark); font-weight: 600;">&larr; Back to Blog</a>
+        </p>
+        <h1 style="font-size: clamp(1.8rem, 4vw, 2.5rem);">{title}</h1>
+        <p style="color: var(--gsd-text-light); margin-top: 0.5rem;">
+          {formattedDate} &middot; By Pete &amp; Seamus
+        </p>
+      </div>
+    </section>
+  ) : (
+    <section class="section section-green">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Local Service</span>
+          <h1>{title}</h1>
+          <p class="section-subtitle">Professional service from Pete & Seamus — your local gardening experts.</p>
+          <hr class="section-divider" />
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section-white">
+    <div class="container-narrow">
+      {isBlog && featuredImage && (
+        <img
+          src={featuredImage}
+          alt={title}
+          style="width: 100%; border-radius: var(--gsd-radius-lg); box-shadow: var(--gsd-shadow-md); margin-bottom: 2rem;"
+          loading="lazy"
+        />
+      )}
+      <div class="blog-content">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>{isBlog ? 'Need Help With Your Garden?' : `Get a Free Quote in ${areaName}`}</h2>
+      <p>{isBlog ? "We're here to help — call for a free, no-obligation quote." : 'Call us today — free, no-obligation quotes for all our services.'}</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        {!isBlog && (
+          <a href="https://wa.me/353851685170?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20gardening%20services" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        )}
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+</PageLayout>

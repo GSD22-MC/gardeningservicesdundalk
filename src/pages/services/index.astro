@@ -1,0 +1,59 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const services = [
+  { title: 'Garden Landscaping', slug: 'garden-landscaping', description: 'Complete garden transformations — design, build, and planting to create your dream outdoor space.', image: '/images/icons/garden-landscaping.png' },
+  { title: 'Grass Cutting & Lawn Care', slug: 'grass-cutting', description: 'Regular grass cutting, lawn treatments, scarifying, and top-dressing for a lush, healthy lawn.', image: '/images/icons/grass-cutting.png' },
+  { title: 'Hedge Trimming', slug: 'hedge-trimming', description: 'Expert hedge cutting, shaping, and removal. We handle hedges of all sizes and types.', image: '/images/icons/hedge-trimming.png' },
+  { title: 'Decking & Fencing', slug: 'decking-fencing', description: 'Custom timber decking, composite decking, garden fencing, and gate installations.', image: '/images/icons/decking-fencing.png' },
+  { title: 'Patio & Paving', slug: 'patio-paving', description: 'Natural stone patios, block paving driveways, garden paths, and step installations.', image: '/images/icons/paving.png' },
+  { title: 'Garden Clearance', slug: 'garden-clearance', description: 'Full garden clearances, rubbish removal, overgrown garden restoration, and site preparation.', image: '/images/icons/garden-clearance.png' },
+];
+---
+
+<PageLayout
+  title="Our Services — Gardening & Landscaping | Gardening Services Dundalk"
+  description="Professional gardening services in Dundalk: landscaping, grass cutting, hedge trimming, decking, paving, and garden clearance. Free quotes."
+>
+  <section class="section section-green">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What We Do</span>
+        <h1>Our Services</h1>
+        <p class="section-subtitle">Professional gardening and landscaping services across Dundalk and County Louth.</p>
+        <hr class="section-divider" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-white">
+    <div class="container">
+      <div class="services-grid">
+        {services.map((service, i) => (
+          <a href={`/services/${service.slug}/`} class="service-card fade-in" style={`transition-delay: ${i * 0.1}s`}>
+            <div style="overflow: hidden;">
+              <img src={service.image} alt={service.title} class="service-card-img" width="400" height="200" loading="lazy" />
+            </div>
+            <div class="service-card-body">
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+              <span class="service-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>Need a Quote?</h2>
+      <p>Call us today for a free, no-obligation quote on any of our services.</p>
+      <a href="tel:+353851685170" class="cta-phone">085 168 5170</a>
+      <div class="cta-buttons">
+        <a href="tel:+353851685170" class="btn btn-cta btn-lg">Call Now</a>
+        <a href="/contact/" class="btn btn-white btn-lg">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+</PageLayout>
