@@ -66,6 +66,7 @@ const areas = [
   title="Gardening Services Dundalk — 5-Star Landscaping & Garden Care"
   description="Professional gardening and landscaping in Dundalk & County Louth. Garden maintenance, decking, paving, fencing & clearance. Free quotes. Call today."
 >
+  <link slot="head" rel="preload" as="image" href="/images/hero/hero-garden.jpg" fetchpriority="high" />
   <!-- ====== SECTION 1: HERO ====== -->
   <section class="hero" style="background-image: url('/images/hero/hero-garden.jpg');">
     <div class="hero-content">
@@ -93,7 +94,11 @@ const areas = [
             <input type="tel" name="phone" placeholder="Phone Number" required />
           </div>
           <div class="form-group">
-            <select name="service" required>
+            <input type="text" name="eircode" placeholder="Eircode / Address" required />
+          </div>
+          <div class="form-group">
+            <label for="hero-service" class="sr-only">Service Required</label>
+            <select id="hero-service" name="service" required>
               <option value="">Service Required...</option>
               <option>Garden Landscaping</option>
               <option>Grass Cutting & Lawn Care</option>
