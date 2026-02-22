@@ -87,18 +87,13 @@ Hiring a skip is a popular option for larger clearance jobs, but there are a few
 
 Skips work well if you have good access and are doing the clearance yourself over a weekend. But for heavily overgrown gardens, you might end up needing two or three skips, which pushes the cost up significantly.
 
-### 5. Professional Garden Waste Removal
+### 5. Professional Garden Clearance
 
-This is where a professional [garden clearance](/services/garden-clearance/) service earns its keep. When you hire a professional team, waste removal is handled as part of the job. The team clears the garden, loads everything into their vehicles, and takes it to a licensed green waste facility.
+A professional [garden clearance](/services/garden-clearance/) service handles the hard physical work of cutting back and clearing an overgrown garden. The team arrives with chainsaws, strimmers, and heavy-duty clearing tools, and works through the garden systematically — cutting back brambles, felling small trees, clearing scrub, and leaving the site clean and tidy.
 
-The advantages are obvious:
+For waste disposal after the clearance, you may need to arrange collection separately through a licensed waste collector or skip hire, depending on the volume of material. Some garden clearance teams can advise on the best local options for getting waste taken away.
 
-- No trips to the recycling centre
-- No skip blocking your drive for a week
-- The waste is sorted properly — green waste, timber, and any non-organic materials all go to the right place
-- You do not need to worry about permits or disposal fees
-
-For any garden clearance beyond a small tidy-up, professional removal is usually the most cost-effective option when you factor in your time, fuel, skip hire costs, and the physical effort involved.
+For any garden clearance beyond a small tidy-up, hiring professionals to do the physical clearing work saves enormous time and effort compared to tackling it yourself.
 
 ## The Legal Side — What You Need to Know
 
@@ -114,7 +109,7 @@ Absolutely not. Illegal dumping of any waste, including garden waste, is an offe
 
 Even dumping green waste in a ditch might seem harmless, but it can smother native plants, spread invasive species, and block drainage. Always use a legal disposal route.
 
-![Professional waste removal as part of a garden clearance service](/images/gallery/work2025/20250129_091110.jpg)
+![Professional garden clearance in progress](/images/gallery/work2025/20250129_091110.jpg)
 
 ## What About Invasive Species?
 
@@ -130,7 +125,7 @@ If you find any of these in your garden during clearance, stop and get professio
 
 ### How much does it cost to have garden waste collected in Ireland?
 
-For small amounts, your brown bin collection is included in your waste charges. Professional garden waste collection for a clearance job typically starts from around €100 to €150 for a single load, depending on volume and distance. This is usually included in the overall price when you hire a garden clearance service.
+For small amounts, your brown bin collection is included in your waste charges. Professional garden waste collection typically starts from around €100 to €150 for a single load, depending on volume and distance. Contact a licensed waste collector in your area for exact pricing.
 
 ### Can I take garden waste to the recycling centre myself?
 
@@ -144,8 +139,8 @@ Large timber from tree work needs to go to a facility that accepts wood waste, n
 
 In County Louth, garden waste goes in the **brown bin** (the organics bin), not the green bin. The brown bin also accepts food waste. Your green bin is for dry recyclables like plastic, cardboard, and cans.
 
-## Need Help with Garden Waste Removal?
+## Need Your Garden Cleared?
 
-If you have more garden waste than you know what to do with, or you are planning a clearance job and want the waste handled properly, Pete and Seamus can help. We have been clearing gardens and managing waste removal across Dundalk, Drogheda, and County Louth for over 35 years. Every bit of waste we collect goes to a licensed facility — no fly-tipping, no shortcuts.
+If you have an overgrown garden that needs cutting back and clearing, Pete and Seamus can help. We have been clearing gardens across Dundalk, Drogheda, and County Louth for over 35 years. We cut back brambles, clear scrub, remove trees and hedging, and leave the site clean and tidy. If you need waste collected and taken away afterwards, we can advise on the best local options for disposal.
 
-Give us a ring on **085 168 5170** for a free quote. We will sort the lot for you.
+Give us a ring on **085 168 5170** for a free quote on garden clearance.

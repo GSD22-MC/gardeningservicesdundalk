@@ -1,7 +1,7 @@
 ---
 title: "Composite Decking Ideas: Innovative Designs for Outdoor Spaces"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
-servicePillar: "decking-fencing"
+servicePillar: "decking"
 date: "2024-05-07 16:59:19"
 draft: false
 seoTitle: "Composite Decking Ideas — Colours, Styles & Layouts (2026)"

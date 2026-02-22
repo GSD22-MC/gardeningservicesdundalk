@@ -1,7 +1,7 @@
 ---
 title: "Fence Privacy Ideas: Innovative Solutions for Your Garden"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
-servicePillar: "decking-fencing"
+servicePillar: "fencing"
 date: "2024-03-22 12:06:10"
 description: "Elevate your garden's privacy with innovative fencing solutions! Explore creative ways to shield your outdoor sanctuary stylishly."
 draft: false

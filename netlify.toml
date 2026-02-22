@@ -16,6 +16,16 @@
 [build.processing.html]
   pretty_urls = true
 
+[[redirects]]
+  from = "/services/decking-fencing/"
+  to = "/services/decking/"
+  status = 301
+
+[[redirects]]
+  from = "/services/decking-fencing"
+  to = "/services/decking/"
+  status = 301
+
 [[headers]]
   for = "/_astro/*"
   [headers.values]

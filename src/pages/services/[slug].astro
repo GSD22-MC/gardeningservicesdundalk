@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
+import ReviewCarousel from '../../components/ReviewCarousel.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -22,21 +23,20 @@ const relatedBlogPosts = allPosts
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 6);
 
-// Get featured reviews
+// Get service-specific reviews first, then pad with general 5-star reviews
 const allReviews = await getCollection('reviews');
-const featuredReviews = allReviews
-  .filter((r) => r.data.rating === 5)
-  .slice(0, 3);
+const serviceReviews = allReviews.filter((r) => r.data.service === slug && r.data.rating === 5);
+const generalReviews = allReviews.filter((r) => !r.data.service && r.data.rating === 5);
+const otherReviews = allReviews.filter((r) => r.data.service && r.data.service !== slug && r.data.rating === 5);
+const carouselReviews = [...serviceReviews, ...generalReviews, ...otherReviews].map((r) => r.data);
 
 // Map service slugs to their service-area URL patterns
 const serviceAreaPatterns: Record<string, { prefix: string; label: string }[]> = {
   'garden-landscaping': [{ prefix: 'garden-landscaping', label: 'Garden Landscaping' }],
   'grass-cutting': [{ prefix: 'grass-cutting-lawn-care', label: 'Grass Cutting & Lawn Care' }],
   'hedge-trimming': [{ prefix: 'hedge-trimming-services', label: 'Hedge Trimming' }],
-  'decking-fencing': [
-    { prefix: 'decking-services', label: 'Decking' },
-    { prefix: 'fencing-installation', label: 'Fencing Installation' },
-  ],
+  'decking': [{ prefix: 'decking-services', label: 'Decking' }],
+  'fencing': [{ prefix: 'fencing-installation', label: 'Fencing Installation' }],
   'patio-paving': [{ prefix: 'patio-paving-installation', label: 'Patio & Paving' }],
   'garden-clearance': [{ prefix: 'garden-clearance', label: 'Garden Clearance' }],
 };
@@ -87,13 +87,21 @@ const serviceGallery: Record<string, string[]> = {
     '/images/gallery/gallery-44.jpg',
     '/images/gallery/gallery-30.jpg',
   ],
-  'decking-fencing': [
+  'decking': [
     '/images/gallery/gallery-46.jpg',
-    '/images/gallery/gallery-35.jpg',
     '/images/gallery/gallery-47.jpg',
     '/images/gallery/gallery-42.jpg',
-    '/images/gallery/gallery-31.jpg',
     '/images/gallery/gallery-29.jpg',
+    '/images/gallery/gallery-31.jpg',
+    '/images/gallery/gallery-36.jpg',
+  ],
+  'fencing': [
+    '/images/gallery/gallery-35.jpg',
+    '/images/gallery/gallery-47.jpg',
+    '/images/gallery/gallery-31.jpg',
+    '/images/gallery/gallery-42.jpg',
+    '/images/gallery/gallery-29.jpg',
+    '/images/gallery/gallery-36.jpg',
   ],
   'patio-paving': [
     '/images/services/paving.jpg',
@@ -132,10 +140,15 @@ const serviceBenefits: Record<string, { icon: string; title: string; text: strin
     { icon: '🔧', title: 'Professional Equipment', text: 'Commercial-grade tools for clean, precise cuts every time.' },
     { icon: '🚛', title: 'Full Clean-up', text: 'All cuttings removed and disposed of — your garden left spotless.' },
   ],
-  'decking-fencing': [
+  'decking': [
     { icon: '🪵', title: 'Quality Materials', text: 'Hardwood, softwood, and composite options — built to last in Irish weather.' },
-    { icon: '📐', title: 'Custom Design', text: 'Every deck and fence tailored to your space and requirements.' },
+    { icon: '📐', title: 'Custom Design', text: 'Every deck tailored to your space, style, and requirements.' },
     { icon: '🛡️', title: 'Built to Last', text: 'Proper foundations, treated timber, and expert craftsmanship throughout.' },
+  ],
+  'fencing': [
+    { icon: '🛡️', title: 'Secure Boundaries', text: 'Strong, durable fencing that keeps your property safe and private.' },
+    { icon: '🪵', title: 'Quality Materials', text: 'Concrete posts, gravel boards, and treated timber built for Irish weather.' },
+    { icon: '⚡', title: 'Fast Turnaround', text: 'Most fencing jobs completed in 1-2 days with full cleanup included.' },
   ],
   'patio-paving': [
     { icon: '🪨', title: 'Premium Materials', text: 'Natural stone, limestone, sandstone, granite, and block paving options.' },
@@ -144,7 +157,7 @@ const serviceBenefits: Record<string, { icon: string; title: string; text: strin
   ],
   'garden-clearance': [
     { icon: '⚡', title: 'Fast Turnaround', text: 'Most clearances completed in 1-2 days — efficient and thorough.' },
-    { icon: '♻️', title: 'Responsible Disposal', text: 'All waste removed and disposed of properly — green waste recycled.' },
+    { icon: '✅', title: 'Left Clean & Tidy', text: 'Garden left cleared, levelled, and ready for its next chapter.' },
     { icon: '🌱', title: 'Ready for Next Steps', text: 'Site left level and prepared for landscaping, paving, or planting.' },
   ],
 };
@@ -156,9 +169,10 @@ const seoDescriptions: Record<string, string> = {
   'garden-landscaping': `Professional garden landscaping services in Dundalk and County Louth. Complete garden design, hard landscaping, patios, planting, and outdoor living spaces. Free quotes from Pete & Seamus — 35+ years experience.`,
   'grass-cutting': `Reliable grass cutting and lawn care services in Dundalk and County Louth. Regular cuts, lawn edging, scarifying, top-dressing, and seasonal treatments. Free quotes from Pete & Seamus.`,
   'hedge-trimming': `Expert hedge trimming and cutting services in Dundalk and County Louth. All hedge types — leylandii, laurel, privet, beech. Shaping, reduction, and removal. Free quotes from Pete & Seamus.`,
-  'decking-fencing': `Custom decking and fencing installation in Dundalk and County Louth. Timber and composite decking, garden fencing, gates, and repairs. Free quotes from Pete & Seamus — 35+ years experience.`,
+  'decking': `Custom timber and composite decking installation in Dundalk and County Louth. Bespoke decking design, raised decking, repairs, and accessories. Free quotes from Pete & Seamus — 35+ years experience.`,
+  'fencing': `Professional garden fencing installation in Dundalk and County Louth. Panel fencing, post & rail, picket fencing, gates, and storm damage repairs. Free quotes from Pete & Seamus — 35+ years experience.`,
   'patio-paving': `Professional patio and paving installation in Dundalk and County Louth. Natural stone patios, block paving driveways, garden paths, and steps. Free quotes from Pete & Seamus.`,
-  'garden-clearance': `Fast, reliable garden clearance services in Dundalk and County Louth. Overgrown gardens, rubbish removal, site preparation, and tree removal. Free quotes from Pete & Seamus.`,
+  'garden-clearance': `Fast, reliable garden clearance services in Dundalk and County Louth. Overgrown gardens, tree cutting, bramble removal, and site preparation. Free quotes from Pete & Seamus.`,
 };
 
 // Service schema
@@ -312,35 +326,13 @@ const serviceSchema = {
     </section>
   )}
 
-  <!-- ====== REVIEWS ====== -->
-  {featuredReviews.length > 0 && (
-    <section class="section section-green">
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-badge">⭐ What Our Customers Say</span>
-          <h2>50+ Five-Star Reviews</h2>
-          <p class="section-subtitle">Don't just take our word for it — hear from our happy customers.</p>
-          <hr class="section-divider" />
-        </div>
-        <div class="reviews-grid">
-          {featuredReviews.map((review, i) => (
-            <div class="review-card fade-in" style={i > 0 ? `transition-delay: ${i * 0.1}s` : ''}>
-              <div class="review-stars">{'★'.repeat(review.data.rating)}</div>
-              <p class="review-title">"{review.data.name}"</p>
-              <p class="review-text">{review.data.text.length > 200 ? review.data.text.slice(0, 200) + '...' : review.data.text}</p>
-              <p class="review-author">— {review.data.author || 'Happy Customer'}</p>
-              <p class="review-source">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                Customer Review
-              </p>
-            </div>
-          ))}
-        </div>
-        <div class="text-center" style="margin-top: 2rem;">
-          <a href="/reviews/" class="btn btn-primary">Read All Reviews →</a>
-        </div>
-      </div>
-    </section>
+  <!-- ====== REVIEWS CAROUSEL ====== -->
+  {carouselReviews.length > 0 && (
+    <ReviewCarousel
+      reviews={carouselReviews}
+      title={`What Our ${title} Customers Say`}
+      subtitle={`Real reviews from customers who used our ${title.toLowerCase()} services.`}
+    />
   )}
 
   <!-- ====== AREAS WE COVER ====== -->

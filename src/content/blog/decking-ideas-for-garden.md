@@ -1,7 +1,7 @@
 ---
 title: "Decking Ideas for Garden: Unique Designs and Top Tips"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
-servicePillar: "decking-fencing"
+servicePillar: "decking"
 date: "2024-05-28 18:56:22"
 draft: false
 seoTitle: "Decking Ideas for Gardens — Designs, Materials & Layouts"

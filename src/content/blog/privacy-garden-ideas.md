@@ -1,7 +1,7 @@
 ---
 title: "Privacy Garden Ideas: Turn Your Outdoor Space into Tranquil Haven"
 featuredImage: "/images/gallery/work2025/20250802_130440.jpg"
-servicePillar: "decking-fencing"
+servicePillar: "fencing"
 seoTitle: "Garden Privacy Ideas — Screens, Hedging & Fencing That Work"
 seoDescription: "Easy garden privacy ideas that actually work in Ireland. Tall hedging, screening plants, trellis, slatted fencing, bamboo and modern privacy walls. Every budget covered."
 date: "2024-05-07 17:40:33"

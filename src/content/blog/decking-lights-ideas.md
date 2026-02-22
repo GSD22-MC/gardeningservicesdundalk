@@ -1,7 +1,7 @@
 ---
 title: "Decking Lights Ideas: Top Trends for Illuminating Your Outdoor Space"
 featuredImage: "/images/gallery/work2025/20250204_170621.jpg"
-servicePillar: "decking-fencing"
+servicePillar: "decking"
 date: "2024-05-07 17:40:15"
 draft: false
 seoTitle: "Decking Lights Ideas — LED, Solar & Recessed Designs (2026)"

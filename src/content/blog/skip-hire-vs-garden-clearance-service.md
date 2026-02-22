@@ -12,7 +12,7 @@ When you are facing a garden full of overgrowth, old rubbish, or years of accumu
 
 We have been clearing gardens across Dundalk and County Louth for over 35 years, and we have seen plenty of customers who started with a skip and ended up calling us anyway. So let us lay out the honest comparison so you can make the right choice for your situation.
 
-![A garden mid-clearance with waste being sorted and removed by professionals](/images/gallery/work2025/20250129_091525.jpg)
+![A garden mid-clearance with overgrowth being cut back and cleared by professionals](/images/gallery/work2025/20250129_091525.jpg)
 
 ## Skip Hire — How It Works
 
@@ -48,9 +48,9 @@ Most skip hire companies accept:
 
 ## Garden Clearance Service — How It Works
 
-A professional [garden clearance](/services/garden-clearance/) service takes a completely different approach. A team arrives with all the equipment needed — strimmers, chainsaws, chippers, trailers — and they do everything. They cut, clear, load, and remove all the waste in one go. You point at what needs clearing, and they get on with it.
+A professional [garden clearance](/services/garden-clearance/) service takes a completely different approach. A team arrives with all the equipment needed — strimmers, chainsaws, chippers, and heavy-duty clearing tools — and they do the hard physical work for you. They cut, clear, and work through the garden systematically. You point at what needs clearing, and they get on with it.
 
-The waste goes straight into their vehicles or trailers and is taken to a licensed disposal facility on the same day. No skip sitting on your drive, no permit needed, and no heavy lifting on your part.
+The garden is left clean and tidy, with everything cut back and cleared. For waste disposal, you may need to arrange collection separately through a skip hire company or licensed waste collector, depending on the volume of material. Your clearance team can advise on the best option for your situation.
 
 ![Professional garden clearance team at work in County Louth](/images/gallery/work2025/20250116_094234.jpg)
 
@@ -73,11 +73,11 @@ And that is before you count the value of your weekends and the physical toll of
 
 ### Garden clearance service — true cost
 
-- Professional clearance including labour, equipment, and waste removal: €500 — €1,000 for a medium garden
+- Professional clearance including labour and equipment: €500 — €1,000 for a medium garden
 - Your time: zero (beyond being there to let the team in)
-- Additional costs: typically none, as waste disposal is included
+- Waste collection if needed: arrange separately via skip hire or licensed collector
 
-**Realistic total for a medium garden: €500 — €1,000**
+**Realistic total for a medium garden: €500 — €1,000** (plus waste collection if required)
 
 When you compare like for like, a professional service often comes in at a similar price — and sometimes cheaper — than the DIY-plus-skip approach. The difference is that you do not have to do any of the work.
 
@@ -98,20 +98,21 @@ When you compare like for like, a professional service often comes in at a simil
 - Skip sits there for days, which neighbours may not love
 
 ### Garden clearance service pros
-- Everything done for you — clearing, loading, disposal
+- All the hard physical clearing work done for you
 - Usually completed in one or two days
 - Professional equipment makes the job faster and more thorough
-- No skip on your property
-- No permit needed
-- Waste is sorted and disposed of properly
+- Garden left clean and tidy
+- No heavy lifting on your part
 - You get advice on what to keep and what to remove
+- Team can advise on waste disposal options if needed
 
 ### Garden clearance service cons
 - You need to be available when the team is working
 - Less flexibility on timing (you book a specific date)
+- Waste disposal may need to be arranged separately
 - May not be ideal if you also have a lot of non-garden household waste to dispose of
 
-![Cleared garden space after professional removal of all waste](/images/gallery/gallery-30.jpg)
+![Cleared garden space after professional garden clearance](/images/gallery/gallery-30.jpg)
 
 ## When a Skip Makes More Sense
 
@@ -145,7 +146,7 @@ A few things that catch people out:
 
 ### Can I hire a skip and a clearance service together?
 
-You can, but it is rarely necessary. A professional clearance service brings their own waste removal as part of the package. The only time you might want both is if you have a large mixed job with garden waste and household items — the team clears the garden, and you use the skip for everything else.
+You can, and this is actually a great combination. A professional clearance service handles all the hard physical work of cutting back and clearing the garden, and a skip gives you somewhere to put the waste afterwards. This works well for larger jobs where there is a significant volume of material to dispose of.
 
 ### Do I need a permit for a skip in County Louth?
 
@@ -157,7 +158,7 @@ A professional team with proper equipment can clear a medium-sized overgrown gar
 
 ### What if there is non-garden waste mixed in with the overgrowth?
 
-This is common, especially in neglected gardens. Old fencing, broken concrete, plastic sheeting, and all sorts can be buried under years of growth. A good clearance service will separate and dispose of different waste types appropriately. We handle this all the time and it is factored into the quote.
+This is common, especially in neglected gardens. Old fencing, broken concrete, plastic sheeting, and all sorts can be buried under years of growth. A good clearance service will cut back and clear everything, leaving the different material types separated and the site tidy. You may then need to arrange disposal of the waste through a skip or licensed waste collector.
 
 ## Let Us Take the Hard Work Off Your Hands
 

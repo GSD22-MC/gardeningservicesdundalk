@@ -10,7 +10,7 @@ draft: false
 
 Garden rubbish comes in all shapes and sizes. It is not just grass clippings and leaves — once you start a proper clearance or renovation, you can end up with everything from old timber fencing and concrete rubble to broken plant pots, buried plastic, and mountains of green waste. And getting rid of it all legally in Ireland is not always as straightforward as you might think.
 
-We have been dealing with garden rubbish of every description across Dundalk and County Louth for over 35 years. This guide covers every type of garden waste you are likely to encounter and the proper way to dispose of each one.
+Having cleared overgrown gardens across Dundalk and County Louth for over 35 years, we have seen every type of garden rubbish imaginable. This guide covers every type of garden waste you are likely to encounter and the proper way to dispose of each one.
 
 ![A mixed pile of garden rubbish including green waste and old materials](/images/gallery/work2025/20250129_091110.jpg)
 
@@ -24,7 +24,7 @@ This is the most common type of garden rubbish — grass clippings, hedge trimmi
 - **Brown bin** — for small, regular amounts. Available fortnightly in most of County Louth
 - **Home composting** — ideal for small quantities of soft green waste. Avoid composting seeding weeds, diseased material, or bramble roots
 - **Civic amenity sites** — most accept green waste free of charge or for a small fee. Whiteriver in Collon is the main site serving the Dundalk area
-- **Professional collection** — included as part of a [garden clearance](/services/garden-clearance/) service
+- **Professional collection** — some licensed waste collectors offer garden waste pickup services
 
 ### Timber and wood
 
@@ -47,7 +47,7 @@ Old patio slabs, concrete paths, broken blocks, and stone are heavy materials th
 **Disposal options:**
 - **Civic amenity sites** — most accept clean rubble and concrete, though there may be limits on quantity
 - **Skip hire** — rubble skips or mixed waste skips. Note that rubble is heavy and you will fill a skip much faster by weight than by volume
-- **Professional removal** — a clearance team can load and remove rubble as part of the job
+- **Professional removal** — a licensed waste collector can load and remove rubble
 - **Reuse** — clean broken concrete can sometimes be reused as hardcore for new paths, bases, or drainage
 
 ### Soil and clay
@@ -69,7 +69,7 @@ Garden fencing, metal posts, wire fencing, old gates, and other metalwork all ne
 **Disposal options:**
 - **Scrap metal** — metal posts, wire fencing, and gates can often be taken to a scrap metal dealer. Some will even collect for free if there is enough of it
 - **Civic amenity sites** — accept metals in the designated recycling area
-- **Professional removal** — usually handled as part of a clearance service
+- **Professional removal** — a licensed waste collector can handle metal and fencing removal
 - **Timber fencing** — see the timber section above
 
 ### Plastic and artificial materials
@@ -80,7 +80,7 @@ Old plant pots, landscape membrane, plastic edging, artificial grass, and other 
 - **Recycling** — clean, rigid plastic pots can go in your green bin. Some garden centres have pot recycling schemes
 - **Civic amenity sites** — accept most rigid plastics
 - **General waste** — landscape membrane, artificial grass, and other non-recyclable plastics go in the general waste stream
-- **Professional removal** — separated and disposed of appropriately
+- **Professional removal** — a licensed waste collector can separate and dispose of plastics appropriately
 
 ### Garden machinery and furniture
 
@@ -111,7 +111,7 @@ You can burn dry, untreated garden waste on your own property in rural areas, su
 
 If you hire someone to remove garden rubbish for you, make sure they are a licensed waste collector. Ask for their waste collection permit number — any legitimate operator will have one. If you hand your waste to an unlicensed operator and it ends up dumped in a field, you could face enforcement action from the council.
 
-![A cleanly cleared garden with all rubbish properly removed](/images/gallery/gallery-37.jpg)
+![A cleanly cleared garden after professional clearance](/images/gallery/gallery-37.jpg)
 
 ## Tips for Managing Garden Rubbish Efficiently
 
@@ -133,7 +133,7 @@ Before sending everything to the recycling centre, consider what could be reused
 
 ### Plan for waste before you start
 
-If you are planning a clearance, think about waste removal before you begin. There is nothing worse than having a garden full of bagged rubbish with nowhere to put it. Book your skip, arrange your vehicle, or hire a professional service that handles removal as part of the job.
+If you are planning a clearance, think about waste removal before you begin. There is nothing worse than having a garden full of bagged rubbish with nowhere to put it. Book your skip, arrange your vehicle, or contact a licensed waste collector to handle removal.
 
 ## Frequently Asked Questions
 
@@ -153,8 +153,8 @@ Old weedkiller, pesticides, fertiliser, and other garden chemicals should never 
 
 Yes, some waste collection companies offer garden waste collection without the clearance work. You bag or pile the waste, and they load and remove it. Prices typically start from around €80 to €150 per load, depending on the volume and type of waste.
 
-## Let Us Handle the Rubbish
+## Need Your Garden Cleared?
 
-If you have garden rubbish that needs sorting, whether it is from a weekend tidy-up or a full-scale clearance, Pete and Seamus can take it off your hands. We handle every type of garden waste — green waste, timber, rubble, metals, the lot — and make sure it all goes to the right place. Over 35 years in the business means we know the rules, the facilities, and the most efficient way to get your garden cleared and your rubbish gone.
+If you have an overgrown garden that needs cutting back and clearing, Pete and Seamus can help. We clear overgrown gardens, cut back brambles and scrub, remove trees and hedging, and leave the site clean and tidy. Over 35 years in the business means we know how to tackle even the most neglected gardens efficiently. If you need waste collected and taken away afterwards, we can advise on the best local options for disposal.
 
-Call us on **085 168 5170** for a free quote. We will sort it, shift it, and dispose of it properly — so you do not have to.
+Call us on **085 168 5170** for a free quote on garden clearance.

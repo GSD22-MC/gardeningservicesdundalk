@@ -27,6 +27,7 @@ const reviewsCollection = defineCollection({
     date: z.coerce.date().optional(),
     source: z.string().default('Google Review'),
     featured: z.boolean().default(false),
+    service: z.string().optional(),
   }),
 });
 

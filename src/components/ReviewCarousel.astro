@@ -1,0 +1,470 @@
+---
+interface Review {
+  name: string;
+  author?: string;
+  text: string;
+  rating: number;
+  source?: string;
+}
+
+interface Props {
+  reviews: Review[];
+  title?: string;
+  subtitle?: string;
+}
+
+const {
+  reviews,
+  title = "What Our Customers Say",
+  subtitle = "Don't just take our word for it.",
+} = Astro.props;
+
+function renderStars(rating: number): string {
+  return '★'.repeat(rating) + '☆'.repeat(5 - rating);
+}
+
+function truncateText(text: string, maxLen: number): { truncated: string; isTruncated: boolean } {
+  if (text.length <= maxLen) return { truncated: text, isTruncated: false };
+  const cut = text.lastIndexOf(' ', maxLen);
+  return { truncated: text.slice(0, cut > 0 ? cut : maxLen) + '...', isTruncated: true };
+}
+---
+
+<section class="section section-green review-carousel-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge">⭐ Reviews</span>
+      <h2>{title}</h2>
+      <p class="section-subtitle">{subtitle}</p>
+      <hr class="section-divider" />
+    </div>
+
+    <div class="review-carousel" data-review-count={reviews.length}>
+      <!-- Arrow buttons -->
+      <button class="carousel-arrow carousel-arrow--prev" aria-label="Previous reviews">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <button class="carousel-arrow carousel-arrow--next" aria-label="Next reviews">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+
+      <!-- Track -->
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          {reviews.map((review, i) => {
+            const { truncated, isTruncated } = truncateText(review.text, 150);
+            return (
+              <div class="carousel-slide" data-index={i}>
+                <div class="carousel-card">
+                  <div class="carousel-card__stars" aria-label={`${review.rating} out of 5 stars`}>
+                    {renderStars(review.rating)}
+                  </div>
+                  <p class="carousel-card__title">"{review.name}"</p>
+                  <div class="carousel-card__text-wrap">
+                    <p class="carousel-card__text">
+                      <span class="carousel-card__text-short">{truncated}</span>
+                      <span class="carousel-card__text-full" style="display:none;">{review.text}</span>
+                    </p>
+                    {isTruncated && (
+                      <button class="carousel-card__toggle" data-state="collapsed">Read more</button>
+                    )}
+                  </div>
+                  <p class="carousel-card__author">— {review.author || 'Happy Customer'}</p>
+                  <p class="carousel-card__source">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gsd-green)" stroke-width="2" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    {review.source || 'Customer Review'}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <!-- Dots -->
+      <div class="carousel-dots"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ---- Section ---- */
+  .review-carousel-section {
+    background: var(--gsd-green-pale);
+  }
+
+  /* ---- Carousel wrapper ---- */
+  .review-carousel {
+    position: relative;
+    margin-top: 2.5rem;
+    padding: 0 3rem;
+  }
+
+  /* ---- Viewport / Track ---- */
+  .carousel-viewport {
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+  }
+
+  .carousel-slide {
+    flex: 0 0 calc(100% / 3);
+    padding: 0 0.75rem;
+    box-sizing: border-box;
+  }
+
+  /* ---- Card ---- */
+  .carousel-card {
+    background: var(--gsd-white);
+    border: 1px solid rgba(58, 125, 68, 0.1);
+    border-radius: var(--gsd-radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--gsd-shadow-sm);
+    transition: box-shadow var(--gsd-transition);
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-card:hover {
+    box-shadow: var(--gsd-shadow-md);
+    border-color: rgba(58, 125, 68, 0.2);
+  }
+
+  /* Expanded state — override fixed height */
+  .carousel-card.is-expanded {
+    height: auto;
+    min-height: 220px;
+  }
+
+  /* ---- Stars ---- */
+  .carousel-card__stars {
+    color: #F59E0B;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  /* ---- Title ---- */
+  .carousel-card__title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--gsd-green-dark);
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    flex-shrink: 0;
+    line-height: 1.3;
+  }
+
+  /* ---- Text ---- */
+  .carousel-card__text-wrap {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .carousel-card__text {
+    color: var(--gsd-text);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .carousel-card__toggle {
+    background: none;
+    border: none;
+    color: var(--gsd-green);
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 0.25rem 0 0;
+    transition: color var(--gsd-transition);
+  }
+
+  .carousel-card__toggle:hover {
+    color: var(--gsd-green-dark);
+    text-decoration: underline;
+  }
+
+  /* ---- Author ---- */
+  .carousel-card__author {
+    color: var(--gsd-green);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  /* ---- Source ---- */
+  .carousel-card__source {
+    color: var(--gsd-text-light);
+    font-size: 0.8rem;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+
+  /* ---- Arrow buttons ---- */
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--gsd-white);
+    border: none;
+    box-shadow: var(--gsd-shadow-md);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gsd-green);
+    transition: all var(--gsd-transition);
+  }
+
+  .carousel-arrow:hover {
+    background: var(--gsd-green-pale);
+    box-shadow: var(--gsd-shadow-lg);
+    transform: translateY(-50%) scale(1.08);
+  }
+
+  .carousel-arrow--prev {
+    left: -0.25rem;
+  }
+
+  .carousel-arrow--next {
+    right: -0.25rem;
+  }
+
+  .carousel-arrow[data-hidden="true"] {
+    display: none;
+  }
+
+  /* ---- Dot indicators ---- */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .carousel-dots :global(.carousel-dot) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(58, 125, 68, 0.25);
+    cursor: pointer;
+    padding: 0;
+    transition: all var(--gsd-transition);
+  }
+
+  .carousel-dots :global(.carousel-dot:hover) {
+    background: rgba(58, 125, 68, 0.5);
+  }
+
+  .carousel-dots :global(.carousel-dot.is-active) {
+    background: var(--gsd-green);
+    transform: scale(1.25);
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1024px) and (min-width: 641px) {
+    .carousel-slide {
+      flex: 0 0 50%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .carousel-slide {
+      flex: 0 0 100%;
+    }
+
+    .review-carousel {
+      padding: 0 2.5rem;
+    }
+
+    .carousel-arrow--prev {
+      left: -0.5rem;
+    }
+
+    .carousel-arrow--next {
+      right: -0.5rem;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.review-carousel');
+
+    carousels.forEach((carousel) => {
+      const track = carousel.querySelector('.carousel-track') as HTMLElement;
+      const slides = Array.from(carousel.querySelectorAll('.carousel-slide')) as HTMLElement[];
+      const prevBtn = carousel.querySelector('.carousel-arrow--prev') as HTMLButtonElement;
+      const nextBtn = carousel.querySelector('.carousel-arrow--next') as HTMLButtonElement;
+      const dotsContainer = carousel.querySelector('.carousel-dots') as HTMLElement;
+      const totalSlides = slides.length;
+
+      if (!track || totalSlides === 0) return;
+
+      let currentPage = 0;
+      let autoTimer: ReturnType<typeof setInterval> | null = null;
+
+      /* -- Determine visible count based on viewport -- */
+      function getVisibleCount(): number {
+        const w = window.innerWidth;
+        if (w <= 640) return 1;
+        if (w <= 1024) return 2;
+        return 3;
+      }
+
+      function getTotalPages(): number {
+        const visible = getVisibleCount();
+        return Math.ceil(totalSlides / visible);
+      }
+
+      /* -- Hide arrows if not enough slides -- */
+      function updateArrowVisibility(): void {
+        const hide = getTotalPages() <= 1;
+        prevBtn.dataset.hidden = String(hide);
+        nextBtn.dataset.hidden = String(hide);
+      }
+
+      /* -- Build dot indicators -- */
+      function buildDots(): void {
+        dotsContainer.innerHTML = '';
+        const pages = getTotalPages();
+        for (let i = 0; i < pages; i++) {
+          const dot = document.createElement('button');
+          dot.className = 'carousel-dot' + (i === currentPage ? ' is-active' : '');
+          dot.setAttribute('aria-label', `Go to review page ${i + 1}`);
+          dot.addEventListener('click', () => goToPage(i));
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      function updateDots(): void {
+        const dots = dotsContainer.querySelectorAll('.carousel-dot');
+        dots.forEach((d, i) => {
+          d.classList.toggle('is-active', i === currentPage);
+        });
+      }
+
+      /* -- Move to page -- */
+      function goToPage(page: number): void {
+        const visible = getVisibleCount();
+        const pages = getTotalPages();
+
+        // Wrap around (infinite loop)
+        if (page < 0) page = pages - 1;
+        if (page >= pages) page = 0;
+
+        currentPage = page;
+
+        const slideWidthPercent = 100 / visible;
+        const offset = currentPage * visible * slideWidthPercent;
+        track.style.transform = `translateX(-${offset}%)`;
+
+        updateDots();
+      }
+
+      function nextPage(): void {
+        goToPage(currentPage + 1);
+      }
+
+      function prevPage(): void {
+        goToPage(currentPage - 1);
+      }
+
+      /* -- Auto advance -- */
+      function startAuto(): void {
+        stopAuto();
+        autoTimer = setInterval(nextPage, 6000);
+      }
+
+      function stopAuto(): void {
+        if (autoTimer) {
+          clearInterval(autoTimer);
+          autoTimer = null;
+        }
+      }
+
+      /* -- Events -- */
+      prevBtn.addEventListener('click', () => {
+        prevPage();
+        startAuto(); // reset timer on manual interaction
+      });
+
+      nextBtn.addEventListener('click', () => {
+        nextPage();
+        startAuto();
+      });
+
+      carousel.addEventListener('mouseenter', stopAuto);
+      carousel.addEventListener('mouseleave', startAuto);
+
+      /* -- Read more toggle -- */
+      carousel.querySelectorAll('.carousel-card__toggle').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.carousel-card') as HTMLElement;
+          const shortEl = card.querySelector('.carousel-card__text-short') as HTMLElement;
+          const fullEl = card.querySelector('.carousel-card__text-full') as HTMLElement;
+          const state = (btn as HTMLButtonElement).dataset.state;
+
+          if (state === 'collapsed') {
+            shortEl.style.display = 'none';
+            fullEl.style.display = 'inline';
+            card.classList.add('is-expanded');
+            (btn as HTMLButtonElement).textContent = 'Read less';
+            (btn as HTMLButtonElement).dataset.state = 'expanded';
+          } else {
+            shortEl.style.display = 'inline';
+            fullEl.style.display = 'none';
+            card.classList.remove('is-expanded');
+            (btn as HTMLButtonElement).textContent = 'Read more';
+            (btn as HTMLButtonElement).dataset.state = 'collapsed';
+          }
+        });
+      });
+
+      /* -- Responsive recalculation -- */
+      let resizeTimeout: ReturnType<typeof setTimeout>;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          const pages = getTotalPages();
+          if (currentPage >= pages) currentPage = pages - 1;
+          goToPage(currentPage);
+          buildDots();
+          updateArrowVisibility();
+        }, 150);
+      });
+
+      /* -- Keyboard nav -- */
+      carousel.addEventListener('keydown', (e: Event) => {
+        const key = (e as KeyboardEvent).key;
+        if (key === 'ArrowLeft') { prevPage(); startAuto(); }
+        if (key === 'ArrowRight') { nextPage(); startAuto(); }
+      });
+
+      /* -- Init -- */
+      updateArrowVisibility();
+      buildDots();
+      goToPage(0);
+      startAuto();
+    });
+  });
+</script>

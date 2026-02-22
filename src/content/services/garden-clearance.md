@@ -1,8 +1,8 @@
 ---
 title: "Garden Clearance"
-description: "Full garden clearances, rubbish removal, overgrown garden restoration, and site preparation."
+description: "Full garden clearances, overgrown garden restoration, bramble and scrub clearing, and site preparation."
 image: "/images/services/garden-clearance.jpg"
-order: 6
+order: 7
 ---
 
 ## Garden Clearance in Dundalk & County Louth
@@ -11,16 +11,16 @@ Whether you've got an overgrown jungle, an inherited property, or a site that ne
 
 ### Our Clearance Services
 
-- **Full Garden Clearances** — Removing all unwanted vegetation, debris, and waste from neglected gardens
+- **Full Garden Clearances** — Cutting back and clearing all unwanted vegetation and debris from neglected gardens
 - **Overgrown Garden Restoration** — Cutting back years of neglected growth to reclaim your outdoor space
-- **Rubbish & Green Waste Removal** — All waste taken away and disposed of responsibly
+- **Bramble & Scrub Clearing** — Removing deep-rooted brambles, nettles, and invasive scrub
 - **Site Preparation** — Clearing and levelling ground ready for landscaping, paving, or building work
 - **Tree & Shrub Removal** — Cutting down and removing unwanted trees, shrubs, and stumps
-- **Shed & Structure Removal** — Taking down and removing old sheds, greenhouses, and garden structures
+- **Shed & Structure Removal** — Taking down old sheds, greenhouses, and garden structures
 
 ### Fast, Efficient Service
 
-Most garden clearances are completed in 1-2 days, depending on the size and condition of the garden. We bring all the equipment we need — from chainsaws and hedge trimmers to trailers for waste removal. Everything is disposed of properly, with green waste recycled wherever possible.
+Most garden clearances are completed in 1-2 days, depending on the size and condition of the garden. We bring all the equipment we need — from chainsaws and hedge trimmers to strimmers and heavy-duty clearing tools. Everything is cut back, cleared, and the site is left clean and tidy.
 
 ### What Happens After Clearance
 
@@ -30,15 +30,15 @@ Once your garden is cleared, you have a blank canvas. Many of our customers choo
 
 ### How much does garden clearance cost in Dundalk?
 
-The cost depends on the size of the garden, the density of the overgrowth, and how much waste needs to be removed. Small garden tidy-ups can cost from around €200, while full clearances of large overgrown gardens may range from €500 to €1,500+. We provide a free site visit and quote so you know exactly what to expect.
+The cost depends on the size of the garden and the density of the overgrowth. Small garden tidy-ups can cost from around €200, while full clearances of large overgrown gardens may range from €500 to €1,500+. We provide a free site visit and quote so you know exactly what to expect.
 
 ### How long does a garden clearance take?
 
 Most garden clearances are completed in 1-2 days. Very large or heavily overgrown gardens may take a little longer. We'll give you a clear timeline during our free site visit so you know what to expect.
 
-### Do you remove all the waste from a garden clearance?
+### What happens to everything you cut back and clear?
 
-Yes. We remove every scrap of waste from the site — green waste, rubble, old fencing, and any other rubbish. Your garden is left clean, tidy, and ready for whatever you want to do next. Waste removal is included in our quote with no hidden charges.
+We cut back and clear everything on site — brambles, overgrowth, trees, shrubs, and any other vegetation. Your garden is left clean, tidy, and ready for whatever you want to do next. If you need waste collected and taken away, we can advise on the best local options for disposal.
 
 ### Can you clear an inherited or rental property garden?
 
